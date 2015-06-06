@@ -13,7 +13,7 @@
 		<div class="collapse navbar-collapse navbar-ex1-collapse">
 			<ul class="nav navbar-nav">
 				<li class="{{ Request::is('cv*') ? 'active' : '' }}">
-					<a href="/cv">CV</a>
+					<a href="{{ route('pages.cv') }}">CV</a>
 				</li>
 			</ul>
 		</div>
