@@ -1,0 +1,57 @@
+@import "../bower/bootstrap/less/bootstrap";
+@import "../bower/bootswatch/readable/variables";
+@import "../bower/bootswatch/readable/bootswatch";
+@import "../bower/font-awesome/less/font-awesome";
+@import "../bower/flag-icon-css/less/flag-icon";
+@import "variables";
+
+body {
+	margin-top: 70px;
+}
+
+footer {
+	border-top: 1px solid @footer-border-color;
+	margin-top: 5rem;
+	padding: 2rem 0 1rem;
+}
+
+.avatar-home {
+//	border-radius: 50%;
+	border: 2px solid @avatar-border-color;
+	float: left;
+	margin-right: 1em;
+	max-width: 200px;
+}
+
+.avatar {
+//	border-radius: 50%;
+	border: 5px solid @avatar-border-color;
+	display: block;
+	margin: 1em auto;
+	max-width: 200px;
+	width: 100%;
+}
+
+aside {
+	color: #888;
+}
+
+.post-list {
+	font-size: 2rem;
+	list-style-type: none;
+	line-height: 4rem;
+}
+
+.cv {
+	.accent {
+		color: @cv-blue;
+	}
+
+	.company {
+		font-style: italic;
+	}
+
+	.skill {
+		font-weight: bold;
+	}
+}
