@@ -13,7 +13,7 @@ server {
 server {
 	listen 80;
 	server_name alex.plekhanov.us;
-	root "/home/asft/Code/alex.plekhanov.us.laravel/public";
+	root "/path/to/project/public";
 
 	index index.php;
 
