@@ -29,11 +29,7 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('ico/touch72.png') }}">
 		<link rel="apple-touch-icon-precomposed" href="{{ asset('ico/touch57.png') }}">
 	</head>
-	@if(Route::is('pages.cv'))
-		<body class="cv">
-	@else
-		<body>
-	@endif
+	<body class="{{ (Route::is('pages.cv')) ? 'cv' : '' }}">
 
 		@include('_partials.nav')
 
@@ -58,5 +54,13 @@
 		@section('js')
 			<script src="{{ asset('js/all.js') }}"></script>
 		@show
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-41504409-1', 'auto');
+			ga('send', 'pageview');
+		</script>
 	</body>
 </html>
