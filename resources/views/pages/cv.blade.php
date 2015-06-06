@@ -74,7 +74,7 @@
 	</ul>
 	<p><span class="skill">PHP</span> &mdash; 2.5 years of experience.</p>
 	<p><span class="skill">Yii 1</span> &mdash; 1 year of experience.</p>
-	<p><span class="skill">Laravel 4/5</span> &mdash; 2 years of experience.</p>
+	<p><span class="skill">Laravel</span> &mdash; 2 years of experience.</p>
 	<p><span class="skill">OOP</span> &mdash; 2.5 years of experience.</p>
 	<p><span class="skill">MySQL</span> &mdash; 2.5 years of experience.</p>
 	<p><span class="skill">HTML + HTML5</span> &mdash; 5 years of experience.</p>
