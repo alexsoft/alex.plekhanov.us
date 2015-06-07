@@ -4,7 +4,7 @@
 
 	<br>
 
-	<img src="{{ asset('img/alex.jpg') }}" alt="Alexey Plekhanov" class="avatar-home">
+	<img src="{{ asset('img/alexey.jpg') }}" alt="Alexey Plekhanov" class="avatar-home">
 	<p>
 		Hey, I'm <strong>Alexey Plekhanov</strong>, PHP Developer at&nbsp;<a href="http://908.vc">908.vc</a>.
 	</p>
