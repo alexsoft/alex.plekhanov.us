@@ -6,6 +6,7 @@
     "bootstrap": "~3.3.4",
     "font-awesome": "~4.3.0",
     "flag-icon-css": "~0.7.1",
-    "bootswatch": "~3.3.4+1"
+    "bootswatch": "~3.3.4+1",
+    "retina.js": "~1.3.0"
   }
 }

@@ -16,6 +16,7 @@ elixir(function(mix) {
     mix.scripts([
         'bower/jquery/dist/jquery.js',
         'bower/bootstrap/dist/js/bootstrap.js',
+        'bower/retina.js/dist/retina.js',
         'js/init.js'
     ], 'public/js', 'resources/assets');
 
