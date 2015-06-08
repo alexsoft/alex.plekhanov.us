@@ -10,7 +10,7 @@
 	<div class="row">
 		<div class="col-sm-6">
 			<p>Birthday: 22 December 1993</p>
-			<p data-toggle="tooltip" data-placement="bottom" title="July 2015 - Poland, Wroclaw">
+			<p>
 				Location: Ukraine, Dnipropetrovsk <span class="flag-icon flag-icon-ua"></span>
 			</p>
 			<p>Email: {!! Html::mailto('oleksii.plekhanov@gmail.com') !!}</p>
