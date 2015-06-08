@@ -35,19 +35,19 @@
 
 	<h4>PHP Developer</h4>
 	<p>June 2015 &mdash; Present</p>
-	<p><span class="company">908.vc</span> &mdash; Product Development</p>
+	<p><a href="http://908.vc" class="company">908.vc</a> &mdash; Product Development</p>
 
 	<h4>PHP Developer</h4>
 	<p>Oct 2013 &mdash; May 2015</p>
-	<p><span class="company">DataArt</span> &mdash; Software Development Company</p>
+	<p><a href="http://www.dataart.com" class="company">DataArt</a> &mdash; Software Development Company</p>
 
 	<h4>PHP Developer</h4>
 	<p>Apr 2013 &mdash; May 2013</p>
-	<p><span class="company">FORFORCE</span> &mdash; Digital production</p>
+	<p><a href="http://forforce.com" class="company">FORFORCE</a> &mdash; Digital production</p>
 
 	<h4>PHP Developer</h4>
 	<p>Oct 2012 &mdash; Mar 2013</p>
-	<p><span class="company">OWOX</span> &mdash; E-commerce</p>
+	<p><a href="https://www.owox.com" class="company">OWOX</a> &mdash; E-commerce</p>
 
 	<h3 class="accent">Education</h3>
 	<h4>Bachelor's degree</h4>

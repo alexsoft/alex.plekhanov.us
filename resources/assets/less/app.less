@@ -16,7 +16,7 @@ footer {
 }
 
 .avatar-home {
-//	border-radius: 50%;
+	border-radius: 50%;
 	border: 3px solid @avatar-border-color;
 	float: left;
 	margin-right: 1em;
@@ -42,11 +42,21 @@ aside {
 	line-height: 4rem;
 }
 
-.cv {
-	.accent {
-		color: @cv-blue;
-	}
+.accent {
+	color: @brick-orange-president-bowtie;
+}
 
+.technologies {
+	img {
+		margin-left: 15px;
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+}
+
+.cv {
 	.company {
 		font-style: italic;
 	}
