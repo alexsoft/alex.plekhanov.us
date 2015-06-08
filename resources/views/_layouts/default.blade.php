@@ -52,7 +52,7 @@
 		@include('_partials.footer')
 
 		@section('js')
-			<script src="{{ asset('js/all.js') }}"></script>
+			<script src="{{ asset('js/all.js') }}" async></script>
 		@show
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

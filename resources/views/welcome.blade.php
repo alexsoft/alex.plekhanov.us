@@ -4,12 +4,12 @@
 
 	<br>
 
-	<img src="{{ asset('img/main.jpg') }}" alt="Alexey Plekhanov" class="avatar-home">
+	<img src="{{ asset('img/alexey.jpg') }}" alt="Alexey Plekhanov" class="avatar-home">
 	<p>
 		Hey, I'm <strong>Alexey Plekhanov</strong>, PHP Developer at&nbsp;<a href="http://908.vc">908.vc</a>.
 	</p>
 	<p>
-		I'm also a <a href="http://laravel.com">Laravel</a> evangelist :)
+		I'm PHP and <a href="http://laravel.com">Laravel</a> evangelist too :)
 	</p>
 
 	<div class="hide">
