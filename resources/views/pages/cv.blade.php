@@ -13,7 +13,7 @@
 			<p>
 				Location: Ukraine, Dnipropetrovsk <span class="flag-icon flag-icon-ua"></span>
 			</p>
-			<p>Email: {!! Html::mailto('oleksii.plekhanov@gmail.com') !!}</p>
+			<p>Email: {!! Html::mailto('alex@plekhanov.us') !!}</p>
 		</div>
 		<div class="col-sm-3">
 			<p>
