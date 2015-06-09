@@ -1,4 +1,4 @@
-<?php namespace Alex\Commands;
+<?php namespace Alex\Jobs;
 
 abstract class Command {
 
