@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7f737cbd5ebc65f4fab4b86fd5d29447",
+    "hash": "46e719e34b8bdc58ff5a61dc77e329b8",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -407,16 +407,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.1.0",
+            "version": "v5.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "a423a55ed6601daebcbb75817de6d06b4d670a70"
+                "reference": "3a44db7e70146dc1282b39887b5faa67c8583015"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/a423a55ed6601daebcbb75817de6d06b4d670a70",
-                "reference": "a423a55ed6601daebcbb75817de6d06b4d670a70",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/3a44db7e70146dc1282b39887b5faa67c8583015",
+                "reference": "3a44db7e70146dc1282b39887b5faa67c8583015",
                 "shasum": ""
             },
             "require": {
@@ -531,7 +531,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-06-09 13:05:05"
+            "time": "2015-06-09 14:13:59"
         },
         {
             "name": "laravelcollective/html",
@@ -2917,6 +2917,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.5.9"
+    },
     "platform-dev": []
 }
