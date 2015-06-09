@@ -1,5 +1,5 @@
 <?php namespace Alex\Blog;
 
-class MarkdownBlogRepository implements BlogRepository {
-
+class MarkdownBlogRepository implements BlogRepository
+{
 }

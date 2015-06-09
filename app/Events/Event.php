@@ -1,7 +1,6 @@
 <?php namespace Alex\Events;
 
-abstract class Event {
-
-	//
-
+abstract class Event
+{
+    //
 }

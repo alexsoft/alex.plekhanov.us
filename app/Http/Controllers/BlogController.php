@@ -1,13 +1,13 @@
 <?php namespace Alex\Http\Controllers;
 
-class BlogController extends Controller {
+class BlogController extends Controller
+{
+    public function index()
+    {
+        return view('blog.index');
+    }
 
-	public function index() {
-		return view('blog.index');
-	}
-
-	public function post($year, $month, $title) {
-
-	}
-
+    public function post($year, $month, $title)
+    {
+    }
 }

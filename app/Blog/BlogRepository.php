@@ -1,11 +1,10 @@
 <?php namespace Alex\Blog;
 
-interface BlogRepository {
+interface BlogRepository
+{
+    public function getAllPosts();
 
-	public function getAllPosts();
+    public function getAllPostsTitles();
 
-	public function getAllPostsTitles();
-
-	public function getSinglePost($year, $month, $title);
-
+    public function getSinglePost($year, $month, $title);
 }

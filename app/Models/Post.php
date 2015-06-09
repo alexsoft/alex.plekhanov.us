@@ -1,7 +1,5 @@
 <?php namespace Alex\Models;
 
-class Post {
-
-
-
+class Post
+{
 }

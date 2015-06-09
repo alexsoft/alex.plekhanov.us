@@ -2,16 +2,16 @@
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 
-class Blog {
+class Blog
+{
+    protected $files;
 
-	protected $files;
+    protected $directory;
 
-	protected $directory;
+    public function __construct(Filesystem $files)
+    {
+        $this->files = $files;
 
-	public function __construct(Filesystem $files) {
-		$this->files = $files;
-
-		$this->directory = env('BLOG_DIR', '/resources/posts/');
-	}
-
+        $this->directory = env('BLOG_DIR', '/resources/posts/');
+    }
 }

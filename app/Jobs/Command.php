@@ -1,7 +1,6 @@
 <?php namespace Alex\Jobs;
 
-abstract class Command {
-
-	//
-
+abstract class Command
+{
+    //
 }
