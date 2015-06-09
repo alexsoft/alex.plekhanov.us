@@ -9,7 +9,7 @@
 		Hey, I'm <strong class="accent">Alexey Plekhanov</strong>, PHP Developer at&nbsp;<a href="http://908.vc">908.vc</a>.
 	</p>
 	<p>
-		I'm PHP and <a href="http://laravel.com">Laravel</a> evangelist too :)
+		I'm PHP and Laravel evangelist too :)
 	</p>
 
 	<div class="hide">
@@ -24,6 +24,5 @@
 				<a href="/blog/" class="post-list__link" style="font-weight: bold;">More blog posts..</a></li>
 		</ul>
 	</div>
-
 
 @endsection
