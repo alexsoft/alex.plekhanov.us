@@ -11,7 +11,7 @@
 		<div class="col-sm-6">
 			<p>Birthday: 22 December 1993</p>
 			<p>
-				Location: Ukraine, Dnipropetrovsk <span class="flag-icon flag-icon-ua"></span>
+				Location: Poland, Wrocław <span class="flag-icon flag-icon-pl"></span>
 			</p>
 			<p>Email: {!! Html::mailto('alex@plekhanov.us') !!}</p>
 		</div>
