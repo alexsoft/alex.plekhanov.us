@@ -89,7 +89,7 @@
 
 	<h3 class="accent">Hobbies</h3>
 	<p class="text-justify">
-		As a hobby I investigate PHP frameworks, try to contribute to open-source frameworks like Laravel/Lumen, write composer packages and different tools.
+		As a hobby I investigate PHP frameworks, try to contribute to open-source frameworks especially Laravel/Lumen, develop composer packages and different tools.
 	</p>
 	<p class="text-justify">
 		Also I am quite interested in Python, system administration and web analytics.
