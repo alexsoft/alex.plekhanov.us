@@ -23,13 +23,3 @@ Route::group(['prefix' => 'blog'], function() {
     ]);
 
 });
-
-
-
-
-/*
-Route::controllers([
-    'auth' => 'Auth\AuthController',
-    'password' => 'Auth\PasswordController',
-]);
-*/

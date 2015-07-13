@@ -4,7 +4,6 @@
 		@unless(Route::is('pages.cv'))
 			<p>Hi, I'm <strong>Alexey Plekhanov</strong>.</p>
 			<p>I'm a developer and a nice guy indeed.</p>
-			<p>You can find me on Twitter at <a href="https://twitter.com/alex_soft">@alex_soft</a></p>
 		@endunless
 	</aside>
 </div>
