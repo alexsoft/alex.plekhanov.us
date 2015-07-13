@@ -146,6 +146,7 @@ return [
         'Alex\Providers\RouteServiceProvider',
 
         \Collective\Html\HtmlServiceProvider::class,
+        \Alex\Markdown\MarkdownServiceProvider::class,
     ],
 
     /*

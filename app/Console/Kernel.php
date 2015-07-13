@@ -12,6 +12,7 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         'Alex\Console\Commands\Inspire',
+        Commands\ScanPosts::class,
     ];
 
     /**
@@ -22,7 +23,6 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('inspire')
-                 ->hourly();
+        $schedule->command('alex:scan-posts')->daily();
     }
 }
