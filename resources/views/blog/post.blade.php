@@ -24,8 +24,12 @@
         <div class="col-sm-2">
             <div id="vk_like"></div>
             <script type="text/javascript">
-                VK.Widgets.Like("vk_like", {type: "button", verb: 1, height: 20});
+                VK.Widgets.Like("vk_like", {type: "button", height: 22});
             </script>
+        </div>
+        <div class="col-sm-2">
+            <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a>
+            <script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
         </div>
     </div>
 
