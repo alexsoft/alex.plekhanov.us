@@ -20,6 +20,10 @@
     <div class="row">
         <div class="col-sm-12">
             <div class="fb-like" data-href="{{ URL::current() }}" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+            <div id="vk_like"></div>
+            <script type="text/javascript">
+                VK.Widgets.Like("vk_like", {type: "button", verb: 1, height: 20});
+            </script>
         </div>
     </div>
 
