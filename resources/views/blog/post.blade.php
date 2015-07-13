@@ -7,7 +7,7 @@
     <meta property="article:author" content="https://www.facebook.com/alex.plekhanov" />
 @endsection
 
-@section('page_title', '«{{ $title }}» by Alexey Plekhanov')
+@section('page_title', '«' .  $title . '» by Alexey Plekhanov')
 
 @section('content')
 
