@@ -3,7 +3,7 @@
 @section('meta')
     <meta property="og:title" content="«{{ $title }}» by Alexey Plekhanov" />
     <meta property="og:url" content="{{ URL::current() }}" />
-    <meta property="og:type" content="post" />
+    <meta property="og:type" content="article" />
     <meta property="article:author" content="https://www.facebook.com/alex.plekhanov" />
 @endsection
 
@@ -19,7 +19,7 @@
 
     <div class="row">
         <div class="col-sm-12">
-            <div class="fb-like" data-href="{{ URL::current() }}" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+            <div class="fb-like" data-href="{{ URL::current() }}" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
         </div>
     </div>
 
