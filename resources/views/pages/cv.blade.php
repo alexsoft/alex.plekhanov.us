@@ -19,7 +19,7 @@
 			<p>
 				<span class="fa-stack fa-lg">
 					<i class="fa fa-square-o fa-stack-2x"></i>
-					<i class="fa fa-github-alt fa-stack-1x"></i>
+					<i class="fa fa-github fa-stack-1x"></i>
 				</span> <a href="http://github.com/alexsoft">alexsoft</a>
 			</p>
 			<p>
