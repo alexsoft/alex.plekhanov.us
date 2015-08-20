@@ -12,7 +12,7 @@
         <link rel="icon" href="{{ asset('ico/favicon.ico') }}">
 
         <meta name="google-site-verification" content="dW-i1q_ReYQ2XTd7hwnMo7J-ER6A33yAScHyxw9Zqu4" />
-        <meta name='yandex-verification' content='625e2fdaac325346' />
+        <meta name='yandex-verification' content='7fc8dd9f98075585' />
 
         <title>@yield('page_title', 'Alex.Plekhanov.us')</title>
         @section('css')
