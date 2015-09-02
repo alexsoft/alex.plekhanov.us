@@ -72,18 +72,18 @@
 		<li>Less (brief experience)</li>
 		<li>Gulp (brief experience)</li>
 	</ul>
-	<p><span class="skill">PHP</span> &mdash; 2.5 years of experience.</p>
+	<p><span class="skill">PHP</span> &mdash; 3 years of experience.</p>
 	<p><span class="skill">Yii 1</span> &mdash; 1 year of experience.</p>
-	<p><span class="skill">Laravel</span> &mdash; 2 years of experience.</p>
-	<p><span class="skill">OOP</span> &mdash; 2.5 years of experience.</p>
-	<p><span class="skill">MySQL</span> &mdash; 2.5 years of experience.</p>
+	<p><span class="skill">Laravel</span> &mdash; 2.5 years of experience.</p>
+	<p><span class="skill">OOP</span> &mdash; 3 years of experience.</p>
+	<p><span class="skill">MySQL</span> &mdash; 3 years of experience.</p>
 	<p><span class="skill">HTML + HTML5</span> &mdash; 5 years of experience.</p>
 	<p><span class="skill">CSS</span> &mdash; 3 years of experience.</p>
-	<p><span class="skill">Javascript</span> &mdash; 2.5 years of experience.</p>
-	<p><span class="skill">jQuery</span> &mdash; 2.5 years of experience.</p>
+	<p><span class="skill">Javascript</span> &mdash; 3 years of experience.</p>
+	<p><span class="skill">jQuery</span> &mdash; 3 years of experience.</p>
 	<p><span class="skill">MooTools</span> &mdash; 1 year of experience.</p>
 	<p><span class="skill">MongoDB</span> &mdash; 1 year of experience.</p>
-	<p><span class="skill">Git</span> &mdash; 2 years of experience.</p>
+	<p><span class="skill">Git</span> &mdash; 3 years of experience.</p>
 	<br/>
 	<p><span class="skill">English language</span> &mdash; Advanced. I have passed 3 Cambridge exams: KET, PET, FCE.</p>
 
@@ -97,7 +97,5 @@
 	<p class="text-justify">
 		In my city I also do extreme city games (Encounter).
 	</p>
-
-
 
 @endsection
