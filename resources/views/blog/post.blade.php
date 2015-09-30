@@ -37,7 +37,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row" style="margin-top: 25px;">
         <div class="col-sm-2">
             <div class="fb-like" data-href="{{ URL::current() }}" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
         </div>
