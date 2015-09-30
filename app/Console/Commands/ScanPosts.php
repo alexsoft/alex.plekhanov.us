@@ -77,5 +77,7 @@ class ScanPosts extends Command
         }
 
         $file->put('storage/app/posts.scanned', serialize(array_reverse($postsInfo)));
+
+        $this->info(sprintf('Now you have %d posts', count($postsInfo)));
     }
 }
