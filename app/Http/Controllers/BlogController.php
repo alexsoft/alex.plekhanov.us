@@ -1,6 +1,7 @@
 <?php namespace Alex\Http\Controllers;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
+use Kurenai\DocumentParser;
 
 class BlogController extends Controller
 {
@@ -26,7 +27,7 @@ class BlogController extends Controller
         return view('blog.index')->withPosts($this->scanned);
     }
 
-    public function post($year, $month, $title)
+    public function post($year, $month, $title, DocumentParser $parser)
     {
         $key = $year . '/' . $month . '/' . $title;
 
@@ -34,14 +35,9 @@ class BlogController extends Controller
             abort(404);
         }
 
-        $file = $this->files->get($this->scanned[$key]['file']);
-
-        $parts = explode('---', $file);
-        $content = $parts[2];
-
         $title = $this->scanned[$key]['title'];
 
-        $text = app('Alex\Markdown\Parser')->parse($content);
+        $text = $this->scanned[$key]['text'];
 
         return view('blog.post')->with(compact('text', 'title'));
     }

@@ -4,10 +4,13 @@ namespace Alex\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Filesystem\Filesystem;
+use Kurenai\DocumentParser;
 use Symfony\Component\Console\Output\OutputInterface;
 
 class ScanPosts extends Command
 {
+    protected $scannedPostsPath = 'storage/app/posts.scanned';
+
     /**
      * The name and signature of the console command.
      *
@@ -34,9 +37,10 @@ class ScanPosts extends Command
      * Execute the console command.
      *
      * @param Filesystem $file
+     * @param DocumentParser $parser
      * @return mixed
      */
-    public function handle(Filesystem $file)
+    public function handle(Filesystem $file, DocumentParser $parser)
     {
         $posts = $file->files('resources/posts');
 
@@ -60,20 +64,13 @@ class ScanPosts extends Command
             $date  = substr($fileName, 0, 10);
 
             $content = $file->get($post);
-            $parts = explode('---', $content);
-            $meta = explode("\n", trim($parts[1]));
-            $parsedMeta = [];
 
-            foreach ($meta as $m) {
-                $x = explode(':', $m);
-                $parsedMeta[trim($x[0])] = trim($x[1]);
-            }
-
-            $title = $parsedMeta['title'];
+            $document = $parser->parse($content);
 
             $postsInfo[$key] = [
+                'text'  => $document->getHtmlContent(),
                 'date'  => $date,
-                'title' => $title,
+                'title' => $document->get('title'),
                 'file'  => $post,
                 'url'   => [
                     'year'  => $year,
@@ -93,8 +90,13 @@ class ScanPosts extends Command
             $this->info('We have such reversed posts info: ' . json_encode($reversedPostsInfo));
         }
 
-        $file->put('storage/app/posts.scanned', serialize($reversedPostsInfo));
+        $file->put($this->scannedPostsPath, serialize($reversedPostsInfo));
 
         $this->info(sprintf('Now you have %d posts', count($postsInfo)));
+
+        $fileSize = $file->size($this->scannedPostsPath);
+        $method = $fileSize < 10 * 1024 * 1024 ? 'info' : 'warn';
+
+        $this->$method(sprintf('Size of file is %d bytes', $fileSize));
     }
 }
