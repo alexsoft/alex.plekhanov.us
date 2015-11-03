@@ -1,5 +1,7 @@
 @extends('_layouts.default')
 
+@section('page_title', 'Blog - Alex.Plekhanov.us')
+
 @section('content')
 
     <h1>Blog</h1>
