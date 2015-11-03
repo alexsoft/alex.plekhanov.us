@@ -3,10 +3,10 @@
   "private": true,
   "dependencies": {
     "jquery": "~2.1.4",
-    "bootstrap": "~3.3.4",
-    "font-awesome": "~4.3.0",
-    "flag-icon-css": "~0.7.1",
-    "bootswatch": "3.3.4+1",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "flag-icon-css": "~0.8.4",
+    "bootswatch": "3.3.5+4",
     "retina.js": "~1.3.0"
   }
 }
