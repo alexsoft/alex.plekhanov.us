@@ -1,3 +1,4 @@
 User-agent: *
 Disallow:
 Host: https://alex.plekhanov.us
+Sitemap: https://alex.plekhanov.us/sitemap.xml
