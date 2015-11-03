@@ -10,8 +10,9 @@
     <div class="row">
         <div class="col-sm-6">
             <p>Birthday: 22 December 1993</p>
-            <p>
-                Location: Poland, Wrocław <span class="flag-icon flag-icon-pl"></span>
+            <meta itemprop="birthDate" content="1993-12-22" />
+            <p itemscope itemtype="http://schema.org/PostalAddress">
+                Location: <span itemprop="addressCountry">Poland</span>, <span itemprop="addressLocality">Wrocław</span> <span class="flag-icon flag-icon-pl"></span>
             </p>
             <p>Email: {!! Html::mailto('alex@plekhanov.us') !!}</p>
         </div>
@@ -20,7 +21,7 @@
                 <span class="fa-stack fa-lg">
                     <i class="fa fa-square-o fa-stack-2x"></i>
                     <i class="fa fa-github fa-stack-1x"></i>
-                </span> <a href="http://github.com/alexsoft">alexsoft</a>
+                </span> <a href="http://github.com/alexsoft" itemprop="sameAs">alexsoft</a>
             </p>
             <p>
                 <span class="fa-stack fa-lg">
@@ -33,9 +34,9 @@
 
     <h3 class="accent">Experience</h3>
 
-    <h4>PHP Developer</h4>
+    <h4 itemprop="jobTitle">PHP Developer</h4>
     <p>June 2015 &mdash; Present</p>
-    <p><a href="http://908.vc" class="company">908.vc</a> &mdash; Product Development</p>
+    <p><a href="http://908.vc" class="company" itemprop="worksFor">908.vc</a> &mdash; Product Development</p>
 
     <h4>PHP Developer</h4>
     <p>Oct 2013 &mdash; May 2015</p>
@@ -72,18 +73,19 @@
         <li>Less (brief experience)</li>
         <li>Gulp (brief experience)</li>
     </ul>
-    <p><span class="skill">PHP</span> &mdash; 3 years of experience.</p>
-    <p><span class="skill">Yii 1</span> &mdash; 1 year of experience.</p>
-    <p><span class="skill">Laravel</span> &mdash; 2.5 years of experience.</p>
-    <p><span class="skill">OOP</span> &mdash; 3 years of experience.</p>
-    <p><span class="skill">MySQL</span> &mdash; 3 years of experience.</p>
-    <p><span class="skill">HTML + HTML5</span> &mdash; 5 years of experience.</p>
-    <p><span class="skill">CSS</span> &mdash; 3 years of experience.</p>
-    <p><span class="skill">Javascript</span> &mdash; 3 years of experience.</p>
-    <p><span class="skill">jQuery</span> &mdash; 3 years of experience.</p>
-    <p><span class="skill">MooTools</span> &mdash; 1 year of experience.</p>
-    <p><span class="skill">MongoDB</span> &mdash; 1 year of experience.</p>
-    <p><span class="skill">Git</span> &mdash; 3 years of experience.</p>
+    <p><h5 class="skill">PHP</h5> &mdash; 3 years of experience.</p>
+    <p><h5 class="skill">Yii 1</h5> &mdash; 1 year of experience.</p>
+    <p><h5 class="skill">Laravel</h5> &mdash; 2.5 years of experience.</p>
+    <p><h5 class="skill">OOP</h5> &mdash; 3 years of experience.</p>
+    <p><h5 class="skill">MySQL</h5> &mdash; 3 years of experience.</p>
+    <p><h5 class="skill">HTML + HTML5</h5> &mdash; 5 years of experience.</p>
+    <p><h5 class="skill">CSS</h5> &mdash; 3 years of experience.</p>
+    <p><h5 class="skill">Javascript</h5> &mdash; 3 years of experience.</p>
+    <p><h5 class="skill">jQuery</h5> &mdash; 3 years of experience.</p>
+    <p><h5 class="skill">Vue.js</h5> &mdash; half a year of experience.</p>
+    <p><h5 class="skill">MooTools</h5> &mdash; 1 year of experience.</p>
+    <p><h5 class="skill">MongoDB</h5> &mdash; 1 year of experience.</p>
+    <p><h5 class="skill">Git</h5> &mdash; 3 years of experience.</p>
     <br/>
     <p><span class="skill">English language</span> &mdash; Advanced. I have passed 3 Cambridge exams: KET, PET, FCE.</p>
 

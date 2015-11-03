@@ -38,7 +38,11 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                @if(Route::is('pages.cv'))
+                    <div class="col-sm-12" itemscope itemtype="http://schema.org/Person">
+                @else
+                    <div class="col-sm-12">
+                @endif
 
                     <div class="row">
                         <div class="col-lg-8 col-md-10">
