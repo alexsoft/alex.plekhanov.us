@@ -26,8 +26,8 @@
             <p>
                 <span class="fa-stack fa-lg">
                     <i class="fa fa-square-o fa-stack-2x"></i>
-                    <i class="fa fa-skype fa-stack-1x"></i>
-                </span> <a href="skype:asoftix?call">asoftix</a>
+                    <i class="fa fa-paper-plane-o fa-stack-1x"></i>
+                </span> <a href="https://telegram.me/alexsoft" itemprop="sameAs">@alexsoft</a>
             </p>
         </div>
     </div>
