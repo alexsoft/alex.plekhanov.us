@@ -29,14 +29,32 @@ class PagesController extends Controller
                 'priority'   => '0.5'
             ],
             [
-                'loc'        => 'blog/2015/09/php-question',
-                'lastmod'    => '2015-09-30',
+                'loc'        => 'blog/2014/07/php-user-group',
+                'lastmod'    => '2014-07-18',
+                'changefreq' => 'yearly',
+                'priority'   => '0.5'
+            ],
+            [
+                'loc'        => 'blog/2014/12/it-talk-php-odessa',
+                'lastmod'    => '2014-12-04',
+                'changefreq' => 'yearly',
+                'priority'   => '0.5'
+            ],
+            [
+                'loc'        => 'blog/2014/12/php-user-group-3',
+                'lastmod'    => '2014-12-18',
                 'changefreq' => 'yearly',
                 'priority'   => '0.5'
             ],
             [
                 'loc'        => 'blog/2015/07/blog-v3',
                 'lastmod'    => '2015-07-13',
+                'changefreq' => 'yearly',
+                'priority'   => '0.5'
+            ],
+            [
+                'loc'        => 'blog/2015/09/php-question',
+                'lastmod'    => '2015-09-30',
                 'changefreq' => 'yearly',
                 'priority'   => '0.5'
             ],
