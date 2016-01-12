@@ -4,6 +4,19 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Application Environment
+    |--------------------------------------------------------------------------
+    |
+    | This value determines the "environment" your application is currently
+    | running in. This may determine how you prefer to configure various
+    | services your application utilizes. Set this in your ".env" file.
+    |
+    */
+
+    'env' => env('APP_ENV', 'production'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Application Debug Mode
     |--------------------------------------------------------------------------
     |
@@ -113,12 +126,10 @@ return [
         /*
          * Laravel Framework Service Providers...
          */
-        'Illuminate\Foundation\Providers\ArtisanServiceProvider',
         'Illuminate\Auth\AuthServiceProvider',
         'Illuminate\Bus\BusServiceProvider',
         'Illuminate\Cache\CacheServiceProvider',
         'Illuminate\Foundation\Providers\ConsoleSupportServiceProvider',
-        'Illuminate\Routing\ControllerServiceProvider',
         'Illuminate\Cookie\CookieServiceProvider',
         'Illuminate\Database\DatabaseServiceProvider',
         'Illuminate\Encryption\EncryptionServiceProvider',
@@ -139,12 +150,10 @@ return [
         /*
          * Application Service Providers...
          */
-        'Alex\Providers\AppServiceProvider',
+        Alex\Providers\AppServiceProvider::class,
         Alex\Providers\AuthServiceProvider::class,
-        'Alex\Providers\BusServiceProvider',
-        'Alex\Providers\ConfigServiceProvider',
-        'Alex\Providers\EventServiceProvider',
-        'Alex\Providers\RouteServiceProvider',
+        Alex\Providers\EventServiceProvider::class,
+        Alex\Providers\RouteServiceProvider::class,
 
         \Collective\Html\HtmlServiceProvider::class,
         \Alex\Markdown\MarkdownServiceProvider::class,
