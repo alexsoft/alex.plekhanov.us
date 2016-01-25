@@ -94,7 +94,7 @@
         As a hobby I investigate PHP frameworks, try to contribute to open-source frameworks especially Laravel/Lumen, develop composer packages and different tools.
     </p>
     <p class="text-justify">
-        Also I am quite interested in Python, system administration and web analytics.
+        Also I am quite interested in Python, system administration (Ansible etc.) and web analytics.
     </p>
     <p class="text-justify">
         In my city I also do extreme city games (Encounter).
