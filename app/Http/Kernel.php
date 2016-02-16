@@ -25,6 +25,7 @@ class Kernel extends HttpKernel
         StartSession::class,
         ShareErrorsFromSession::class,
         VerifyCsrfToken::class,
+        \Anbu\Profiler\Middleware\AnbuMiddleware::class,
     ];
 
     /**

@@ -154,6 +154,7 @@ return [
         Alex\Providers\AuthServiceProvider::class,
         Alex\Providers\EventServiceProvider::class,
         Alex\Providers\RouteServiceProvider::class,
+        Anbu\Profiler\Providers\AnbuServiceProvider::class,
 
         \Collective\Html\HtmlServiceProvider::class,
         \Alex\Markdown\MarkdownServiceProvider::class,
