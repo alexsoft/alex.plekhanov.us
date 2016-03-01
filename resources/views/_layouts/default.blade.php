@@ -16,6 +16,7 @@
 
         <title>@yield('page_title', 'Alex.Plekhanov.us')</title>
         @section('css')
+            <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
             <link href="{{ elixir('css/app.css') }}" rel="stylesheet">
         @show
 

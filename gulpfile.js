@@ -22,8 +22,8 @@ elixir(function(mix) {
         'js/init.js'
     ], 'public/js', 'resources/assets');
 
-    mix.copy('resources/assets/bower/font-awesome/fonts/**', 'public/fonts');
-    mix.copy('resources/assets/bower/bootstrap/fonts/**', 'public/fonts');
-    mix.copy('resources/assets/bower/flag-icon-css/flags/**', 'public/flags');
+    mix.copy('resources/assets/bower/font-awesome/fonts/**', 'public/build/fonts');
+    mix.copy('resources/assets/bower/bootstrap/fonts/**', 'public/build/fonts');
+    mix.copy('resources/assets/bower/flag-icon-css/flags/**', 'public/build/flags');
 
 });
