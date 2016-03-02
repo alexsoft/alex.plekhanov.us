@@ -7,8 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <meta name="description" content="Web Artisan, Developer, PHP Developer, Web Developer, JS Developer, Laravel Developer, Laravel, Javascript, JS, Javascript Developer, PHP">
-        <meta name="author" content="Alexey Plekhanov">
+        @section('meta')
+            <meta name="description" content="Alexey Plekhanov is a Web developer who is always in process of doing something great">
+            <meta name="author" content="Alexey Plekhanov">
+        @show
         <link rel="icon" href="{{ asset('ico/favicon.ico') }}">
 
         <meta name="google-site-verification" content="dW-i1q_ReYQ2XTd7hwnMo7J-ER6A33yAScHyxw9Zqu4" />
@@ -30,8 +32,6 @@
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('ico/touch114.png') }}">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('ico/touch72.png') }}">
         <link rel="apple-touch-icon-precomposed" href="{{ asset('ico/touch57.png') }}">
-
-        @yield('meta')
     </head>
     <body class="{{ (Route::is('pages.cv')) ? 'cv' : '' }}">
 

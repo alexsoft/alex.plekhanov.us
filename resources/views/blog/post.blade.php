@@ -5,6 +5,7 @@
     <meta property="og:url" content="{{ URL::current() }}" />
     <meta property="og:type" content="article" />
     <meta property="article:author" content="https://www.facebook.com/alex.plekhanov" />
+    <meta property="og:description" content="{!! str_limit(strip_tags($text), 200) !!}" />
 @endsection
 
 @section('page_title', '«' .  $title . '» by Alexey Plekhanov')
