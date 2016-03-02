@@ -5,7 +5,7 @@ And I would love to share my experience with you!
 
 #### What is "Let's Encrypt"?
 
-"Let's Encrypt" is the authority that provides free ssl certificates. This initiative is now supported by everyone,
+["Let's Encrypt"][letsencrypt] is the authority that provides free ssl certificates. This initiative is now supported by everyone,
 so it means that you really get trusted certificates.
 On December 3 they launched in public beta but unfortunately until yesterday I didn't have time to fully use it.
 
@@ -114,3 +114,5 @@ Sorry for not talking about apache configurations. I even don't remember when I 
 Neither in my work place, nor for personal projects. Hope apache users are not offended.
 
 Hope you enjoyed this article and it was useful for you!
+
+[letsencrypt]: https://letsencrypt.org/

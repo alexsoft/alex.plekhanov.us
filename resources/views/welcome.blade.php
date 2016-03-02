@@ -9,7 +9,7 @@
         Hey, I'm <strong class="accent">Alexey Plekhanov</strong>, PHP Developer at&nbsp;<a href="http://908.vc">908.vc</a>.
     </p>
     <p>
-        I'm PHP and Laravel evangelist too :)
+        I am a huge fan of PHP and Laravel! I use it constantly, and do my best to contribute and improve all of it :)
     </p>
 
 @endsection
