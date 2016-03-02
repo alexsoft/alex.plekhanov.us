@@ -1,7 +1,7 @@
 @extends('_layouts.default')
 
 @section('meta')
-    <meta property="og:title" content="«{{ $title }}» by Alexey Plekhanov" />
+    <meta property="og:title" content="«{!! $title !!}» by Alexey Plekhanov" />
     <meta property="og:url" content="{{ URL::current() }}" />
     <meta property="og:type" content="article" />
     <meta property="article:author" content="https://www.facebook.com/alex.plekhanov" />
