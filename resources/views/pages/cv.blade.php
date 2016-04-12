@@ -60,32 +60,27 @@
     <p>Lyceum of information technologies. Dnipropetrovsk.</p>
 
     <h3 class="accent">Skills</h3>
-    <p>I have quite a strong experience working with Laravel (4 and 5) and Yii 1.</p>
-    <p>Can work on Windows and Linux (mostly Ubuntu).</p>
+    <p>I have quite a strong experience working with Laravel (4 and 5).</p>
     <p>I have experience working with:</p>
     <ul>
-        <li>PhpStorm</li>
-        <li>Sublime Text</li>
-        <li>Redmine</li>
         <li>Nginx + PHP-FPM</li>
         <li>Apache</li>
         <li>Git</li>
         <li>Less (brief experience)</li>
         <li>Gulp (brief experience)</li>
     </ul>
-    <p><h5 class="skill">PHP</h5> &mdash; 3 years of experience.</p>
+    <p><h5 class="skill">PHP</h5> &mdash; 3.5 years of experience.</p>
     <p><h5 class="skill">Yii 1</h5> &mdash; 1 year of experience.</p>
-    <p><h5 class="skill">Laravel</h5> &mdash; 2.5 years of experience.</p>
-    <p><h5 class="skill">OOP</h5> &mdash; 3 years of experience.</p>
-    <p><h5 class="skill">MySQL</h5> &mdash; 3 years of experience.</p>
+    <p><h5 class="skill">Laravel</h5> &mdash; 3 years of experience.</p>
+    <p><h5 class="skill">OOP</h5> &mdash; 3.5 years of experience.</p>
+    <p><h5 class="skill">MySQL</h5> &mdash; 3.5 years of experience.</p>
     <p><h5 class="skill">HTML + HTML5</h5> &mdash; 5 years of experience.</p>
-    <p><h5 class="skill">CSS</h5> &mdash; 3 years of experience.</p>
-    <p><h5 class="skill">Javascript</h5> &mdash; 3 years of experience.</p>
-    <p><h5 class="skill">jQuery</h5> &mdash; 3 years of experience.</p>
-    <p><h5 class="skill">Vue.js</h5> &mdash; half a year of experience.</p>
+    <p><h5 class="skill">CSS</h5> &mdash; 3.5 years of experience.</p>
+    <p><h5 class="skill">Javascript</h5> &mdash; 3.5 years of experience.</p>
+    <p><h5 class="skill">jQuery</h5> &mdash; 3.5 years of experience.</p>
+    <p><h5 class="skill">Vue.js</h5> &mdash; 1 year of experience.</p>
     <p><h5 class="skill">MooTools</h5> &mdash; 1 year of experience.</p>
     <p><h5 class="skill">MongoDB</h5> &mdash; 1 year of experience.</p>
-    <p><h5 class="skill">Git</h5> &mdash; 3 years of experience.</p>
     <br/>
     <p><span class="skill">English language</span> &mdash; Advanced. I have passed 3 Cambridge exams: KET, PET, FCE.</p>
 
