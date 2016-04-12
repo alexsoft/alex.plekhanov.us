@@ -7,6 +7,11 @@ class PagesController extends Controller
         return view('pages.cv');
     }
 
+    public function traveller()
+    {
+        return view('pages.traveller');
+    }
+
     public function sitemap()
     {
         $pages = [
@@ -18,13 +23,13 @@ class PagesController extends Controller
             ],
             [
                 'loc'        => 'cv',
-                'lastmod'    => '2015-11-03',
+                'lastmod'    => '2016-04-12',
                 'changefreq' => 'monthly',
                 'priority'   => '0.9'
             ],
             [
                 'loc'        => 'blog',
-                'lastmod'    => '2015-09-30',
+                'lastmod'    => '2016-03-01',
                 'changefreq' => 'monthly',
                 'priority'   => '0.5'
             ],
