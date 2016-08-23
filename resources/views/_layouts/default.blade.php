@@ -70,6 +70,8 @@
         @include('_partials.footer')
 
         @section('js')
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.min.js"></script>
+            <script>Turbolinks.start();</script>
             <script src="{{ asset('js/all.js') }}" async></script>
         @show
     </body>

@@ -1,5 +1,6 @@
 <?php namespace Alex\Http;
 
+use Alex\Http\Middleware\SetTurbolinksHeader;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 use Illuminate\Auth\Middleware\AuthenticateWithBasicAuth;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
@@ -26,6 +27,7 @@ class Kernel extends HttpKernel
         ShareErrorsFromSession::class,
         VerifyCsrfToken::class,
         \Anbu\Profiler\Middleware\AnbuMiddleware::class,
+        SetTurbolinksHeader::class,
     ];
 
     /**
