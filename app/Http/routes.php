@@ -10,8 +10,7 @@ Route::get('cv', [
     'uses' => 'PagesController@cv'
 ]);
 
-Route::group(['prefix' => 'blog'], function() {
-
+Route::group(['prefix' => 'blog'], function () {
     Route::get('/', [
         'as'   => 'blog.index',
         'uses' => 'BlogController@index'
@@ -21,7 +20,6 @@ Route::group(['prefix' => 'blog'], function() {
         'as'   => 'blog.post',
         'uses' => 'BlogController@post'
     ]);
-
 });
 
 Route::get('sitemap.xml', [
