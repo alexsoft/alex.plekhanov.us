@@ -93,7 +93,7 @@ return [
 
     'key' => env('APP_KEY', 'SomeRandomString'),
 
-    'cipher' => MCRYPT_RIJNDAEL_128,
+    'cipher' => 'AES-256-CBC',
 
     /*
     |--------------------------------------------------------------------------
@@ -137,6 +137,7 @@ return [
         'Illuminate\Foundation\Providers\FoundationServiceProvider',
         'Illuminate\Hashing\HashServiceProvider',
         'Illuminate\Mail\MailServiceProvider',
+        Illuminate\Notifications\NotificationServiceProvider::class,
         'Illuminate\Pagination\PaginationServiceProvider',
         'Illuminate\Pipeline\PipelineServiceProvider',
         'Illuminate\Queue\QueueServiceProvider',
@@ -154,10 +155,9 @@ return [
         Alex\Providers\AuthServiceProvider::class,
         Alex\Providers\EventServiceProvider::class,
         Alex\Providers\RouteServiceProvider::class,
-        Anbu\Profiler\Providers\AnbuServiceProvider::class,
-
-        \Collective\Html\HtmlServiceProvider::class,
         \Alex\Markdown\MarkdownServiceProvider::class,
+
+        Collective\Html\HtmlServiceProvider::class,
     ],
 
     /*
