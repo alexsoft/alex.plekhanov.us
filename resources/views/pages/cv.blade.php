@@ -27,7 +27,7 @@
                 <span class="fa-stack fa-lg">
                     <i class="fa fa-square-o fa-stack-2x"></i>
                     <i class="fa fa-paper-plane-o fa-stack-1x"></i>
-                </span> <a href="https://telegram.me/alexsoft" itemprop="sameAs">@alexsoft</a>
+                </span> <a href="https://telegram.me/alexplekhanov" itemprop="sameAs">@alexplekhanov</a>
             </p>
         </div>
     </div>
