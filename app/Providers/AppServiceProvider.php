@@ -1,4 +1,6 @@
-<?php namespace Alex\Providers;
+<?php
+
+namespace Alex\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

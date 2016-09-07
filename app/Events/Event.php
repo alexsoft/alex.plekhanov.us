@@ -1,4 +1,6 @@
-<?php namespace Alex\Events;
+<?php
+
+namespace Alex\Events;
 
 abstract class Event
 {

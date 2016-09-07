@@ -25,6 +25,6 @@ return [
     |
     */
 
-    'enabled' => false
+    'enabled' => false,
 
 ];

@@ -1,4 +1,6 @@
-<?php namespace Alex\Http\Controllers;
+<?php
+
+namespace Alex\Http\Controllers;
 
 class WelcomeController extends Controller
 {

@@ -1,4 +1,6 @@
-<?php namespace Alex\Http\Controllers;
+<?php
+
+namespace Alex\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

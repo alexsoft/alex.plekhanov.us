@@ -1,4 +1,6 @@
-<?php namespace Alex\Blog;
+<?php
+
+namespace Alex\Blog;
 
 class MarkdownBlogRepository implements BlogRepository
 {

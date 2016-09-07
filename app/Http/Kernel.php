@@ -1,4 +1,6 @@
-<?php namespace Alex\Http;
+<?php
+
+namespace Alex\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -52,5 +54,4 @@ class Kernel extends HttpKernel
         'guest' => \Alex\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
     ];
-
 }
