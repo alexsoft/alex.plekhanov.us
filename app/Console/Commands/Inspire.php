@@ -1,4 +1,6 @@
-<?php namespace Alex\Console\Commands;
+<?php
+
+namespace Alex\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

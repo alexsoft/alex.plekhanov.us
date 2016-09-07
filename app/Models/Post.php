@@ -1,4 +1,6 @@
-<?php namespace Alex\Models;
+<?php
+
+namespace Alex\Models;
 
 class Post
 {

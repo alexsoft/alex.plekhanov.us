@@ -1,4 +1,6 @@
-<?php namespace Alex\Markdown;
+<?php
+
+namespace Alex\Markdown;
 
 use Illuminate\Support\ServiceProvider;
 

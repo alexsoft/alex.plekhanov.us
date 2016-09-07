@@ -47,7 +47,7 @@ class ScanPosts extends Command
         $verbosity = $this->getOutput()->getVerbosity();
 
         if ($verbosity === OutputInterface::VERBOSITY_DEBUG) {
-            $this->info('We have such posts files: ' . json_encode($posts));
+            $this->info('We have such posts files: '.json_encode($posts));
         }
 
         $postsInfo = [];
@@ -55,13 +55,13 @@ class ScanPosts extends Command
         foreach ($posts as $post) {
             $fileName = substr($post, strrpos($post, '/') + 1);
 
-            $year     = substr($fileName, 0, 4);
-            $month    = substr($fileName, 5, 2);
-            $day      = substr($fileName, 8, 2);
+            $year = substr($fileName, 0, 4);
+            $month = substr($fileName, 5, 2);
+            $day = substr($fileName, 8, 2);
             $urlTitle = substr($fileName, 11, -3);
-            $key   = $year . '/' . $month . '/' . $urlTitle;
+            $key = $year.'/'.$month.'/'.$urlTitle;
 
-            $date  = substr($fileName, 0, 10);
+            $date = substr($fileName, 0, 10);
 
             $content = $file->get($post);
 
@@ -75,19 +75,19 @@ class ScanPosts extends Command
                 'url'   => [
                     'year'  => $year,
                     'month' => $month,
-                    'title' => $urlTitle
-                ]
+                    'title' => $urlTitle,
+                ],
             ];
         }
 
         if ($verbosity === OutputInterface::VERBOSITY_DEBUG) {
-            $this->info('We have such posts info: ' . json_encode($postsInfo));
+            $this->info('We have such posts info: '.json_encode($postsInfo));
         }
 
         $reversedPostsInfo = array_reverse($postsInfo);
 
         if ($verbosity === OutputInterface::VERBOSITY_DEBUG) {
-            $this->info('We have such reversed posts info: ' . json_encode($reversedPostsInfo));
+            $this->info('We have such reversed posts info: '.json_encode($reversedPostsInfo));
         }
 
         $file->put($this->scannedPostsPath, serialize($reversedPostsInfo));

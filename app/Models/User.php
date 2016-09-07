@@ -1,4 +1,6 @@
-<?php namespace Alex\Models;
+<?php
+
+namespace Alex\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
