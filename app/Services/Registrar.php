@@ -1,4 +1,6 @@
-<?php namespace Alex\Services;
+<?php
+
+namespace Alex\Services;
 
 use Alex\User;
 use Validator;

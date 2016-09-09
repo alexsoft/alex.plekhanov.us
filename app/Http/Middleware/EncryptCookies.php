@@ -1,4 +1,6 @@
-<?php namespace Alex\Http\Middleware;
+<?php
+
+namespace Alex\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as BaseEncrypter;
 

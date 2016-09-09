@@ -1,4 +1,6 @@
-<?php namespace Alex;
+<?php
+
+namespace Alex;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 
