@@ -9,11 +9,6 @@ class PagesController extends Controller
         return view('pages.cv');
     }
 
-    public function traveller()
-    {
-        return view('pages.traveller');
-    }
-
     public function sitemap()
     {
         $pages = [
