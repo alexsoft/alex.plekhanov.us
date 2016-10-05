@@ -69,17 +69,14 @@
         <li>Less (brief experience)</li>
         <li>Gulp (brief experience)</li>
     </ul>
-    <p><h5 class="skill">PHP</h5> &mdash; 3.5 years of experience.</p>
-    <p><h5 class="skill">Yii 1</h5> &mdash; 1 year of experience.</p>
-    <p><h5 class="skill">Laravel</h5> &mdash; 3 years of experience.</p>
-    <p><h5 class="skill">OOP</h5> &mdash; 3.5 years of experience.</p>
-    <p><h5 class="skill">MySQL</h5> &mdash; 3.5 years of experience.</p>
-    <p><h5 class="skill">HTML + HTML5</h5> &mdash; 5 years of experience.</p>
-    <p><h5 class="skill">CSS</h5> &mdash; 3.5 years of experience.</p>
-    <p><h5 class="skill">Javascript</h5> &mdash; 3.5 years of experience.</p>
-    <p><h5 class="skill">jQuery</h5> &mdash; 3.5 years of experience.</p>
-    <p><h5 class="skill">Vue.js</h5> &mdash; 1 year of experience.</p>
-    <p><h5 class="skill">MooTools</h5> &mdash; 1 year of experience.</p>
+    <p><h5 class="skill">PHP</h5> &mdash; 4 years of experience.</p>
+    <p><h5 class="skill">Laravel</h5> &mdash; 3.5 years of experience.</p>
+    <p><h5 class="skill">MySQL</h5> &mdash; 4 years of experience.</p>
+    <p><h5 class="skill">HTML + HTML5</h5> &mdash; 4 years of experience.</p>
+    <p><h5 class="skill">CSS</h5> &mdash; 4 years of experience.</p>
+    <p><h5 class="skill">Javascript</h5> &mdash; 4 years of experience.</p>
+    <p><h5 class="skill">jQuery</h5> &mdash; 4 years of experience.</p>
+    <p><h5 class="skill">Vue.js</h5> &mdash; 1.5 years of experience.</p>
     <p><h5 class="skill">MongoDB</h5> &mdash; 1 year of experience.</p>
     <br/>
     <p><span class="skill">English language</span> &mdash; Advanced. I have passed 3 Cambridge exams: KET, PET, FCE.</p>
