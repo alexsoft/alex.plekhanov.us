@@ -8,6 +8,6 @@ class ErusevParser implements Parser
 {
     public function parse($string)
     {
-        return (new Parsedown)->parse($string);
+        return (new Parsedown())->parse($string);
     }
 }

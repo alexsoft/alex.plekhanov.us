@@ -17,7 +17,7 @@ class BlogController extends Controller
 
         $scannedFile = 'storage/app/posts.scanned';
 
-        if (! $this->files->exists($scannedFile)) {
+        if (!$this->files->exists($scannedFile)) {
             abort(404);
         }
 
@@ -33,7 +33,7 @@ class BlogController extends Controller
     {
         $key = $year.'/'.$month.'/'.$title;
 
-        if (! array_key_exists($key, $this->scanned)) {
+        if (!array_key_exists($key, $this->scanned)) {
             abort(404);
         }
 
