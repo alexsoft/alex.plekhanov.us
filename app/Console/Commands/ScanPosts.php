@@ -36,8 +36,9 @@ class ScanPosts extends Command
     /**
      * Execute the console command.
      *
-     * @param Filesystem $file
+     * @param Filesystem     $file
      * @param DocumentParser $parser
+     *
      * @return mixed
      */
     public function handle(Filesystem $file, DocumentParser $parser)

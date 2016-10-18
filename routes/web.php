@@ -23,6 +23,6 @@ Route::group(['prefix' => 'blog'], function () {
 });
 
 Route::get('sitemap.xml', [
-    'as' => 'sitemap',
+    'as'   => 'sitemap',
     'uses' => 'PagesController@sitemap',
 ]);
