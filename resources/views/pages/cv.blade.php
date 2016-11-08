@@ -32,23 +32,29 @@
         </div>
     </div>
 
-    <h3 class="accent">Experience</h3>
+    <h3 class="accent">Currently</h3>
 
     <h4 itemprop="jobTitle">PHP Developer</h4>
     <p>June 2015 &mdash; Present</p>
-    <p><a href="http://908.vc" class="company" itemprop="worksFor">908.vc</a> &mdash; Product Development</p>
+    <p><span itemprop="worksFor"><i>908.vc</i></span> &mdash; Product Development</p>
+
+    <h4 itemprop="jobTitle">Owner</h4>
+    <p>October 2016 &mdash; Present</p>
+    <p><a href="https://deploykit.co"><i>Deploy Kit</i></a> &mdash; Single click deployment for PHP applications</p>
+
+    <h3 class="accent">Previous experience</h3>
 
     <h4>PHP Developer</h4>
     <p>Oct 2013 &mdash; May 2015</p>
-    <p><a href="http://www.dataart.com" class="company">DataArt</a> &mdash; Software Development Company</p>
+    <p><i>DataArt</i> &mdash; Software Development Company</p>
 
     <h4>PHP Developer</h4>
     <p>Apr 2013 &mdash; May 2013</p>
-    <p><a href="http://forforce.com" class="company">FORFORCE</a> &mdash; Digital production</p>
+    <p><i>FORFORCE</i> &mdash; Digital production</p>
 
     <h4>PHP Developer</h4>
     <p>Oct 2012 &mdash; Mar 2013</p>
-    <p><a href="https://www.owox.com" class="company">OWOX</a> &mdash; E-commerce</p>
+    <p><i>OWOX</i> &mdash; E-commerce</p>
 
     <h3 class="accent">Education</h3>
     <h4>Bachelor's degree</h4>
