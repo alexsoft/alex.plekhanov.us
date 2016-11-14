@@ -18,16 +18,10 @@
         </div>
         <div class="col-sm-3">
             <p>
-                <span class="fa-stack fa-lg">
-                    <i class="fa fa-square-o fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x"></i>
-                </span> <a href="http://github.com/alexsoft" itemprop="sameAs">alexsoft</a>
+                <i class="fa fa-fw fa-github fa-2x"></i> <a href="http://github.com/alexsoft" itemprop="sameAs">alexsoft</a>
             </p>
             <p>
-                <span class="fa-stack fa-lg">
-                    <i class="fa fa-square-o fa-stack-2x"></i>
-                    <i class="fa fa-paper-plane-o fa-stack-1x"></i>
-                </span> <a href="https://telegram.me/alexplekhanov" itemprop="sameAs">@alexplekhanov</a>
+                <i class="fa fa-fw fa-telegram fa-2x"></i> <a href="https://telegram.me/alexplekhanov" itemprop="sameAs">@alexplekhanov</a>
             </p>
         </div>
     </div>
