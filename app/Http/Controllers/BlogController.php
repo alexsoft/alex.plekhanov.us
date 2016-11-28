@@ -1,6 +1,4 @@
-<?php
-
-namespace Alex\Http\Controllers;
+<?php namespace Alex\Http\Controllers;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Kurenai\DocumentParser;
