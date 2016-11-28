@@ -1,18 +1,14 @@
-<?php
-
-namespace Alex\Http\Controllers;
+<?php namespace Alex\Http\Controllers;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Kurenai\DocumentParser;
 
-class BlogController extends Controller
-{
+class BlogController extends Controller{
     protected $files;
 
     protected $scanned;
 
-    public function __construct(Filesystem $files)
-    {
+    public function __construct(Filesystem $files){
         $this->files = $files;
 
         $scannedFile = 'storage/app/posts.scanned';
@@ -33,9 +29,7 @@ class BlogController extends Controller
     {
         $key = $year.'/'.$month.'/'.$title;
 
-        if (!array_key_exists($key, $this->scanned)) {
-            abort(404);
-        }
+        if (!array_key_exists($key, $this->scanned)) abort(404);
 
         $title = $this->scanned[$key]['title'];
 
