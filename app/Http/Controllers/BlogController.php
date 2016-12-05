@@ -2,8 +2,8 @@
 
 namespace Alex\Http\Controllers;
 
-use Illuminate\Contracts\Filesystem\Filesystem;
 use Kurenai\DocumentParser;
+use Illuminate\Contracts\Filesystem\Filesystem;
 
 class BlogController extends Controller
 {

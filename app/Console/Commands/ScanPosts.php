@@ -2,9 +2,9 @@
 
 namespace Alex\Console\Commands;
 
+use Kurenai\DocumentParser;
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Filesystem\Filesystem;
-use Kurenai\DocumentParser;
 use Symfony\Component\Console\Output\OutputInterface;
 
 class ScanPosts extends Command
