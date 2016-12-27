@@ -21,7 +21,7 @@ class Http2ServerPush
 
 //        Link: <https://example.com/other/styles.css>; rel=preload; as=style
         foreach ($images as $image) {
-            $response->headers->set('Link',  '<' . asset($image) . '>; rel=preload; as=image', false);
+            $response->headers->set('Link', '<' . asset($image) . '>; rel=preload; as=image', false);
         }
 
         return $response;
