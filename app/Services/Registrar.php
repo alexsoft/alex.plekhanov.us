@@ -3,8 +3,8 @@
 namespace Alex\Services;
 
 use Alex\User;
-use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 use Validator;
+use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 
 class Registrar implements RegistrarContract
 {
