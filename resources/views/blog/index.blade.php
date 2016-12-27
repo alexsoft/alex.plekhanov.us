@@ -1,21 +1,31 @@
-@extends('_layouts.default')
+@extends('_layouts.bulma')
 
 @section('page_title', 'Blog - Alex.Plekhanov.us')
 
 @section('content')
 
-    <h1>Blog</h1>
+    <div class="content">
 
-    @foreach($posts as $key => $data)
-        <div class="row">
-            <div class="col-sm-12" style="font-size: 1.2em;">
-                <p>
-                    <small class="text-muted">{{ $data['date'] }}</small>
-                    <a href="{{ route('blog.post', [$data['url']['year'], $data['url']['month'], $data['url']['title']]) }}">{{ $data['title'] }}</a>
-                </p>
-            </div>
-        </div>
+        <h1>Blog</h1>
 
-    @endforeach
+        @foreach($posts as $key => $data)
+
+            <article class="media">
+
+                <div class="media-content">
+
+                    <div class="content is-medium">
+                        <p>
+                            <strong><a href="{{ route('blog.post', [$data['url']['year'], $data['url']['month'], $data['url']['title']]) }}">{{ $data['title'] }}</a></strong> <small>{{ $data['date'] }}</small>
+                        </p>
+                    </div>
+
+                </div>
+
+            </article>
+
+        @endforeach
+
+    </div>
 
 @endsection
