@@ -24,7 +24,7 @@
                     <i class="fa fa-fw fa-github fa-2x"></i> <a href="http://github.com/alexsoft" itemprop="sameAs">alexsoft</a>
                 </p>
                 <p>
-                    <i class="fa fa-fw fa-telegram fa-2x"></i> <a href="https://telegram.me/alexplekhanov" itemprop="sameAs">alexplekhanov</a>
+                    <i class="fa fa-fw fa-telegram fa-2x"></i> <a href="https://t.me/alexplekhanov" itemprop="sameAs">alexplekhanov</a>
                 </p>
             </div>
 
