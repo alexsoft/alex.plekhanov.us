@@ -21,7 +21,7 @@
             </div>
             <div class="column">
                 <p>
-                    <i class="fa fa-fw fa-github fa-2x"></i> <a href="http://github.com/alexsoft" itemprop="sameAs">alexsoft</a>
+                    <i class="fa fa-fw fa-github fa-2x"></i> <a href="https://github.com/alexsoft" itemprop="sameAs">alexsoft</a>
                 </p>
                 <p>
                     <i class="fa fa-fw fa-telegram fa-2x"></i> <a href="https://t.me/alexplekhanov" itemprop="sameAs">alexplekhanov</a>
