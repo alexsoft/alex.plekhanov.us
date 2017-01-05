@@ -1,0 +1,8 @@
+checks:
+    php:
+        fix_use_statements:
+            order_alphabetically: true
+tools:
+    php_code_sniffer:
+        config:
+            standard: PSR2
