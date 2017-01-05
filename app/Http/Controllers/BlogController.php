@@ -2,7 +2,6 @@
 
 namespace Alex\Http\Controllers;
 
-use Kurenai\DocumentParser;
 use Illuminate\Contracts\Filesystem\Filesystem;
 
 class BlogController extends Controller
@@ -29,7 +28,7 @@ class BlogController extends Controller
         return view('blog.index')->withPosts($this->scanned);
     }
 
-    public function post($year, $month, $title, DocumentParser $parser)
+    public function post($year, $month, $title)
     {
         $key = $year.'/'.$month.'/'.$title;
 

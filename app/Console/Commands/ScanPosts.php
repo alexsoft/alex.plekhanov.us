@@ -58,7 +58,7 @@ class ScanPosts extends Command
 
             $year = substr($fileName, 0, 4);
             $month = substr($fileName, 5, 2);
-            $day = substr($fileName, 8, 2);
+//            $day = substr($fileName, 8, 2);
             $urlTitle = substr($fileName, 11, -3);
             $key = $year.'/'.$month.'/'.$urlTitle;
 
