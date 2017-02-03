@@ -14,7 +14,7 @@ class PagesController extends Controller
         $pages = [
             [
                 'loc'        => '/',
-                'lastmod'    => '2016-11-08',
+                'lastmod'    => '2017-02-03',
                 'changefreq' => 'monthly',
                 'priority'   => '0.7',
             ],
@@ -23,6 +23,12 @@ class PagesController extends Controller
                 'lastmod'    => '2016-11-08',
                 'changefreq' => 'monthly',
                 'priority'   => '0.9',
+            ],
+            [
+                'loc'        => 'projects',
+                'lastmod'    => '2017-02-03',
+                'changefreq' => 'monthly',
+                'priority'   => '0.8',
             ],
             [
                 'loc'        => 'blog',

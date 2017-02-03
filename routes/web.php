@@ -22,6 +22,10 @@ Route::group(['prefix' => 'blog'], function () {
     ]);
 });
 
+Route::group(['prefix' => 'projects', 'as' => 'projects.'], function() {
+    Route::get('/', 'ProjectsController@index')->name('index');
+});
+
 Route::get('sitemap.xml', [
     'as'   => 'sitemap',
     'uses' => 'PagesController@sitemap',

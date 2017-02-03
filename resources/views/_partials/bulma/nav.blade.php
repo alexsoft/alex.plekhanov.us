@@ -6,6 +6,10 @@
                 Alex.Plekhanov.us
             </a>
 
+            <a class="nav-item{{ request()->is('projects*') ? ' is-active' : '' }}" href="{{ route('projects.index') }}">
+                Projects
+            </a>
+
             <a class="nav-item{{ request()->is('blog*') ? ' is-active' : '' }}" href="{{ route('blog.index') }}">
                 Blog
             </a>
