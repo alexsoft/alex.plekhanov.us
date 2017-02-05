@@ -55,7 +55,7 @@
 
     <div class="columns" style="margin-top: 25px;">
 
-        <div class="column"{{ Route::is('pages.cv') ? ' itemscope itemtype="http://schema.org/Person"' : '' }}>
+        <div class="column"{!! Route::is('pages.cv') ? ' itemscope itemtype="http://schema.org/Person"' : '' !!}>
 
             <div class="columns">
                 <div class="column is-three-quarters">
