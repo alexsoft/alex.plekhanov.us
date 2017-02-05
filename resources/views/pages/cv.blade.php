@@ -36,7 +36,7 @@
         <p>June 2015 &mdash; Present</p>
         <p><span itemprop="worksFor"><i>908.vc</i></span> &mdash; Product Development</p>
 
-        <h4 itemprop="jobTitle"><strong>Owner</strong></h4>
+        <h4><strong>Owner</strong></h4>
         <p>October 2016 &mdash; Present</p>
         <p><a href="https://deploykit.co"><i>Deploy Kit</i></a> &mdash; Single click deployment for PHP applications</p>
 
