@@ -26,7 +26,7 @@ class PagesController extends Controller
             ],
             [
                 'loc'        => 'projects',
-                'lastmod'    => '2017-02-03',
+                'lastmod'    => '2017-02-06',
                 'changefreq' => 'monthly',
                 'priority'   => '0.8',
             ],
