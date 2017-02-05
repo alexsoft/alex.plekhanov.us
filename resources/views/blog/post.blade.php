@@ -1,6 +1,7 @@
 @extends('_layouts.bulma')
 
 @section('meta')
+    @parent
     <meta property="og:title" content="«{!! $title !!}» by Alexey Plekhanov" />
     <meta property="og:url" content="{{ URL::current() }}" />
     <meta property="og:type" content="article" />
