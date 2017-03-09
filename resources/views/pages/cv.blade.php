@@ -21,6 +21,9 @@
             </div>
             <div class="column">
                 <p>
+                    <i class="fa fa-fw fa-facebook-official fa-2x"></i> <a href="https://www.facebook.com/alexplekhanov" itemprop="sameAs">alexplekhanov</a>
+                </p>
+                <p>
                     <i class="fa fa-fw fa-github fa-2x"></i> <a href="https://github.com/alexsoft" itemprop="sameAs">alexsoft</a>
                 </p>
                 <p>
