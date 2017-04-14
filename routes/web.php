@@ -10,8 +10,6 @@ Route::get('cv', [
     'uses' => 'PagesController@cv',
 ]);
 
-Route::get('wishlist', 'PagesController@wishlist');
-
 Route::group(['prefix' => 'blog'], function () {
     Route::get('/', [
         'as'   => 'blog.index',

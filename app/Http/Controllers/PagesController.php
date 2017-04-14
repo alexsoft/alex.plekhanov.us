@@ -9,11 +9,6 @@ class PagesController extends Controller
         return view('pages.cv');
     }
 
-    public function wishlist()
-    {
-        return view('pages.wishlist');
-    }
-
     public function sitemap()
     {
         $pages = [
