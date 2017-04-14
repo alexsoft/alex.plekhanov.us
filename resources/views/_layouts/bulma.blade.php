@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    @section('meta')
-        <meta name="description" content="Alexey Plekhanov is a Web developer who is always in process of doing something great">
-        <meta name="author" content="Alexey Plekhanov">
-    @show
+    <meta name="description" content="@yield('meta_description', 'Alexey Plekhanov is a developer on highload project and owner at Deploy Kit.')">
+    <meta name="author" content="Alexey Plekhanov">
+
+    @stack('meta')
 
     <link rel="icon" href="{{ asset('ico/favicon.ico') }}">
 
@@ -23,7 +23,7 @@
         <style>.content .accent{color: #b64900}</style>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.7.0/css/flag-icon.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css" rel="stylesheet">
     @show
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -51,28 +51,31 @@
 
 @include('_partials.bulma.nav')
 
-<div class="container">
+    <section class="section">
 
-    <div class="columns" style="margin-top: 25px;">
+        <div class="container">
 
-        <div class="column"{!! Route::is('pages.cv') ? ' itemscope itemtype="http://schema.org/Person"' : '' !!}>
+            <div class="columns" style="margin-top: 25px;">
 
-            <div class="columns">
-                <div class="column is-three-quarters">
-                    @yield('content')
+                <div class="column"{!! Route::is('pages.cv') ? ' itemscope itemtype="http://schema.org/Person"' : '' !!}>
+
+                    <div class="columns">
+                        <div class="column is-three-quarters">
+                            @yield('content')
+                        </div>
+
+                        @unless(Route::is('home'))
+                            @include('_partials.bulma.aside')
+                        @endunless
+                    </div>
+
                 </div>
 
-                @unless(Route::is('home'))
-                    @include('_partials.bulma.aside')
-                @endunless
             </div>
 
         </div>
 
-    </div>
-
-</div>
-
+    </section>
 
     @include('_partials.bulma.footer')
 

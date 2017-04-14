@@ -2,6 +2,8 @@
 
 @section('page_title', 'CV - Alex.Plekhanov.us')
 
+@section('meta_description', 'Alexey has almost 5 years of PHP development experience, works with Laravel & Vue.js.')
+
 @section('content')
 
     <div class="content">

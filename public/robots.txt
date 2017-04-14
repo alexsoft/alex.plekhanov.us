@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /wishlist
 Host: https://alex.plekhanov.us
 Sitemap: https://alex.plekhanov.us/sitemap.xml

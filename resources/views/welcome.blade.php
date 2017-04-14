@@ -4,7 +4,7 @@
 
     <div class="columns">
 
-        <div class="column is-one-third">
+        <div class="column is-one-quarter">
 
             <figure class="image is-square">
                 <img src="{{ asset('img/alexey@2x.jpg') }}" alt="Alexey Plekhanov" itemprop="image">
@@ -29,7 +29,5 @@
         </div>
 
     </div>
-
-    <br>
 
 @endsection

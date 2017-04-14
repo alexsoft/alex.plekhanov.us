@@ -1,20 +1,21 @@
 @extends('_layouts.bulma')
 
-@section('meta')
-    @parent
+@push('meta')
     <meta property="og:title" content="«{!! $title !!}» by Alexey Plekhanov" />
-    <meta property="og:url" content="{{ URL::current() }}" />
+    <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:type" content="article" />
     <meta property="article:author" content="https://www.facebook.com/alex.plekhanov" />
     <meta property="og:image" content="{{ asset('img/alexey@2x.jpg') }}" />
     <meta property="og:description" content="{!! str_limit(strip_tags($text), 200) !!}" />
-@endsection
+@endpush
 
 @section('page_title', '«' .  $title . '» by Alexey Plekhanov')
 
+@section('meta_description', '«' . $title . '» by Alexey Plekhanov')
+
 @section('css')
     @parent
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ilyabirman-likely/2.1.3/likely.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ilyabirman-likely/2.2.2/likely.css">
 @endsection
 
 @section('content')
@@ -47,8 +48,9 @@
 
     </div>
 
-    <div class="likely">
+    <div class="likely likely-big">
         <div class="facebook">Share</div>
+        <div class="telegram">Send to Telegram</div>
         <div class="twitter" data-via="alex_soft">Tweet</div>
         <div class="vkontakte">Share</div>
     </div>
@@ -57,5 +59,5 @@
 
 @section('js')
     @parent
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ilyabirman-likely/2.1.3/likely.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ilyabirman-likely/2.2.2/likely.js"></script>
 @endsection
