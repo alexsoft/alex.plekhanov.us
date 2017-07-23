@@ -16,7 +16,7 @@
 
             <div class="content is-medium">
                 <p>
-                    Hey, I'm <strong class="accent">Alexey Plekhanov</strong>, PHP Developer at&nbsp;<a href="http://908.vc">908.vc</a>.
+                    Hey, I am <strong class="accent">Alexey Plekhanov</strong>.
                 </p>
                 <p>
                     I run <a href="https://deploykit.co" target="_blank">Deploy Kit</a> &mdash; service that drastically simplifies deployment of PHP applications.

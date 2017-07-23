@@ -37,15 +37,15 @@
 
         <h2 class="accent">Currently</h2>
 
-        <h4 itemprop="jobTitle"><strong>PHP Developer</strong></h4>
-        <p>June 2015 &mdash; Present</p>
-        <p><span itemprop="worksFor"><i>908.vc</i></span> &mdash; Product Development</p>
-
         <h4><strong>Owner</strong></h4>
         <p>October 2016 &mdash; Present</p>
         <p><a href="https://deploykit.co"><i>Deploy Kit</i></a> &mdash; Single click deployment for PHP applications</p>
 
         <h2 class="accent">Previous experience</h2>
+
+        <h4><strong>PHP Developer</strong></h4>
+        <p>Jun 2015 &mdash; Jul 2017</p>
+        <p><i>Stickerpipe</i> &mdash; API for camera content and stickers in messengers/keyboards</p>
 
         <h4><strong>PHP Developer</strong></h4>
         <p>Oct 2013 &mdash; May 2015</p>

@@ -14,13 +14,13 @@ class PagesController extends Controller
         $pages = [
             [
                 'loc'        => '/',
-                'lastmod'    => '2017-02-03',
+                'lastmod'    => '2017-07-23',
                 'changefreq' => 'monthly',
                 'priority'   => '0.7',
             ],
             [
                 'loc'        => 'cv',
-                'lastmod'    => '2017-03-09',
+                'lastmod'    => '2017-07-23',
                 'changefreq' => 'monthly',
                 'priority'   => '0.9',
             ],
