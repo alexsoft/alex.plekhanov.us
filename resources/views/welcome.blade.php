@@ -22,6 +22,9 @@
                     I run <a href="https://deploykit.co" target="_blank">Deploy Kit</a> &mdash; service that drastically simplifies deployment of PHP applications.
                 </p>
                 <p>
+                    There is also a Telegram channel <a href="https://t.me/alexdeveloper">@AlexDeveloper</a> where I share my thoughts, articles and news that are interesting to me.
+                </p>
+                <p>
                     I am a huge fan of PHP and Laravel! I use it constantly, and do my best to contribute and improve all of it :)
                 </p>
             </div>

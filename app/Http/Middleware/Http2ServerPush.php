@@ -19,7 +19,7 @@ class Http2ServerPush
 
         $images = ['/img/alexey@2x.jpg', '/img/php.png', '/img/laravel5.png', '/img/js.png', '/img/html5.png'];
 
-//        Link: <https://example.com/other/styles.css>; rel=preload; as=style
+        //        Link: <https://example.com/other/styles.css>; rel=preload; as=style
         foreach ($images as $image) {
             $response->headers->set('Link', '<' . asset($image) . '>; rel=preload; as=image', false);
         }
