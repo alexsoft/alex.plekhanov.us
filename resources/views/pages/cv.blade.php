@@ -131,6 +131,9 @@
 
         <h2 class="accent">Hobbies</h2>
         <p class="text-justify">
+            I have a Telegram channel <a href="https://t.me/alexdeveloper">@AlexDeveloper</a> where I share my thoughts, articles and news that are interesting to me.
+        </p>
+        <p class="text-justify">
             As a hobby I investigate PHP frameworks, try to contribute to open-source frameworks especially Laravel/Lumen, develop composer packages and different tools.
         </p>
         <p class="text-justify">
