@@ -10,6 +10,7 @@
     <meta name="description" content="@yield('meta_description', 'Alexey Plekhanov is a developer on highload project and owner at Deploy Kit.')">
     <meta name="author" content="Alexey Plekhanov">
     <meta name="telegram:channel" content="@alexdeveloper">
+    <meta property="fb:pages" content="704409203090496" />
 
     @stack('meta')
 
