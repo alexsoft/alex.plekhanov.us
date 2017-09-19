@@ -9,8 +9,7 @@ class PagesController extends Controller
         return view('pages.cv');
     }
 
-    public function sitemap()
-    {
+    public function sitemap(){
         $pages = [
             [
                 'loc'        => '/',
@@ -71,8 +70,7 @@ class PagesController extends Controller
                 'lastmod'    => '2016-03-01',
                 'changefreq' => 'yearly',
                 'priority'   => '0.5',
-            ],
-        ];
+            ],];
 
         return response(view('pages.sitemap')->with(compact('pages')), 200, ['Content-Type' => 'application/xml']);
     }
