@@ -9,7 +9,8 @@ class PagesController extends Controller
         return view('pages.cv');
     }
 
-    public function sitemap(){
+    public function sitemap()
+    {
         $pages = [
             [
                 'loc'        => '/',
