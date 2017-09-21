@@ -5,7 +5,7 @@
     "license": "proprietary",
     "type": "project",
     "require": {
-        "php": ">=5.6.4",
+        "php": ">=7.0.0",
         "daylerees/kurenai": "^1.1",
         "erusev/parsedown": "^1.5",
         "guzzlehttp/guzzle": "^6.2",
@@ -14,10 +14,11 @@
         "laravelcollective/html": "^5.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.0",
+        "filp/whoops": "~2.0",
         "phpspec/phpspec": "~2.1",
-        "symfony/dom-crawler": "~3.0",
-        "symfony/css-selector": "~3.0"
+        "phpunit/phpunit": "~6.0",
+        "symfony/css-selector": "~3.0",
+        "symfony/dom-crawler": "~3.0"
     },
     "autoload": {
         "classmap": [
@@ -42,8 +43,9 @@
         "post-install-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postInstall"
         ],
-        "post-update-cmd": [
-            "Illuminate\\Foundation\\ComposerScripts::postUpdate"
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover"
         ]
     },
     "config": {
