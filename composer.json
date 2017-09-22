@@ -8,8 +8,9 @@
         "php": ">=7.0.0",
         "daylerees/kurenai": "^1.1",
         "erusev/parsedown": "^1.5",
+        "fideloper/proxy": "~3.3",
         "guzzlehttp/guzzle": "^6.2",
-        "laravel/framework": "5.4.*",
+        "laravel/framework": "5.5.*",
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.0"
     },
