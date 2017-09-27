@@ -10,7 +10,7 @@
             <div class="card-content">
                 <div class="content">
                     <p>Hi, I'm <strong>Alex Plekhanov</strong>.</p>
-                    <p>I am PHP dewveloper and I run my own project <a href="https://deploykit.co">Deploy Kit</a>.</p>
+                    <p>I am PHP developer and I run my own project <a href="https://deploykit.co">Deploy Kit</a>.</p>
                 </div>
             </div>
         @endunless
