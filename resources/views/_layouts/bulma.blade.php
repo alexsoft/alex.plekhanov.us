@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"@yield('html_attrs')>
 <head>
     <meta charset="utf-8">
     <meta name="theme-color" content="#eeeeee">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="@yield('meta_description', 'Alexey Plekhanov is a developer on highload project and owner at Deploy Kit.')">
@@ -26,6 +26,8 @@
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-NLMFDR');</script>
     <!-- End Google Tag Manager -->
+
+    @stack('head_js')
 
     <title>@yield('page_title', 'Alex.Plekhanov.us')</title>
 

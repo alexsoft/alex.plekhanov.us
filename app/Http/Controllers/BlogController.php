@@ -40,6 +40,8 @@ class BlogController extends Controller
 
         $text = $this->scanned[$key]['text'];
 
-        return view('blog.post')->with(compact('text', 'title'));
+        $publishedAtAtom = $this->scanned[$key]['published_at'];
+
+        return view('blog.post')->with(compact('text', 'title', 'publishedAtAtom'));
     }
 }

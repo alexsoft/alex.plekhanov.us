@@ -26,14 +26,6 @@ class ScanPosts extends Command
     protected $description = 'Scan all posts and create file with titles';
 
     /**
-     * Create a new command instance.
-     */
-    public function __construct()
-    {
-        parent::__construct();
-    }
-
-    /**
      * Execute the console command.
      *
      * @param Filesystem     $file
@@ -58,7 +50,8 @@ class ScanPosts extends Command
 
             $year = substr($fileName, 0, 4);
             $month = substr($fileName, 5, 2);
-            //            $day = substr($fileName, 8, 2);
+            $day = substr($fileName, 8, 2);
+
             $urlTitle = substr($fileName, 11, -3);
             $key = $year.'/'.$month.'/'.$urlTitle;
 
@@ -78,6 +71,7 @@ class ScanPosts extends Command
                     'month' => $month,
                     'title' => $urlTitle,
                 ],
+                'published_at' => (new \Carbon\Carbon($year . '-' . $month . '-' . $day . ' 09:00:00', 'UTC'))->toAtomString()
             ];
         }
 

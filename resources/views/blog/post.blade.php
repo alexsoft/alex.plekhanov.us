@@ -1,5 +1,7 @@
 @extends('_layouts.bulma')
 
+@section('html_attrs', ' amp')
+
 @push('meta')
     <meta property="og:title" content="«{!! $title !!}» by Alexey Plekhanov" />
     <meta property="og:url" content="{{ url()->current() }}" />
@@ -7,6 +9,24 @@
     <meta property="article:author" content="https://www.facebook.com/alex.plekhanov" />
     <meta property="og:image" content="{{ asset('img/alexey@2x.jpg') }}" />
     <meta property="og:description" content="{!! str_limit(strip_tags($text), 200) !!}" />
+
+    <link rel="canonical" href="{{ url()->current() }}">
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "TechArticle",
+        "headline": "{!! $title !!}",
+        "datePublished": "{{ $publishedAtAtom }}",
+        "image": [
+          "logo.jpg"
+        ]
+      }
+    </script>
+@endpush
+
+@push('head_js')
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
 @endpush
 
 @section('page_title', '«' .  $title . '» by Alexey Plekhanov')
@@ -16,6 +36,7 @@
 @section('css')
     @parent
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ilyabirman-likely/2.2.2/likely.css">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 @endsection
 
 @section('content')
@@ -35,8 +56,6 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
-    <script type="text/javascript" src="//vk.com/js/api/openapi.js?116"></script>
-    <script type="text/javascript">VK.init({apiId: 4994269, onlyWidgets: true});</script>
 
     <div class="content">
 
