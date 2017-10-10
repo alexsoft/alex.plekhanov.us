@@ -5,7 +5,7 @@
     "license": "proprietary",
     "type": "project",
     "require": {
-        "php": ">=7.0.0",
+        "php": ">=7.1.0",
         "daylerees/kurenai": "^1.1",
         "erusev/parsedown": "^1.5",
         "fideloper/proxy": "~3.3",
