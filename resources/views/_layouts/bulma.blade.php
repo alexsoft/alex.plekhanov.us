@@ -33,7 +33,8 @@
         <style>.content .accent{color: #b64900}</style>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.7.0/css/flag-icon.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css" rel="stylesheet">
+        <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css" rel="stylesheet">-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" rel="stylesheet">
     @show
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -56,38 +57,55 @@
 
 @include('_partials.bulma.nav')
 
-    <section class="section">
+    <div class="container">
 
-        <div class="container">
+        <div class="columns" style="margin-top: 25px;">
 
-            <div class="columns" style="margin-top: 25px;">
+            <div class="column"{!! Route::is('pages.cv') ? ' itemscope itemtype="http://schema.org/Person"' : '' !!}>
 
-                <div class="column"{!! Route::is('pages.cv') ? ' itemscope itemtype="http://schema.org/Person"' : '' !!}>
-
-                    <div class="columns">
-                        <div class="column is-three-quarters">
-                            @yield('content')
-                        </div>
-
-                        @unless(Route::is('home'))
-                            @include('_partials.bulma.aside')
-                        @endunless
+                <div class="columns">
+                    <div class="column is-three-quarters">
+                        @yield('content')
                     </div>
 
+                    @unless(Route::is('home'))
+                        @include('_partials.bulma.aside')
+                    @endunless
                 </div>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
 
     @include('_partials.bulma.footer')
 
-    @section('js')
-        {{--<script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.min.js"></script>--}}
-        {{--<script>Turbolinks.start();</script>--}}
-        {{--<script src="{{ asset('js/all.js') }}" async></script>--}}
-    @show
+    <script>
+        (function() {
+            document.addEventListener('DOMContentLoaded', function () {
+
+                // Get all "navbar-burger" elements
+                var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+                // Check if there are any navbar burgers
+                if ($navbarBurgers.length > 0) {
+                    // Add a click event on each of them
+                    $navbarBurgers.forEach(function ($el) {
+                        $el.addEventListener('click', function () {
+                            // Get the target from the "data-target" attribute
+                            var target = $el.dataset.target;
+                            var $target = document.getElementById(target);
+
+                            // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+                            $el.classList.toggle('is-active');
+                            $target.classList.toggle('is-active');
+                        });
+                    });
+                }
+
+            });
+        })();
+    </script>
 </body>
 </html>
