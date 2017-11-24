@@ -17,7 +17,7 @@
                 <p>Birthday: 22 December 1993</p>
                 <meta itemprop="birthDate" content="1993-12-22" />
                 <p itemscope itemtype="http://schema.org/PostalAddress">
-                    Location: <span itemprop="addressCountry">Poland</span>, <span itemprop="addressLocality">Wrocław</span> <span class="flag-icon flag-icon-pl"></span>
+                    Location: <span itemprop="addressCountry">Luxembourg</span>, <span itemprop="addressLocality">Schuttrange</span> <span class="flag-icon flag-icon-lu"></span>
                 </p>
                 <p>Email: {!! Html::mailto('alex@plekhanov.us') !!}</p>
             </div>
