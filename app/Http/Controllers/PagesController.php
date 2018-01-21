@@ -20,7 +20,7 @@ class PagesController extends Controller
             ],
             [
                 'loc'        => 'cv',
-                'lastmod'    => '2017-11-24',
+                'lastmod'    => '2018-01-21',
                 'changefreq' => 'monthly',
                 'priority'   => '0.9',
             ],
