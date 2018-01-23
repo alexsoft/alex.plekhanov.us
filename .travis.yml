@@ -6,12 +6,14 @@ matrix:
     - php: 7.1
     - php: 7.2
 
-cache:
-  directories:
-    - $HOME/.composer/cache
+env:
+  matrix:
+    - COMPOSER_FLAGS="--prefer-lowest"
+    - COMPOSER_FLAGS=""
 
-before_install:
+before_script:
   - travis_retry composer self-update
+  - travis_retry composer update ${COMPOSER_FLAGS} --no-interaction --prefer-source
 
 install:
   - travis_retry composer install -o
