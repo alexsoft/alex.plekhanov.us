@@ -18,7 +18,7 @@
     <meta name="google-site-verification" content="dW-i1q_ReYQ2XTd7hwnMo7J-ER6A33yAScHyxw9Zqu4" />
     <meta name='yandex-verification' content='7fc8dd9f98075585' />
 
-    <script src="/js/gtm.js"></script>
+    <script src="{{ asset('/js/gtm.js') }}"></script>
 
     <title>@yield('page_title', 'Alex.Plekhanov.us')</title>
 
