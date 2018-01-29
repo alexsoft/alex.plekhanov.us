@@ -4,6 +4,8 @@
 
 @section('meta_description', 'Alexey has almost 5 years of PHP development experience, works with Laravel & Vue.js.')
 
+@inject('countryFlags', '\Stidges\CountryFlags\CountryFlag')
+
 @section('content')
 
     <div class="content">
@@ -17,7 +19,7 @@
                 <p>Birthday: 22 December 1993</p>
                 <meta itemprop="birthDate" content="1993-12-22" />
                 <p itemscope itemtype="http://schema.org/PostalAddress">
-                    Location: <span itemprop="addressCountry">Luxembourg</span>, <span itemprop="addressLocality">Schuttrange</span> <span class="flag-icon flag-icon-lu"></span>
+                    Location: <span itemprop="addressCountry">Luxembourg</span>, <span itemprop="addressLocality">Schuttrange</span> {{ $countryFlags->get('LU') }}
                 </p>
                 <p>Email: {!! Html::mailto('alex@plekhanov.us') !!}</p>
             </div>

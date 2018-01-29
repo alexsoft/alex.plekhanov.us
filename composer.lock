@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e002d0040d5fc6f216e1411048f2ddc3",
+    "content-hash": "a4293bdc5b543ad180d23ed76e7f31c3",
     "packages": [
         {
             "name": "daylerees/kurenai",
@@ -1639,6 +1639,56 @@
                 "uuid"
             ],
             "time": "2018-01-20T00:28:24+00:00"
+        },
+        {
+            "name": "stidges/country-flags",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stidges/country-flags.git",
+                "reference": "9ae96df3f4f3649716d09fa0af24c5806ac192be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stidges/country-flags/zipball/9ae96df3f4f3649716d09fa0af24c5806ac192be",
+                "reference": "9ae96df3f4f3649716d09fa0af24c5806ac192be",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=5.4.3",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Stidges\\CountryFlags\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stidges",
+                    "email": "info@stidges.com",
+                    "homepage": "https://stidges.com"
+                }
+            ],
+            "description": "A small package to convert a country code to the corresponding country flag emoji",
+            "homepage": "https://github.com/stidges/country-flags",
+            "keywords": [
+                "countries",
+                "country",
+                "country-flags",
+                "emoji",
+                "flag",
+                "unicode"
+            ],
+            "time": "2018-01-29T13:27:13+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
