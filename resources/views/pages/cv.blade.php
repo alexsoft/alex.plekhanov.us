@@ -4,6 +4,11 @@
 
 @section('meta_description', 'Alexey has almost 5 years of PHP development experience, works with Laravel & Vue.js.')
 
+@section('css')
+    @parent
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+@endsection
+
 @inject('countryFlags', '\Stidges\CountryFlags\CountryFlag')
 
 @section('content')
@@ -25,13 +30,13 @@
             </div>
             <div class="column">
                 <p>
-                    <i class="fa fa-fw fa-facebook-official fa-2x"></i> <a href="https://www.facebook.com/alexplekhanov" itemprop="sameAs">alexplekhanov</a>
+                    <i class="fab fa-fw fa-lg fa-facebook"></i> <a href="https://www.facebook.com/alexplekhanov" itemprop="sameAs">alexplekhanov</a>
                 </p>
                 <p>
-                    <i class="fa fa-fw fa-github fa-2x"></i> <a href="https://github.com/alexsoft" itemprop="sameAs">alexsoft</a>
+                    <i class="fab fa-fw fa-lg fa-github"></i> <a href="https://github.com/alexsoft" itemprop="sameAs">alexsoft</a>
                 </p>
                 <p>
-                    <i class="fa fa-fw fa-telegram fa-2x"></i> <a href="https://t.me/alexplekhanov" itemprop="sameAs">alexplekhanov</a>
+                    <i class="fab fa-fw fa-lg fa-telegram"></i> <a href="https://t.me/alexplekhanov" itemprop="sameAs">alexplekhanov</a>
                 </p>
             </div>
 
