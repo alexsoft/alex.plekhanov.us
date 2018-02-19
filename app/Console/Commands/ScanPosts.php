@@ -56,17 +56,9 @@ class ScanPosts extends Command
         foreach ($posts as $post) {
             $fileName = substr($post, strrpos($post, '/') + 1);
 
-            $year = substr($fileName, 0, 4);
-            $month = substr($fileName, 5, 2);
-            //            $day = substr($fileName, 8, 2);
-            $urlTitle = substr($fileName, 11, -3);
-            $key = $year.'/'.$month.'/'.$urlTitle;
+            list($year, $month, $urlTitle, $key, $date) = $this->extractParts($fileName);
 
-            $date = substr($fileName, 0, 10);
-
-            $content = $file->get($post);
-
-            $document = $parser->parse($content);
+            $document = $parser->parse($file->get($post));
 
             $postsInfo[$key] = [
                 'text'  => $document->getHtmlContent(),
@@ -93,11 +85,25 @@ class ScanPosts extends Command
 
         $file->put($this->scannedPostsPath, serialize($reversedPostsInfo));
 
-        $this->info(sprintf('Now you have %d posts', count($postsInfo)));
+        $this->info(sprintf('Now you have [%d] posts', count($postsInfo)));
 
         $fileSize = $file->size($this->scannedPostsPath);
-        $method = $fileSize < 10 * 1024 * 1024 ? 'info' : 'warn';
 
-        $this->$method(sprintf('Size of file is %d bytes', $fileSize));
+        $this->info(sprintf('Size of file is [%d] bytes', $fileSize));
+    }
+
+    /**
+     * @param string $fileName
+     * @return array
+     */
+    private function extractParts($fileName)
+    {
+        $year = substr($fileName, 0, 4);
+        $month = substr($fileName, 5, 2);
+        $urlTitle = substr($fileName, 11, -3);
+        $date = substr($fileName, 0, 10);
+        $key = $year . '/' . $month . '/' . $urlTitle;
+
+        return [$year, $month, $urlTitle, $key, $date];
     }
 }
