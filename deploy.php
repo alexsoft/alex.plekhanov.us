@@ -34,7 +34,7 @@ task('build', function () {
     run('cd {{release_path}} && build');
 });
 
-task('alex:posts', function() {
+task('alex:posts', function () {
     run('cd {{ release_path }} && php artisan alex:scan-posts');
 });
 
