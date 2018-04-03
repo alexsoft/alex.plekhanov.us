@@ -1,33 +1,26 @@
-@extends('_layouts.bulma')
+@extends('_layouts.default')
 
 @section('content')
 
-    <div class="columns">
+    <div class="container" style="margin-top: 50px; margin-bottom: 50px;">
+        <div class="columns">
+            <div class="column is-three-quarters">
+                <div class="columns">
+                    <div class="column is-one-quarter">
+                        <figure class="image is-square">
+                            <img src="{{ asset('/img/alexey@2x.jpg') }}" alt="Alex Plekhanov">
+                        </figure>
+                    </div>
+                    <div class="column">
+                        <p>Hey, I am Alexey Plekhanov.</p>
 
-        <div class="column is-one-quarter">
+                        <p>I run Deploy Kit — service that drastically simplifies deployment of PHP applications.</p>
 
-            <figure class="image is-square">
-                <img src="{{ asset('img/alexey@2x.jpg') }}" alt="Alexey Plekhanov" itemprop="image">
-            </figure>
-
-        </div>
-
-        <div class="column">
-
-            <div class="content is-medium">
-                <p>
-                    Hey, I am <strong class="accent">Alexey Plekhanov</strong>.
-                </p>
-                <p>
-                    I run <a href="https://deploykit.co" target="_blank">Deploy Kit</a> &mdash; service that drastically simplifies deployment of PHP applications.
-                </p>
-                <p>
-                    I am a huge fan of PHP and Laravel! I use it constantly, and do my best to contribute and improve all of it :)
-                </p>
+                        <p>Being a huge fan of PHP and Laravel, I constantly contribute to them, help others to know all the best tools to build great web applications for businesses!</p>
+                    </div>
+                </div>
             </div>
-
         </div>
-
     </div>
 
 @endsection
