@@ -8,7 +8,8 @@
             <div class="navbar-menu">
                 <div class="navbar-start">
                     <a class="navbar-item" href="{{ route('projects.index') }}">💻&nbsp;Projects</a>
-                    <a class="navbar-item" href="#">🌎&nbsp;Travel</a>
+                    <a class="navbar-item" href="{{ route('blog.index') }}">🎲&nbsp;Blog</a>
+                    {{--<a class="navbar-item" href="#">🌎&nbsp;Travel</a>--}}
                     <a class="navbar-item" href="{{ route('pages.cv') }}">CV</a>
                 </div>
             </div>

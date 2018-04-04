@@ -13,7 +13,7 @@ class ViewPagesTest extends TestCase
         $response = $this->get('/');
 
         $response->assertStatus(200);
-        $response->assertSee('Alexey Plekhanov');
+        $response->assertSee('Alex Plekhanov');
         $response->assertSee('Being a huge fan of PHP and Laravel');
     }
 
@@ -44,7 +44,7 @@ class ViewPagesTest extends TestCase
         $response = $this->get('/cv');
 
         $response->assertStatus(200);
-        $response->assertSee('Alexey Plekhanov');
+        $response->assertSee('Alex Plekhanov');
         $response->assertSee('PHP Developer');
         $response->assertSee('Currently');
         $response->assertSee('Previous experience');

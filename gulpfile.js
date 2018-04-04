@@ -11,19 +11,4 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.less('app.less');
-
-    mix.version('css/app.css');
-
-    mix.scripts([
-        'bower/jquery/dist/jquery.js',
-        'bower/bootstrap/dist/js/bootstrap.js',
-        'bower/retina.js/dist/retina.js',
-        'js/init.js'
-    ], 'public/js', 'resources/assets');
-
-    mix.copy('resources/assets/bower/font-awesome/fonts/**', 'public/build/fonts');
-    mix.copy('resources/assets/bower/bootstrap/fonts/**', 'public/build/fonts');
-    mix.copy('resources/assets/bower/flag-icon-css/flags/**', 'public/build/flags');
-
 });
