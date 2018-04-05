@@ -18,7 +18,7 @@
         <div class="columns">
             <div class="column">
                 <div class="content">
-                    <h1 class="accent">Alex Plekhanov</h1>
+                    <h1 class="accent" itemtype="name">Alex Plekhanov</h1>
                     <h2>PHP Developer</h2>
                 </div>
             </div>
