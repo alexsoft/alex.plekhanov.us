@@ -14,7 +14,7 @@
 
 @section('content')
 
-    <div class="container">
+    <div class="container" itemscope itemtype="http://schema.org/Person">
         <div class="columns">
             <div class="column">
                 <div class="content">
