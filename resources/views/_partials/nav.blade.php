@@ -5,19 +5,19 @@
                 Alex Plekhanov
             </a>
 
-            <div class="navbar-menu">
-                <div class="navbar-start">
-                    <a class="navbar-item" href="{{ route('projects.index') }}">💻&nbsp;Projects</a>
-                    <a class="navbar-item" href="{{ route('blog.index') }}">🎲&nbsp;Blog</a>
-                    {{--<a class="navbar-item" href="#">🌎&nbsp;Travel</a>--}}
-                    <a class="navbar-item" href="{{ route('pages.cv') }}">CV</a>
-                </div>
+            <div class="navbar-burger burger" data-target="Navbar">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
+        </div>
 
-            <div class="navbar-burger">
-                <span></span>
-                <span></span>
-                <span></span>
+        <div class="navbar-menu" id="Navbar">
+            <div class="navbar-start">
+                <a class="navbar-item" href="{{ route('projects.index') }}">💻&nbsp;Projects</a>
+                <a class="navbar-item" href="{{ route('blog.index') }}">🎲&nbsp;Blog</a>
+                {{--<a class="navbar-item" href="#">🌎&nbsp;Travel</a>--}}
+                <a class="navbar-item" href="{{ route('pages.cv') }}">CV</a>
             </div>
         </div>
     </div>

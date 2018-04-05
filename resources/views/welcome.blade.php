@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="container" style="margin-top: 50px; margin-bottom: 50px;">
+    <div class="container">
         <div class="columns">
             <div class="column is-four-fifths">
                 <div class="columns">
