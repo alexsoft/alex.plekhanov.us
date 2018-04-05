@@ -38,6 +38,10 @@ task('alex:posts', function () {
     run('cd {{ release_path }} && php artisan alex:scan-posts');
 });
 
+task('php-fpm-restart', function () {
+    run('sudo service php7.2-fpm reload');
+});
+
 before('deploy:symlink', 'alex:posts');
 
 after('deploy:failed', 'deploy:unlock');
@@ -45,3 +49,5 @@ after('deploy:failed', 'deploy:unlock');
 after('artisan:config:cache', 'artisan:route:cache');
 
 after('cleanup', 'deploy:clear_paths');
+
+after('deploy:symlink', 'php-fpm-restart');

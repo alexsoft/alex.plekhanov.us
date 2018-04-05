@@ -1,27 +1,24 @@
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ route('home') }}">Alex.Plekhanov.us</a>
+        <div class="navbar-brand">
+            <a class="navbar-item" href="{{ route('home') }}">
+                Alex Plekhanov
+            </a>
+
+            <div class="navbar-burger burger" data-target="Navbar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
 
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-
-                <li class="{{ Request::is('blog*') ? 'active' : '' }}">
-                    <a href="{{ route('blog.index') }}">Blog</a>
-                </li>
-
-                <li class="{{ Request::is('cv*') ? 'active' : '' }}">
-                    <a href="{{ route('pages.cv') }}">CV</a>
-                </li>
-
-            </ul>
+        <div class="navbar-menu" id="Navbar">
+            <div class="navbar-start">
+                <a class="navbar-item" href="{{ route('projects.index') }}">💻&nbsp;Projects</a>
+                <a class="navbar-item" href="{{ route('blog.index') }}">🎲&nbsp;Blog</a>
+                {{--<a class="navbar-item" href="#">🌎&nbsp;Travel</a>--}}
+                <a class="navbar-item" href="{{ route('pages.cv') }}">CV</a>
+            </div>
         </div>
     </div>
 </nav>

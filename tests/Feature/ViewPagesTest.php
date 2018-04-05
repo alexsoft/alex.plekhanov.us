@@ -13,8 +13,8 @@ class ViewPagesTest extends TestCase
         $response = $this->get('/');
 
         $response->assertStatus(200);
-        $response->assertSee('Alexey Plekhanov');
-        $response->assertSee('I am a huge fan of PHP and Laravel! I use it constantly, and do my best to contribute and improve all of it :)');
+        $response->assertSee('Alex Plekhanov');
+        $response->assertSee('Being a huge fan of PHP and Laravel');
     }
 
     /** @test */
@@ -25,7 +25,6 @@ class ViewPagesTest extends TestCase
         $response->assertStatus(200);
         $response->assertSee('Services');
         $response->assertSee('Libraries');
-        $response->assertSee('I am PHP developer');
     }
 
     /** @test */
@@ -45,7 +44,7 @@ class ViewPagesTest extends TestCase
         $response = $this->get('/cv');
 
         $response->assertStatus(200);
-        $response->assertSee('Alexey Plekhanov');
+        $response->assertSee('Alex Plekhanov');
         $response->assertSee('PHP Developer');
         $response->assertSee('Currently');
         $response->assertSee('Previous experience');

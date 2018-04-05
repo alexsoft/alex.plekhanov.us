@@ -19,14 +19,8 @@
         <title>@yield('page_title', 'Alex.Plekhanov.us')</title>
         @section('css')
             <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-            <link href="{{ elixir('css/app.css') }}" rel="stylesheet">
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" rel="stylesheet">
         @show
-
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
 
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ asset('ico/touch144.png') }}">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('ico/touch114.png') }}">
@@ -47,32 +41,40 @@
 
         @include('_partials.nav')
 
-        <div class="container">
-            <div class="row">
-                @if(Route::is('pages.cv'))
-                    <div class="col-sm-12" itemscope itemtype="http://schema.org/Person">
-                @else
-                    <div class="col-sm-12">
-                @endif
-
-                    <div class="row">
-                        <div class="col-lg-8 col-md-10">
-                            @yield('content')
-                        </div>
-                        @unless(Route::is('home'))
-                            @include('_partials.aside')
-                        @endunless
-                    </div>
-                </div>
-            </div>
+        <div style="padding: 3rem 1.5rem;">
+            @yield('content')
         </div>
 
         @include('_partials.footer')
 
         @section('js')
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.min.js"></script>
-            <script>Turbolinks.start();</script>
-            <script src="{{ asset('js/all.js') }}" async></script>
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+
+                    // Get all "navbar-burger" elements
+                    var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+                    // Check if there are any navbar burgers
+                    if ($navbarBurgers.length > 0) {
+
+                        // Add a click event on each of them
+                        $navbarBurgers.forEach(function ($el) {
+                            $el.addEventListener('click', function () {
+
+                                // Get the target from the "data-target" attribute
+                                var target = $el.dataset.target;
+                                var $target = document.getElementById(target);
+
+                                // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+                                $el.classList.toggle('is-active');
+                                $target.classList.toggle('is-active');
+
+                            });
+                        });
+                    }
+
+                });
+            </script>
         @show
     </body>
 </html>
