@@ -26,18 +26,14 @@
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('ico/touch114.png') }}">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('ico/touch72.png') }}">
         <link rel="apple-touch-icon-precomposed" href="{{ asset('ico/touch57.png') }}">
-    </head>
-    <body class="{{ (Route::is('pages.cv')) ? 'cv' : '' }}">
 
-        <!-- Google Tag Manager -->
-        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NLMFDR"
+        <script src="{{ asset('/js/gtm.js') }}"></script>
+    </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLMFDR"
                           height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-NLMFDR');</script>
-        <!-- End Google Tag Manager -->
+        <!-- End Google Tag Manager (noscript) -->
 
         @include('_partials.nav')
 
@@ -48,33 +44,7 @@
         @include('_partials.footer')
 
         @section('js')
-            <script>
-                document.addEventListener('DOMContentLoaded', function () {
-
-                    // Get all "navbar-burger" elements
-                    var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-                    // Check if there are any navbar burgers
-                    if ($navbarBurgers.length > 0) {
-
-                        // Add a click event on each of them
-                        $navbarBurgers.forEach(function ($el) {
-                            $el.addEventListener('click', function () {
-
-                                // Get the target from the "data-target" attribute
-                                var target = $el.dataset.target;
-                                var $target = document.getElementById(target);
-
-                                // Toggle the class on both the "navbar-burger" and the "navbar-menu"
-                                $el.classList.toggle('is-active');
-                                $target.classList.toggle('is-active');
-
-                            });
-                        });
-                    }
-
-                });
-            </script>
+            <script src="{{ asset('/js/navbar.js') }}"></script>
         @show
     </body>
 </html>
