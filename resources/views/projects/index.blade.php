@@ -1,6 +1,6 @@
 @extends('_layouts.default')
 
-@section('page_title', 'Projects - Alex.Plekhanov.us')
+@section('page_title', 'Projects by Alex Plekhanov')
 
 @section('meta_description', 'Alex runs PHP deployment service Deploy Kit. Plus he has couple of open source projects on GitHub.')
 

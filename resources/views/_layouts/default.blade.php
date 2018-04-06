@@ -16,7 +16,7 @@
         <meta name="google-site-verification" content="dW-i1q_ReYQ2XTd7hwnMo7J-ER6A33yAScHyxw9Zqu4" />
         <meta name='yandex-verification' content='7fc8dd9f98075585' />
 
-        <title>@yield('page_title', 'Alex.Plekhanov.us')</title>
+        <title>@yield('page_title', 'Alex Plekhanov')</title>
         @section('css')
             {{--<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>--}}
             <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" rel="stylesheet">
