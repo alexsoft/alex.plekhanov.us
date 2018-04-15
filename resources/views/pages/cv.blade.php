@@ -67,7 +67,7 @@
 
                             <h4><strong>PHP Developer</strong></h4>
                             <p>Jun 2015 &mdash; Jul 2017</p>
-                            <p><i>Stickerpipe</i> &mdash; API for camera content and stickers in messengers/keyboards</p>
+                            <p><i>Stickerpipe (908.vc)</i> &mdash; API for camera content and stickers in messengers/keyboards</p>
 
                             <h4><strong>PHP Developer</strong></h4>
                             <p>Oct 2013 &mdash; May 2015</p>
