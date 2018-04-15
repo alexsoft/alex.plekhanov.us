@@ -23,8 +23,6 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-//        $schedule->command('alex:scan-posts')->daily();
-
         $schedule->command('sitemap:generate')->daily();
     }
 
