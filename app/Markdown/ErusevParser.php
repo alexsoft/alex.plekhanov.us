@@ -6,7 +6,11 @@ use Parsedown;
 
 class ErusevParser implements Parser
 {
-    public function parse($string)
+    /**
+     * @param string $string
+     * @return string
+     */
+    public function parse(string $string): string
     {
         return (new Parsedown())->parse($string);
     }
