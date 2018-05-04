@@ -42,7 +42,12 @@ task('php-fpm-restart', function () {
     run('sudo service php7.2-fpm reload');
 });
 
+task('sitemap:generate', function () {
+    run('cd {{ release_path }} && php artisan sitemap:generate');
+});
+
 before('deploy:symlink', 'alex:posts');
+before('deploy:symlink', 'sitemap:generate');
 
 after('deploy:failed', 'deploy:unlock');
 
