@@ -54,7 +54,7 @@ class GenerateSitemap extends Command
                     return $url;
                 }
 
-                if ($url->segment(1) === 'blog') {
+                if ($url->segment(1) === 'blog' && count($url->segments()) > 1) {
                     $url->setChangeFrequency('yearly');
 
                     if (count($url->segments()) === 1) {
