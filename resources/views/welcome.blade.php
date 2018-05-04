@@ -8,7 +8,7 @@
                 <div class="columns">
                     <div class="column is-one-third">
                         <figure class="image is-square">
-                            <img src="{{ asset('/img/alexey@2x.jpg') }}" alt="Alex Plekhanov">
+                            <img src="{{ asset('/img/alexey2@2x.jpg') }}" alt="Alex Plekhanov">
                         </figure>
                     </div>
                     <div class="column" style="line-height: 2em; font-size: 1.1em;">
