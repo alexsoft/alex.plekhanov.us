@@ -54,7 +54,7 @@ class GenerateSitemap extends Command
                     return $url;
                 }
 
-                if ($url->segment(1) === 'blog') {
+                if ($url->segment(1) === 'blog' && count($url->segments()) > 1) {
                     $url->setChangeFrequency('yearly');
 
                     if (count($url->segments()) === 1) {
@@ -85,7 +85,7 @@ class GenerateSitemap extends Command
             '/' => '2018-04-05',
             '/cv' => '2018-04-05',
             '/projects' => '2018-04-05',
-            '/blog' => '2018-04-05',
+            '/blog' => '2018-05-05',
         ];
 
         if (array_key_exists($path, $pathsToDates)) {

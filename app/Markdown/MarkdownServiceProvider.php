@@ -23,6 +23,6 @@ class MarkdownServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('Alex\\Markdown\\Parser', 'Alex\\Markdown\\ErusevParser');
+        $this->app->bind(Parser::class, ErusevParser::class);
     }
 }

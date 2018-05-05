@@ -4,5 +4,9 @@ namespace Alex\Markdown;
 
 interface Parser
 {
-    public function parse($string);
+    /**
+     * @param string $string
+     * @return string
+     */
+    public function parse(string $string): string;
 }
