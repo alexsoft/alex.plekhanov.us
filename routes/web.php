@@ -1,14 +1,8 @@
 <?php
 
-Route::get('/', [
-    'as'   => 'home',
-    'uses' => 'WelcomeController@index',
-]);
+Route::view('/', 'welcome')->name('home');
 
-Route::get('cv', [
-    'as'   => 'pages.cv',
-    'uses' => 'PagesController@cv',
-]);
+Route::view('/cv', 'pages.cv')->name('pages.cv');
 
 Route::group(['prefix' => 'blog'], function () {
     Route::get('/', [
