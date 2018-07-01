@@ -14,10 +14,10 @@
 
         <div class="navbar-menu" id="Navbar">
             <div class="navbar-start">
-                <a class="navbar-item {{ Route::is('projects*') ? 'is-active' : '' }}" href="{{ route('projects.index') }}">💻&nbsp;Projects</a>
-                <a class="navbar-item {{ Route::is('blog*') ? 'is-active' : '' }}" href="{{ route('blog.index') }}">🎲&nbsp;Blog</a>
-                <a class="navbar-item {{ Route::is('travel*') ? 'is-active' : '' }}" href="{{ route('travel.countries') }}">🌎&nbsp;Travel</a>
-                <a class="navbar-item {{ Route::is('cv*') ? 'is-active' : '' }}" href="{{ route('pages.cv') }}">CV</a>
+                <a class="navbar-item {{ request()->is('projects*') ? 'is-active' : '' }}" href="{{ route('projects.index') }}">💻&nbsp;Projects</a>
+                <a class="navbar-item {{ request()->is('blog*') ? 'is-active' : '' }}" href="{{ route('blog.index') }}">🎲&nbsp;Blog</a>
+                <a class="navbar-item {{ request()->is('travel*') ? 'is-active' : '' }}" href="{{ route('travel.countries') }}">🌎&nbsp;Travel</a>
+                <a class="navbar-item {{ request()->is('cv') ? 'is-active' : '' }}" href="{{ route('pages.cv') }}">CV</a>
             </div>
         </div>
     </div>
