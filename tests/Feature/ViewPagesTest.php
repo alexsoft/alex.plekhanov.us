@@ -3,7 +3,6 @@
 namespace Tests\Feature;
 
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class ViewPagesTest extends TestCase
 {
@@ -52,5 +51,20 @@ class ViewPagesTest extends TestCase
         $response->assertSee('Skills');
         $response->assertSee('Laravel');
         $response->assertSee('Hobbies');
+    }
+
+    /** @test */
+    public function anyone_can_see_countries_and_cities_page()
+    {
+        $response = $this->get('/travel/countries');
+
+        $response->assertStatus(200);
+
+        $countries = $this->app->make('countriesAndCities');
+
+        foreach ($countries as $country) {
+            $response->assertSee($country['name']);
+            $response->assertSee(implode(', ', $country['cities']));
+        }
     }
 }

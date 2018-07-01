@@ -21,5 +21,7 @@ Route::group(['prefix' => 'projects', 'as' => 'projects.'], function () {
 });
 
 Route::group(['prefix' => 'travel', 'as' => 'travel.'], function () {
-    Route::get('/', 'TravelController@index')->name('index');
+//    Route::get('/', 'TravelController@index')->name('index');
+
+    Route::get('/countries', 'TravelController@countries')->name('countries');
 });

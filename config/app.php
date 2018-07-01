@@ -156,6 +156,7 @@ return [
         Alex\Providers\EventServiceProvider::class,
         Alex\Providers\RouteServiceProvider::class,
         Alex\Markdown\MarkdownServiceProvider::class,
+        Alex\Providers\TripsServiceProvider::class,
 
         Collective\Html\HtmlServiceProvider::class,
         Laravel\Tinker\TinkerServiceProvider::class

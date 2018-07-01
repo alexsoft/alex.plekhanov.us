@@ -1,17 +1,17 @@
 <?php
 
-namespace Alex\Repositories;
+namespace Alex\Repositories\Travel;
 
 use Alex\Entities\Trip;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 
-class TripsRepository
+class DbTripsRepository implements ProvidesTrips
 {
     /**
-     * @return Collection
+     * @return Collection[Trip]
      */
-    public function getAllTrips()
+    public function getAllTrips(): Collection
     {
         $records = DB::table('trips')
             ->select('id', 'title', 'subtitle', 'slug', 'text', 'date')

@@ -4,19 +4,19 @@ namespace Alex\Services;
 
 use Alex\Entities\Trip;
 use Illuminate\Support\Collection;
-use Alex\Repositories\TripsRepository;
+use Alex\Repositories\Travel\ProvidesTrips;
 
 class TripsService
 {
     /**
-     * @var TripsRepository
+     * @var ProvidesTrips
      */
     protected $tripsRepository;
 
     /**
-     * @param TripsRepository $tripsRepository
+     * @param ProvidesTrips $tripsRepository
      */
-    public function __construct(TripsRepository $tripsRepository)
+    public function __construct(ProvidesTrips $tripsRepository)
     {
         $this->tripsRepository = $tripsRepository;
     }
@@ -24,11 +24,19 @@ class TripsService
     /**
      * @return Collection
      */
-    public function getAllTrips()
+    public function getTripsGroupedByYear()
     {
         return $this->tripsRepository->getAllTrips()
             ->groupBy(function (Trip $trip) {
                 return $trip->getDate()->year;
             });
+    }
+
+    /**
+     * @return Collection
+     */
+    public function getCountriesAndCitiesVisited(): Collection
+    {
+        return $this->tripsRepository->getCountriesAndCitiesVisited();
     }
 }
