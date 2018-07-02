@@ -8,10 +8,14 @@
 
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         @section('meta')
-            <meta name="description" content="@yield('meta_description', 'Alexey Plekhanov is a Web developer who is always in process of doing something great')">
-            <meta name="author" content="Alexey Plekhanov">
+            <meta name="description" content="@yield('meta_description', 'Alex Plekhanov is a Web developer who is always in process of doing something great')">
+            <meta name="author" content="Alex Plekhanov">
         @show
         <link rel="icon" href="{{ asset('ico/favicon.ico') }}">
+
+        <meta property="og:url" content="{{ request()->url() }}" />
+        <meta property="og:title" content="@yield('og_title')" />
+        <meta property="og:description" content="@yield('og_description')" />
 
         <meta name="google-site-verification" content="dW-i1q_ReYQ2XTd7hwnMo7J-ER6A33yAScHyxw9Zqu4" />
         <meta name='yandex-verification' content='7fc8dd9f98075585' />

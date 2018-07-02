@@ -2,7 +2,7 @@
 
 @section('page_title', 'CV - Alex Plekhanov')
 
-@section('meta_description', 'Alexey has more than 5 years of PHP development experience, works with Laravel & Vue.js.')
+@section('meta_description', 'Alex has more than 5 years of PHP development experience, works with Laravel & Vue.js.')
 
 @section('css')
     @parent

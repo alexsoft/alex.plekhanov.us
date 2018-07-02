@@ -2,7 +2,10 @@
 
 @section('page_title', 'Travel - Alex Plekhanov')
 
-@section('meta_description', 'Alexey loves travelling and has already been to ' . $countries->count() . ' countries 😎')
+@section('meta_description', 'Alex loves travelling and has already been to ' . $countries->count() . ' countries 😎')
+
+@section('og_title', 'Visited ' . $countries->count() . ' countries 😎')
+@section('og_description', 'Alex Plekhanov website')
 
 @section('css')
     @parent
