@@ -14,8 +14,8 @@
     <div class="container">
         <div class="columns">
             <div class="column">
-                    <h1 class="title accent is-1">Visited</h1>
-                    <h2 class="subtitle is-3">{{ $countries->count() }} countries</h2>
+                <h1 class="title accent is-1">Visited</h1>
+                <h2 class="subtitle is-3">{{ $countries->count() }} countries</h2>
             </div>
         </div>
 
