@@ -76,7 +76,7 @@ class TripsServiceProvider extends ServiceProvider
                 'name' => 'Ukraine',
                 'code' => 'UA',
                 'order' => 1,
-                'cities' => ['Dnipro', 'Kiev', 'Odessa', 'Lviv', 'Zaporozhye', 'Poltava', 'Uman', 'Simferopol', 'Sevastopol', 'Yalta', 'Partenit', 'Alushta', 'Balaclava']
+                'cities' => ['Dnipro', 'Kyiv', 'Odessa', 'Lviv', 'Zaporizhia', 'Poltava', 'Uman', 'Simferopol', 'Sevastopol', 'Yalta', 'Partenit', 'Alushta', 'Balaclava']
             ],
             [
                 'name' => 'Bulgaria',
