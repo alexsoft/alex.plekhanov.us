@@ -8,7 +8,7 @@
 
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         @section('meta')
-            <meta name="description" content="Alexey Plekhanov is a Web developer who is always in process of doing something great">
+            <meta name="description" content="@yield('meta_description', 'Alexey Plekhanov is a Web developer who is always in process of doing something great')">
             <meta name="author" content="Alexey Plekhanov">
         @show
         <link rel="icon" href="{{ asset('ico/favicon.ico') }}">

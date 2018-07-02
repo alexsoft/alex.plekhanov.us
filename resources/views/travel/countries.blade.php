@@ -2,7 +2,7 @@
 
 @section('page_title', 'Travel - Alex Plekhanov')
 
-@section('meta_description', 'Alexey loves travelling and has already been to ' . $countries->count() . ' countries')
+@section('meta_description', 'Alexey loves travelling and has already been to ' . $countries->count() . ' countries 😎')
 
 @section('css')
     @parent
