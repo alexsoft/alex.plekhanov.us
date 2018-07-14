@@ -16,9 +16,7 @@ class PostsController extends Controller
 
         $scannedFile = 'storage/app/posts.scanned';
 
-        if (!$this->files->exists($scannedFile)) {
-            abort(404);
-        }
+        abort_unless($this->files->exists($scannedFile), 404);
 
         $this->scanned = unserialize($this->files->get($scannedFile));
     }
