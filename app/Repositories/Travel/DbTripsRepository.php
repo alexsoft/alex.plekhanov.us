@@ -22,4 +22,9 @@ class DbTripsRepository implements ProvidesTrips
             return new Trip((array)$record);
         });
     }
+
+    public function getCountriesAndCitiesVisited(): Collection
+    {
+        return collect();
+    }
 }
