@@ -42,9 +42,6 @@
                         <p>
                             <i class="fab fa-fw fa-lg fa-github"></i> <a href="https://github.com/alexsoft" itemprop="sameAs">GitHub</a>
                         </p>
-                        <p>
-                            <i class="fab fa-fw fa-lg fa-facebook"></i> <a href="https://www.facebook.com/alexplekhanov" itemprop="sameAs">Facebook</a>
-                        </p>
                     </div>
 
                 </div>
