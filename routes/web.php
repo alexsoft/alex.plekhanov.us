@@ -7,12 +7,12 @@ Route::view('/cv', 'pages.cv')->name('pages.cv');
 Route::group(['prefix' => 'blog'], function () {
     Route::get('/', [
         'as'   => 'blog.index',
-        'uses' => 'BlogController@index',
+        'uses' => 'PostsController@index',
     ]);
 
     Route::get('{year}/{month}/{title}', [
         'as'   => 'blog.post',
-        'uses' => 'BlogController@post',
+        'uses' => 'PostsController@show',
     ]);
 });
 

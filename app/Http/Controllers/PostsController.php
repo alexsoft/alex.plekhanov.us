@@ -4,7 +4,7 @@ namespace Alex\Http\Controllers;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 
-class BlogController extends Controller
+class PostsController extends Controller
 {
     protected $files;
 
@@ -28,7 +28,7 @@ class BlogController extends Controller
         return view('blog.index')->withPosts($this->scanned);
     }
 
-    public function post($year, $month, $title)
+    public function show($year, $month, $title)
     {
         $key = $year.'/'.$month.'/'.$title;
 
