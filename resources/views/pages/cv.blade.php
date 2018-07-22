@@ -54,11 +54,7 @@
 
                             <h4><strong>PHP Developer</strong></h4>
                             <p>November 2017 - Present</p>
-                            <p><i>Undisclosed</i> &mdash; Projects, related to video streaming</p>
-
-                            <h4><strong>Owner</strong></h4>
-                            <p>October 2016 &mdash; Present</p>
-                            <p><a href="https://deploykit.co"><i>Deploy Kit</i></a> &mdash; Single click deployment for PHP applications</p>
+                            <p><i>Undisclosed</i> &mdash; Live Streaming and Broadcasting company</p>
 
                             <h2 class="accent">Previous experience</h2>
 
@@ -160,7 +156,5 @@
         </div>
 
     </div>
-
-
 
 @endsection
