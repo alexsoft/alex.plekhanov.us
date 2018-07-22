@@ -82,7 +82,7 @@ class GenerateSitemap extends Command
     private function getLastModifiedDateForPath(string $path): DateTime
     {
         $pathsToDates = [
-            '/' => '2018-04-05',
+            '/' => '2018-07-22',
             '/cv' => '2018-07-22',
             '/projects' => '2018-04-05',
             '/blog' => '2018-05-05',
