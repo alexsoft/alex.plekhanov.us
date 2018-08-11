@@ -86,6 +86,7 @@ class GenerateSitemap extends Command
             '/cv' => '2018-07-22',
             '/projects' => '2018-04-05',
             '/blog' => '2018-05-05',
+            '/travel/countries' => '2018-08-11',
         ];
 
         if (array_key_exists($path, $pathsToDates)) {
