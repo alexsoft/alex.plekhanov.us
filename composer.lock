@@ -1064,16 +1064,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.45",
+            "version": "1.0.46",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "a99f94e63b512d75f851b181afcdf0ee9ebef7e6"
+                "reference": "f3e0d925c18b92cf3ce84ea5cc58d62a1762a2b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a99f94e63b512d75f851b181afcdf0ee9ebef7e6",
-                "reference": "a99f94e63b512d75f851b181afcdf0ee9ebef7e6",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f3e0d925c18b92cf3ce84ea5cc58d62a1762a2b2",
+                "reference": "f3e0d925c18b92cf3ce84ea5cc58d62a1762a2b2",
                 "shasum": ""
             },
             "require": {
@@ -1085,7 +1085,7 @@
             "require-dev": {
                 "ext-fileinfo": "*",
                 "phpspec/phpspec": "^3.4",
-                "phpunit/phpunit": "^5.7"
+                "phpunit/phpunit": "^5.7.10"
             },
             "suggest": {
                 "ext-fileinfo": "Required for MimeType",
@@ -1144,7 +1144,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2018-05-07T08:44:23+00:00"
+            "time": "2018-08-22T07:45:22+00:00"
         },
         {
             "name": "league/glide",
@@ -1820,16 +1820,16 @@
         },
         {
             "name": "spatie/browsershot",
-            "version": "3.23.1",
+            "version": "3.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/browsershot.git",
-                "reference": "18502c8a4b8841fc203d5993144067e7abb4885d"
+                "reference": "77b1df521b56556a1f04dcebc01a36658d26402f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/browsershot/zipball/18502c8a4b8841fc203d5993144067e7abb4885d",
-                "reference": "18502c8a4b8841fc203d5993144067e7abb4885d",
+                "url": "https://api.github.com/repos/spatie/browsershot/zipball/77b1df521b56556a1f04dcebc01a36658d26402f",
+                "reference": "77b1df521b56556a1f04dcebc01a36658d26402f",
                 "shasum": ""
             },
             "require": {
@@ -1872,7 +1872,7 @@
                 "screenshot",
                 "webpage"
             ],
-            "time": "2018-07-12T21:55:12+00:00"
+            "time": "2018-08-05T20:01:30+00:00"
         },
         {
             "name": "spatie/crawler",
@@ -2036,16 +2036,16 @@
         },
         {
             "name": "spatie/laravel-sitemap",
-            "version": "5.2.1",
+            "version": "5.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-sitemap.git",
-                "reference": "ec3172f6ea74de5cac663f1ef1657706d470fe37"
+                "reference": "011dc17b6dffe7111b40535ee6b220a2d2352f6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-sitemap/zipball/ec3172f6ea74de5cac663f1ef1657706d470fe37",
-                "reference": "ec3172f6ea74de5cac663f1ef1657706d470fe37",
+                "url": "https://api.github.com/repos/spatie/laravel-sitemap/zipball/011dc17b6dffe7111b40535ee6b220a2d2352f6d",
+                "reference": "011dc17b6dffe7111b40535ee6b220a2d2352f6d",
                 "shasum": ""
             },
             "require": {
@@ -2092,7 +2092,7 @@
                 "laravel-sitemap",
                 "spatie"
             ],
-            "time": "2018-07-23T13:13:45+00:00"
+            "time": "2018-08-26T22:46:09+00:00"
         },
         {
             "name": "spatie/robots-txt",
@@ -3227,16 +3227,16 @@
         },
         {
             "name": "tightenco/collect",
-            "version": "v5.6.29",
+            "version": "v5.6.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tightenco/collect.git",
-                "reference": "64f281891ad887451b520ef77574b7a66f7d80e8"
+                "reference": "d7381736dca44ac17d0805a25191b094e5a22446"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tightenco/collect/zipball/64f281891ad887451b520ef77574b7a66f7d80e8",
-                "reference": "64f281891ad887451b520ef77574b7a66f7d80e8",
+                "url": "https://api.github.com/repos/tightenco/collect/zipball/d7381736dca44ac17d0805a25191b094e5a22446",
+                "reference": "d7381736dca44ac17d0805a25191b094e5a22446",
                 "shasum": ""
             },
             "require": {
@@ -3273,7 +3273,7 @@
                 "collection",
                 "laravel"
             ],
-            "time": "2018-07-26T22:33:08+00:00"
+            "time": "2018-08-09T16:56:26+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
