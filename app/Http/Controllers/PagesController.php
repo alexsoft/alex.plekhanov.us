@@ -8,6 +8,6 @@ class PagesController extends Controller
     {
         return response()
             ->view('pages.cv')
-            ->header('Link', '/img/alex.jpg; rel=preload; as=image');
+            ->header('Link', '</img/alex.jpg>; rel=preload; as=image');
     }
 }
