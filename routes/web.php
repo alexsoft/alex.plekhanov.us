@@ -2,7 +2,7 @@
 
 Route::view('/', 'welcome')->name('home');
 
-Route::view('/cv', 'pages.cv')->name('pages.cv');
+Route::get('/cv', 'PagesController@cv')->name('pages.cv');
 
 Route::group(['prefix' => 'blog'], function () {
     Route::get('/', [
