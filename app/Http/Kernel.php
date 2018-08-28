@@ -28,6 +28,7 @@ class Kernel extends HttpKernel
      */
     protected $middlewareGroups = [
         'web' => [
+            'http2push',
 //            \Alex\Http\Middleware\EncryptCookies::class,
 //            \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
 //            \Illuminate\Session\Middleware\StartSession::class,
@@ -58,5 +59,7 @@ class Kernel extends HttpKernel
         'can'        => \Illuminate\Auth\Middleware\Authorize::class,
         'guest'      => \Alex\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle'   => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+
+        'http2push'  => \Alex\Http\Middleware\Http2ServerPush::class,
     ];
 }

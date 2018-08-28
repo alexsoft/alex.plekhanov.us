@@ -3,25 +3,37 @@
 namespace Alex\Http\Middleware;
 
 use Closure;
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 
 class Http2ServerPush
 {
     /**
      * Handle an incoming request.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure  $next
+     * @param  Request  $request
+     * @param  Closure  $next
      * @return mixed
      */
     public function handle($request, Closure $next)
     {
+        /** @var Response $response */
         $response =  $next($request);
 
-        $images = ['/img/alexey@2x.jpg', '/img/php.png', '/img/laravel5.png', '/img/js.png', '/img/html5.png'];
+        $links = [
+            [
+                'url' => '/js/gtm.js',
+                'as' => 'script',
+            ],
+            [
+                'url' => '/js/navbar.js',
+                'as' => 'script',
+            ],
+        ];
 
-        //        Link: <https://example.com/other/styles.css>; rel=preload; as=style
-        foreach ($images as $image) {
-            $response->headers->set('Link', '<' . asset($image) . '>; rel=preload; as=image', false);
+//        Link: <https://example.com/other/styles.css>; rel=preload; as=style
+        foreach ($links as $link) {
+            $response->headers->set('Link', '<' . $link['url'] . '>; rel=preload; as=' . $link['as'], false);
         }
 
         return $response;
