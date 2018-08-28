@@ -6,6 +6,8 @@ class PagesController extends Controller
 {
     public function cv()
     {
-        return view('pages.cv');
+        return response()
+            ->view('pages.cv')
+            ->header('Link', '/img/alex.jpg; rel=preload; as=image');
     }
 }
