@@ -24,7 +24,7 @@
         @section('css')
             {{--<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>--}}
             <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css" rel="stylesheet">
-            <link rel="stylesheet" href="{{ asset('custom.css') }}">
+            <link rel="stylesheet" href="{{ asset('/css/custom2.css') }}">
         @show
 
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ asset('ico/touch144.png') }}">
