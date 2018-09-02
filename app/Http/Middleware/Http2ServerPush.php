@@ -29,6 +29,10 @@ class Http2ServerPush
                 'url' => '/js/navbar.js',
                 'as' => 'script',
             ],
+            [
+                'url' => '/css/custom2.css',
+                'as' => 'style',
+            ],
         ];
 
 //        Link: <https://example.com/other/styles.css>; rel=preload; as=style
