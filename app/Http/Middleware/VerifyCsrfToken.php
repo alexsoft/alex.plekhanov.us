@@ -1,22 +1,24 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace Alex\Http\Middleware;
 
-use Closure;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
 
 class VerifyCsrfToken extends BaseVerifier
 {
     /**
-     * Handle an incoming request.
+     * Indicates whether the XSRF-TOKEN cookie should be set on the response.
      *
-     * @param \Illuminate\Http\Request $request
-     * @param \Closure                 $next
-     *
-     * @return mixed
+     * @var bool
      */
-    public function handle($request, Closure $next)
-    {
-        return parent::handle($request, $next);
-    }
+    protected $addHttpCookie = true;
+
+    /**
+     * The URIs that should be excluded from CSRF verification.
+     *
+     * @var array
+     */
+    protected $except = [
+        //
+    ];
 }
