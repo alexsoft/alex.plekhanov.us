@@ -149,6 +149,11 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
+         * Package Service Providers...
+         */
+        Laravel\Tinker\TinkerServiceProvider::class,
+
+        /*
          * Application Service Providers...
          */
         Alex\Providers\AppServiceProvider::class,
@@ -157,9 +162,6 @@ return [
         Alex\Providers\RouteServiceProvider::class,
         Alex\Markdown\MarkdownServiceProvider::class,
         Alex\Providers\TripsServiceProvider::class,
-
-        Collective\Html\HtmlServiceProvider::class,
-        Laravel\Tinker\TinkerServiceProvider::class
     ],
 
     /*
