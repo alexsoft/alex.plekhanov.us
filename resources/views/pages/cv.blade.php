@@ -7,7 +7,7 @@
 @section('css')
     @parent
     <style>.content .accent{color: #b64900}</style>
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 @endsection
 
 @inject('countryFlags', '\Stidges\CountryFlags\CountryFlag')
@@ -36,7 +36,6 @@
                         <p itemscope itemtype="http://schema.org/PostalAddress">
                             Location: <span itemprop="addressCountry">Luxembourg</span>, <span itemprop="addressLocality">Schuttrange</span> {{ $countryFlags->get('LU') }}
                         </p>
-                        <p>Email: {!! Html::mailto('alex@plekhanov.us') !!}</p>
                     </div>
                     <div class="column">
                         <p>
