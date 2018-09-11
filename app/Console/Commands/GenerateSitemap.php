@@ -27,8 +27,6 @@ class GenerateSitemap extends Command
 
     /**
      * Execute the console command.
-     *
-     * @return mixed
      */
     public function handle()
     {
@@ -83,7 +81,7 @@ class GenerateSitemap extends Command
     {
         $pathsToDates = [
             '/' => '2018-07-22',
-            '/cv' => '2018-08-28',
+            '/cv' => '2018-09-11',
             '/projects' => '2018-04-05',
             '/blog' => '2018-05-05',
             '/travel/countries' => '2018-08-11',
