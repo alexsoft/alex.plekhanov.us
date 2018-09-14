@@ -83,14 +83,13 @@
                             <p>Lyceum of information technologies. Dnipropetrovsk.</p>
 
                             <h2 class="accent">Skills</h2>
-                            <p>I have quite a strong experience working with Laravel (4 and 5).</p>
+                            <p>I have strong experience working with Laravel.</p>
                             <p>I have experience working with:</p>
                             <ul>
-                                <li>Nginx + PHP-FPM</li>
+                                <li>nginx + PHP-FPM</li>
                                 <li>Apache</li>
                                 <li>Git</li>
-                                <li>Less (brief experience)</li>
-                                <li>Gulp (brief experience)</li>
+                                <li>Servers' provisioning</li>
                             </ul>
 
                             <div class="block">
