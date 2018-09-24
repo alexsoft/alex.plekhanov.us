@@ -4,7 +4,6 @@ namespace Alex\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Alex\Repositories\Travel\ProvidesTrips;
-use Alex\Repositories\Travel\DbTripsRepository;
 use Alex\Repositories\Travel\MemoryTripsRepository;
 
 class TripsServiceProvider extends ServiceProvider
@@ -76,7 +75,7 @@ class TripsServiceProvider extends ServiceProvider
                 'name' => 'Ukraine',
                 'code' => 'UA',
                 'order' => 1,
-                'cities' => ['Dnipro', 'Kyiv', 'Odessa', 'Lviv', 'Zaporizhia', 'Poltava', 'Uman', 'Simferopol', 'Sevastopol', 'Yalta', 'Partenit', 'Alushta', 'Balaclava']
+                'cities' => ['Dnipro', 'Kyiv', 'Odessa', 'Lviv', 'Zaporizhia', 'Poltava', 'Uman', 'Simferopol', 'Sevastopol', 'Yalta', 'Partenit', 'Alushta', 'Balaclava'],
             ],
             [
                 'name' => 'Bulgaria',
@@ -88,7 +87,7 @@ class TripsServiceProvider extends ServiceProvider
                 'name' => 'Russia',
                 'code' => 'RU',
                 'order' => 3,
-                'cities' => ['Moscow']
+                'cities' => ['Moscow'],
             ],
             [
                 'name' => 'Switzerland',

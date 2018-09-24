@@ -30,7 +30,7 @@ class PostsController extends Controller
     {
         $key = $year.'/'.$month.'/'.$title;
 
-        if (!array_key_exists($key, $this->scanned)) {
+        if (! array_key_exists($key, $this->scanned)) {
             abort(404);
         }
 

@@ -18,7 +18,7 @@ class Http2ServerPush
     public function handle($request, Closure $next)
     {
         /** @var Response $response */
-        $response =  $next($request);
+        $response = $next($request);
 
         $links = [
             [
@@ -37,7 +37,7 @@ class Http2ServerPush
 
 //        Link: <https://example.com/other/styles.css>; rel=preload; as=style
         foreach ($links as $link) {
-            $response->headers->set('Link', '<' . $link['url'] . '>; rel=preload; as=' . $link['as'], false);
+            $response->headers->set('Link', '<'.$link['url'].'>; rel=preload; as='.$link['as'], false);
         }
 
         return $response;

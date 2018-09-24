@@ -46,7 +46,7 @@ class Trip
      * @param string $title
      * @return $this
      */
-    public function setTitle(string $title): Trip
+    public function setTitle(string $title): self
     {
         $this->title = $title;
 
@@ -65,7 +65,7 @@ class Trip
      * @param string $subtitle
      * @return $this
      */
-    public function setSubtitle(string $subtitle): Trip
+    public function setSubtitle(string $subtitle): self
     {
         $this->subtitle = $subtitle;
 
@@ -84,7 +84,7 @@ class Trip
      * @param string $slug
      * @return $this
      */
-    public function setSlug(string $slug): Trip
+    public function setSlug(string $slug): self
     {
         $this->slug = $slug;
 
@@ -103,7 +103,7 @@ class Trip
      * @param string $text
      * @return $this
      */
-    public function setText(string $text): Trip
+    public function setText(string $text): self
     {
         $this->text = $text;
 
@@ -122,7 +122,7 @@ class Trip
      * @param string $date
      * @return $this
      */
-    public function setDate(string $date): Trip
+    public function setDate(string $date): self
     {
         $this->date = new Carbon($date);
 

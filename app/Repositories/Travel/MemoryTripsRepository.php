@@ -13,7 +13,7 @@ class MemoryTripsRepository implements ProvidesTrips
         return collect(app('trips'))
             ->sortByDesc('order')
             ->map(function ($record) {
-                return new Trip((array)$record);
+                return new Trip((array) $record);
             });
     }
 

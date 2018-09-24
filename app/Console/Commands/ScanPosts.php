@@ -5,7 +5,6 @@ namespace Alex\Console\Commands;
 use Kurenai\DocumentParser;
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Filesystem\Filesystem;
-use Symfony\Component\Console\Output\OutputInterface;
 
 class ScanPosts extends Command
 {
@@ -91,7 +90,7 @@ class ScanPosts extends Command
         $month = substr($fileName, 5, 2);
         $urlTitle = substr($fileName, 11, -3);
         $date = substr($fileName, 0, 10);
-        $key = $year . '/' . $month . '/' . $urlTitle;
+        $key = $year.'/'.$month.'/'.$urlTitle;
 
         return [$year, $month, $urlTitle, $key, $date];
     }

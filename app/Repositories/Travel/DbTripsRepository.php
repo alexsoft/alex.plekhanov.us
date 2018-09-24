@@ -19,7 +19,7 @@ class DbTripsRepository implements ProvidesTrips
             ->get();
 
         return collect($records)->map(function ($record) {
-            return new Trip((array)$record);
+            return new Trip((array) $record);
         });
     }
 
