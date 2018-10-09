@@ -14,8 +14,8 @@ class ProjectsController extends Controller
                     [
                         'url' => 'https://github.com/alexsoft/Laravel-Socialite-Bitbucket',
                         'title' => 'GitHub',
-                    ]
-                ]
+                    ],
+                ],
             ],
             [
                 'name' => 'Munin Beanstalk',
@@ -24,8 +24,8 @@ class ProjectsController extends Controller
                     [
                         'url' => 'https://github.com/alexsoft/munin-beanstalk',
                         'title' => 'GitHub',
-                    ]
-                ]
+                    ],
+                ],
             ],
             [
                 'name' => 'Laravel Notifications to Pushbullet',
@@ -34,8 +34,8 @@ class ProjectsController extends Controller
                     [
                         'url' => 'https://github.com/laravel-notification-channels/pushbullet',
                         'title' => 'GitHub',
-                    ]
-                ]
+                    ],
+                ],
             ],
         ];
 
