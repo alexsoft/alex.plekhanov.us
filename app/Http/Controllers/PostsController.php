@@ -28,7 +28,7 @@ class PostsController extends Controller
 
     public function show($year, $month, $title)
     {
-        $key = $year.'/'.$month.'/'.$title;
+        $key = $year . '/' . $month . '/' . $title;
 
         if (!array_key_exists($key, $this->scanned)) {
             abort(404);
