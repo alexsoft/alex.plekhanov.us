@@ -1,5 +1,4 @@
-<?php
-
+<?php declare(strict_types=1);
 namespace Alex\Providers;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;

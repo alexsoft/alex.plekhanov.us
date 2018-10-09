@@ -1,5 +1,4 @@
-<?php
-
+<?php declare(strict_types=1);
 return [
 
     /*
@@ -28,6 +27,6 @@ return [
     |
     */
 
-    'compiled' => realpath(storage_path().'/framework/views'),
+    'compiled' => realpath(storage_path() . '/framework/views'),
 
 ];

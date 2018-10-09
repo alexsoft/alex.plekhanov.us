@@ -1,5 +1,4 @@
-<?php
-
+<?php declare(strict_types=1);
 return [
 
     /*
@@ -46,7 +45,7 @@ return [
         'local' => [
             'driver' => 'local',
             'root' => base_path(),
-            'url' => env('APP_URL').'/storage',
+            'url' => env('APP_URL') . '/storage',
             'visibility' => 'public',
         ],
 

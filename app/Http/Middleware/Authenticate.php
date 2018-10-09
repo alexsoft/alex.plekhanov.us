@@ -1,5 +1,4 @@
-<?php
-
+<?php declare(strict_types=1);
 namespace Alex\Http\Middleware;
 
 use Illuminate\Auth\Middleware\Authenticate as Middleware;

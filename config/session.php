@@ -1,5 +1,4 @@
-<?php
-
+<?php declare(strict_types=1);
 return [
 
     /*
@@ -57,7 +56,7 @@ return [
     |
     */
 
-    'files' => storage_path().'/framework/sessions',
+    'files' => storage_path() . '/framework/sessions',
 
     /*
     |--------------------------------------------------------------------------

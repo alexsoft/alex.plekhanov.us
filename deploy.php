@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 namespace Deployer;
 
 require 'recipe/laravel.php';
@@ -23,7 +23,7 @@ set('keep_releases', 2);
 
 set('clear_paths', [
     '.git',
-    'tests'
+    'tests',
 ]);
 
 // Hosts

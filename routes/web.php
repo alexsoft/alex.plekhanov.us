@@ -1,5 +1,4 @@
-<?php
-
+<?php declare(strict_types=1);
 Route::view('/', 'welcome')->name('home');
 
 Route::get('/cv', 'PagesController@cv')->name('pages.cv');
