@@ -22,7 +22,6 @@ class ViewPagesTest extends TestCase
         $response = $this->get('/projects');
 
         $response->assertStatus(200);
-        $response->assertSee('Services');
         $response->assertSee('Libraries');
     }
 
