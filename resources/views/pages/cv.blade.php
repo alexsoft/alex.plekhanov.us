@@ -93,40 +93,12 @@
                                 <li>Gulp (brief experience)</li>
                             </ul>
 
-                            <div class="block">
-                                <p class="title is-5"><strong>PHP</strong></p>
-                                <p class="subtitle is-6">6 years of experience</p>
-                            </div>
-
-                            <div class="block">
-                                <p class="title is-5"><strong>Laravel</strong></p>
-                                <p class="subtitle is-6">5 years of experience</p>
-                            </div>
-
-                            <div class="block">
-                                <p class="title is-5"><strong>MySQL</strong></p>
-                                <p class="subtitle is-6">6 years of experience</p>
-                            </div>
-
-                            <div class="block">
-                                <p class="title is-5"><strong>HTML + HTML5</strong></p>
-                                <p class="subtitle is-6">6 years of experience</p>
-                            </div>
-
-                            <div class="block">
-                                <p class="title is-5"><strong>CSS</strong></p>
-                                <p class="subtitle is-6">6 years of experience</p>
-                            </div>
-
-                            <div class="block">
-                                <p class="title is-5"><strong>Javascript</strong></p>
-                                <p class="subtitle is-6">6 years of experience</p>
-                            </div>
-
-                            <div class="block">
-                                <p class="title is-5"><strong>Vue.js</strong></p>
-                                <p class="subtitle is-6">3 years of experience</p>
-                            </div>
+                            @foreach($skills as $skill)
+                                <div class="block">
+                                    <p class="title is-5"><strong>{{ $skill->name }}</strong></p>
+                                    <p class="subtitle is-6">{{ $skill->yearsOfExperience . str_plural('year', $skill->yearsOfExperience) }} of experience</p>
+                                </div>
+                            @endforeach
 
                             <div class="block">
                                 <p class="title is-5"><strong>English language</strong></p>

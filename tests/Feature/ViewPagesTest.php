@@ -48,7 +48,15 @@ class ViewPagesTest extends TestCase
         $response->assertSee('Previous experience');
         $response->assertSee('Education');
         $response->assertSee('Skills');
+
+        $response->assertSee('PHP');
         $response->assertSee('Laravel');
+        $response->assertSee('MySQL');
+        $response->assertSee('HTML + HTML5');
+        $response->assertSee('CSS');
+        $response->assertSee('Javascript');
+        $response->assertSee('Vue.js');
+
         $response->assertSee('Hobbies');
     }
 
