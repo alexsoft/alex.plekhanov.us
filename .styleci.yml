@@ -1,7 +1,7 @@
 preset: psr-2
 
 enabled:
-- concat_with_spaces
-- length_ordered_imports
-- no_unused_imports
-- trailing_comma_in_multiline_array
+  - concat_with_spaces
+  - length_ordered_imports
+  - no_unused_imports
+  - trailing_comma_in_multiline_array
