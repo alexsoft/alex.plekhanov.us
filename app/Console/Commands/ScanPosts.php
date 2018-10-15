@@ -5,7 +5,6 @@ namespace Alex\Console\Commands;
 use Kurenai\DocumentParser;
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Filesystem\Filesystem;
-use Symfony\Component\Console\Output\OutputInterface;
 
 class ScanPosts extends Command
 {
@@ -57,19 +56,19 @@ class ScanPosts extends Command
         $posts = $this->file->files('resources/posts');
 
         if ($this->getOutput()->isVerbose()) {
-            $this->info('We have such posts files: '.json_encode($posts));
+            $this->info('We have such posts files: ' . json_encode($posts));
         }
 
         $postsInfo = $this->processPostsFiles($posts);
 
         if ($this->getOutput()->isVerbose()) {
-            $this->info('We have such posts info: '.json_encode($postsInfo));
+            $this->info('We have such posts info: ' . json_encode($postsInfo));
         }
 
         $reversedPostsInfo = array_reverse($postsInfo);
 
         if ($this->getOutput()->isVerbose()) {
-            $this->info('We have such reversed posts info: '.json_encode($reversedPostsInfo));
+            $this->info('We have such reversed posts info: ' . json_encode($reversedPostsInfo));
         }
 
         $this->file->put($this->scannedPostsPath, serialize($reversedPostsInfo));
