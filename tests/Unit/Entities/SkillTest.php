@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Tests\Unit\Entities;
 
-use Alex\Entities\Skill;
 use Carbon\Carbon;
 use Tests\TestCase;
+use Alex\Entities\Skill;
 
 class SkillTest extends TestCase
 {
