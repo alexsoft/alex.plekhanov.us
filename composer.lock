@@ -1821,16 +1821,16 @@
         },
         {
             "name": "spatie/browsershot",
-            "version": "3.25.1",
+            "version": "3.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/browsershot.git",
-                "reference": "a2f501a5ad2dc577beee749d4b8605d3655d4b63"
+                "reference": "42dd2120577d9a4c6937773d7a233fffe72a06c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/browsershot/zipball/a2f501a5ad2dc577beee749d4b8605d3655d4b63",
-                "reference": "a2f501a5ad2dc577beee749d4b8605d3655d4b63",
+                "url": "https://api.github.com/repos/spatie/browsershot/zipball/42dd2120577d9a4c6937773d7a233fffe72a06c7",
+                "reference": "42dd2120577d9a4c6937773d7a233fffe72a06c7",
                 "shasum": ""
             },
             "require": {
@@ -1873,20 +1873,20 @@
                 "screenshot",
                 "webpage"
             ],
-            "time": "2018-10-08T09:13:01+00:00"
+            "time": "2018-10-18T17:24:07+00:00"
         },
         {
             "name": "spatie/crawler",
-            "version": "4.1.7",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/crawler.git",
-                "reference": "a9fddcbd9deb3cc8a319426f32ee490d6db0c4d3"
+                "reference": "b16d4b2ddfd59ec395c878212ab80e96d4ba8d38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/crawler/zipball/a9fddcbd9deb3cc8a319426f32ee490d6db0c4d3",
-                "reference": "a9fddcbd9deb3cc8a319426f32ee490d6db0c4d3",
+                "url": "https://api.github.com/repos/spatie/crawler/zipball/b16d4b2ddfd59ec395c878212ab80e96d4ba8d38",
+                "reference": "b16d4b2ddfd59ec395c878212ab80e96d4ba8d38",
                 "shasum": ""
             },
             "require": {
@@ -1932,7 +1932,7 @@
                 "spatie",
                 "website"
             ],
-            "time": "2018-07-27T11:22:55+00:00"
+            "time": "2018-10-29T10:09:35+00:00"
         },
         {
             "name": "spatie/image",
@@ -2037,24 +2037,23 @@
         },
         {
             "name": "spatie/laravel-sitemap",
-            "version": "5.2.4",
+            "version": "5.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-sitemap.git",
-                "reference": "7ba7c366477c810d6b56f637f6412f1b2d1b0f9f"
+                "reference": "0f2d9a6a5f1dbc6f15500d3ddd2e31b25b8cb08a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-sitemap/zipball/7ba7c366477c810d6b56f637f6412f1b2d1b0f9f",
-                "reference": "7ba7c366477c810d6b56f637f6412f1b2d1b0f9f",
+                "url": "https://api.github.com/repos/spatie/laravel-sitemap/zipball/0f2d9a6a5f1dbc6f15500d3ddd2e31b25b8cb08a",
+                "reference": "0f2d9a6a5f1dbc6f15500d3ddd2e31b25b8cb08a",
                 "shasum": ""
             },
             "require": {
                 "illuminate/support": "~5.5.0|~5.6.0|~5.7.0",
                 "nesbot/carbon": "^1.21",
                 "php": "^7.1",
-                "spatie/crawler": "^4.1.0",
-                "spatie/temporary-directory": "^1.1"
+                "spatie/crawler": "^4.1.0"
             },
             "require-dev": {
                 "orchestra/testbench": "~3.5.0|~3.6.0|~3.7.0",
@@ -2093,7 +2092,7 @@
                 "laravel-sitemap",
                 "spatie"
             ],
-            "time": "2018-09-17T12:10:32+00:00"
+            "time": "2018-10-17T16:44:29+00:00"
         },
         {
             "name": "spatie/robots-txt",
@@ -2786,7 +2785,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.9.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -2844,16 +2843,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.9.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8"
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/d0cd638f4634c16d8df4508e847f14e9e43168b8",
-                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/c79c051f5b3a46be09205c73b80b346e4153e494",
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494",
                 "shasum": ""
             },
             "require": {
@@ -2899,20 +2898,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2018-09-21T13:07:52+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.9.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "95c50420b0baed23852452a7f0c7b527303ed5ae"
+                "reference": "9050816e2ca34a8e916c3a0ae8b9c2fccf68b631"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/95c50420b0baed23852452a7f0c7b527303ed5ae",
-                "reference": "95c50420b0baed23852452a7f0c7b527303ed5ae",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/9050816e2ca34a8e916c3a0ae8b9c2fccf68b631",
+                "reference": "9050816e2ca34a8e916c3a0ae8b9c2fccf68b631",
                 "shasum": ""
             },
             "require": {
@@ -2954,7 +2953,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2018-09-21T13:07:52+00:00"
         },
         {
             "name": "symfony/process",
@@ -3228,16 +3227,16 @@
         },
         {
             "name": "tightenco/collect",
-            "version": "v5.7.9",
+            "version": "v5.7.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tightenco/collect.git",
-                "reference": "67b8d4a20ce42b32b5f50a141bb0b1ec45aedb53"
+                "reference": "0d89929f10a495ebafc15fb6bff5581d10c38abb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tightenco/collect/zipball/67b8d4a20ce42b32b5f50a141bb0b1ec45aedb53",
-                "reference": "67b8d4a20ce42b32b5f50a141bb0b1ec45aedb53",
+                "url": "https://api.github.com/repos/tightenco/collect/zipball/0d89929f10a495ebafc15fb6bff5581d10c38abb",
+                "reference": "0d89929f10a495ebafc15fb6bff5581d10c38abb",
                 "shasum": ""
             },
             "require": {
@@ -3274,7 +3273,7 @@
                 "collection",
                 "laravel"
             ],
-            "time": "2018-10-09T17:51:58+00:00"
+            "time": "2018-10-30T21:09:13+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
