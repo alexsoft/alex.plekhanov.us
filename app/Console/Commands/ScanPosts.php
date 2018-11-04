@@ -2,9 +2,9 @@
 
 namespace Alex\Console\Commands;
 
-use Kurenai\DocumentParser;
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Filesystem\Filesystem;
+use Kurenai\Parser;
 
 class ScanPosts extends Command
 {
@@ -30,16 +30,16 @@ class ScanPosts extends Command
     protected $file;
 
     /**
-     * @var DocumentParser
+     * @var Parser
      */
     protected $parser;
 
     /**
      * Create a new command instance.
      * @param Filesystem $file
-     * @param DocumentParser $parser
+     * @param Parser $parser
      */
-    public function __construct(Filesystem $file, DocumentParser $parser)
+    public function __construct(Filesystem $file, Parser $parser)
     {
         parent::__construct();
 
@@ -112,7 +112,7 @@ class ScanPosts extends Command
             $document = $this->parser->parse($this->file->get($post));
 
             $postsInfo[$key] = [
-                'text'  => $document->getHtmlContent(),
+                'text'  => $document->getContent(),
                 'date'  => $date,
                 'title' => $document->get('title'),
                 'file'  => $post,

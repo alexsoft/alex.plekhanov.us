@@ -1,13 +1,14 @@
 @extends('_layouts.default')
 
-@push('meta')
-    <meta property="og:title" content="«{!! $title !!}» by Alex Plekhanov" />
-    <meta property="og:url" content="{{ url()->current() }}" />
+@section('meta')
+    @parent
     <meta property="og:type" content="article" />
     <meta property="article:author" content="https://www.facebook.com/alex.plekhanov" />
     <meta property="og:image" content="{{ asset('img/alexey@2x.jpg') }}" />
-    <meta property="og:description" content="{!! str_limit(strip_tags($text), 200) !!}" />
-@endpush
+@endsection
+
+@section('og_title', $title . ' by Alex Plekhanov')
+@section('og_description', str_limit(strip_tags($text), 140))
 
 @section('page_title', '«' .  $title . '» by Alex Plekhanov')
 
