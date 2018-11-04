@@ -2,11 +2,11 @@
 
 namespace Alex\Markdown;
 
-use Illuminate\Support\ServiceProvider;
 use Kurenai\Contracts\ContentParser;
 use Kurenai\Contracts\MetadataParser;
-use Kurenai\Parsers\Content\ParsedownParser;
+use Illuminate\Support\ServiceProvider;
 use Kurenai\Parsers\Metadata\YamlParser;
+use Kurenai\Parsers\Content\ParsedownParser;
 
 class MarkdownServiceProvider extends ServiceProvider
 {

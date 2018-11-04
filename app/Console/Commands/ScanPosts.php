@@ -2,9 +2,9 @@
 
 namespace Alex\Console\Commands;
 
+use Kurenai\Parser;
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Filesystem\Filesystem;
-use Kurenai\Parser;
 
 class ScanPosts extends Command
 {
