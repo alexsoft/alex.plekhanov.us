@@ -4,43 +4,55 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "996847559c45339dc3954f8b23d0763c",
+    "content-hash": "bb07f1c36ae5f6dd5d8b37b16eaec94e",
     "packages": [
         {
             "name": "daylerees/kurenai",
-            "version": "1.1.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/daylerees/kurenai.git",
-                "reference": "581f64394874df527c2dabf80b8b0890a2a39584"
+                "reference": "1f8b42709666ae1d6735a970627a76fa63ed0d27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/daylerees/kurenai/zipball/581f64394874df527c2dabf80b8b0890a2a39584",
-                "reference": "581f64394874df527c2dabf80b8b0890a2a39584",
+                "url": "https://api.github.com/repos/daylerees/kurenai/zipball/1f8b42709666ae1d6735a970627a76fa63ed0d27",
+                "reference": "1f8b42709666ae1d6735a970627a76fa63ed0d27",
                 "shasum": ""
             },
             "require": {
-                "erusev/parsedown-extra": "0.2.*"
+                "illuminate/support": "^5.2",
+                "php": ">=5.6.5"
             },
             "require-dev": {
-                "dflydev/markdown": "1.0.*",
-                "phpunit/phpunit": "4.*"
+                "erusev/parsedown": "^1.6",
+                "jakub-onderka/php-parallel-lint": "^0.9.2",
+                "league/commonmark": "^0.17",
+                "michelf/php-markdown": "^1.6",
+                "netcarver/textile": "^3.5",
+                "phing/phing": "^2.13",
+                "phpunit/phpunit": ">=4.8",
+                "squizlabs/php_codesniffer": "^2.5",
+                "symfony/yaml": "^3.0"
             },
             "suggest": {
-                "dflydev/markdown": "Parsing markdown using dflydev/markdown"
+                "erusev/parsedown": "Allow for Parsedown markdown parsing.",
+                "league/commonmarl": "Allow for CommonMark markdown parsing.",
+                "michelf/php-markdown": "Allow markdown and markdown extra content parsing.",
+                "netcarver/textile": "Allow for Textile parsing.",
+                "symfony/yaml": "Allow for YAML metadata parsing."
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Kurenai": "src/"
+                "psr-4": {
+                    "Kurenai\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "description": "Markdown document parser with metadata.",
+            "description": "Multi document parser with metadata support.",
             "keywords": [
                 "daylerees",
                 "document",
@@ -48,7 +60,7 @@
                 "markdown",
                 "metadata"
             ],
-            "time": "2014-11-07T00:30:07+00:00"
+            "time": "2018-07-18T07:52:04+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -355,50 +367,6 @@
                 "parser"
             ],
             "time": "2018-03-08T01:11:30+00:00"
-        },
-        {
-            "name": "erusev/parsedown-extra",
-            "version": "0.2.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/erusev/parsedown-extra.git",
-                "reference": "77f604b65b08550f229c2e79c0427c84c0c0979e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/77f604b65b08550f229c2e79c0427c84c0c0979e",
-                "reference": "77f604b65b08550f229c2e79c0427c84c0c0979e",
-                "shasum": ""
-            },
-            "require": {
-                "erusev/parsedown": "~1.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "ParsedownExtra": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Emanuil Rusev",
-                    "email": "hello@erusev.com",
-                    "homepage": "http://erusev.com"
-                }
-            ],
-            "description": "An extension of Parsedown that adds support for Markdown Extra.",
-            "homepage": "https://github.com/erusev/parsedown-extra",
-            "keywords": [
-                "markdown",
-                "markdown extra",
-                "parsedown",
-                "parser"
-            ],
-            "time": "2014-11-20T20:21:03+00:00"
         },
         {
             "name": "fideloper/proxy",

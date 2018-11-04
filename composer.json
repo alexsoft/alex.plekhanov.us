@@ -6,7 +6,7 @@
     "type": "project",
     "require": {
         "php": "^7.1.3",
-        "daylerees/kurenai": "^1.1",
+        "daylerees/kurenai": "^2.1",
         "erusev/parsedown": "^1.5",
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "^6.2",
