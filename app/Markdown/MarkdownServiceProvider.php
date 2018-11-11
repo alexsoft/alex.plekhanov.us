@@ -10,6 +10,11 @@ use Kurenai\Parsers\Content\ParsedownParser;
 
 class MarkdownServiceProvider extends ServiceProvider
 {
+    public $singletons = [
+        ContentParser::class => ParsedownParser::class,
+        MetadataParser::class => YamlParser::class,
+    ];
+
     /**
      * Register the application services.
      *
@@ -18,8 +23,5 @@ class MarkdownServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(Parser::class, ErusevParser::class);
-
-        $this->app->singleton(ContentParser::class, ParsedownParser::class);
-        $this->app->singleton(MetadataParser::class, YamlParser::class);
     }
 }
