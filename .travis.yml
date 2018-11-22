@@ -20,3 +20,10 @@ install:
   - php artisan alex:scan-posts
 
 script: vendor/bin/phpunit
+
+addons:
+  sonarcloud:
+    organization: "alexsoft-github"
+script:
+  # other script steps might be done before running the actual analysis
+  - sonar-scanner
