@@ -1,5 +1,0 @@
-suites:
-    main:
-        namespace: Alex
-        psr4_prefix: Alex
-        src_path: app
