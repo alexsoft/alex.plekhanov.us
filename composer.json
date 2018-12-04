@@ -6,6 +6,7 @@
     "type": "project",
     "require": {
         "php": "^7.1.3",
+        "bugsnag/bugsnag-laravel": "^2.0",
         "daylerees/kurenai": "^2.1",
         "erusev/parsedown": "^1.5",
         "fideloper/proxy": "^4.0",
