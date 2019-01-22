@@ -2,9 +2,9 @@
 
 namespace Alex\Providers;
 
-use Illuminate\Support\ServiceProvider;
-use Alex\Repositories\Travel\ProvidesTrips;
 use Alex\Repositories\Travel\MemoryTripsRepository;
+use Alex\Repositories\Travel\ProvidesTrips;
+use Illuminate\Support\ServiceProvider;
 
 class TripsServiceProvider extends ServiceProvider
 {

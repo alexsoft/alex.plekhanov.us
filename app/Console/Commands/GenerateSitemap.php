@@ -3,9 +3,9 @@
 namespace Alex\Console\Commands;
 
 use DateTime;
-use Spatie\Sitemap\Tags\Url;
 use Illuminate\Console\Command;
 use Spatie\Sitemap\SitemapGenerator;
+use Spatie\Sitemap\Tags\Url;
 
 class GenerateSitemap extends Command
 {

@@ -2,8 +2,8 @@
 
 namespace Alex\Repositories\Travel;
 
-use Alex\Entities\Trip;
 use Alex\Entities\Country;
+use Alex\Entities\Trip;
 use Illuminate\Support\Collection;
 
 class MemoryTripsRepository implements ProvidesTrips

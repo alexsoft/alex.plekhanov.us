@@ -2,8 +2,8 @@
 
 namespace Alex\Entities;
 
-use Carbon\Carbon;
 use Alex\Markdown\Parser;
+use Carbon\Carbon;
 
 class Trip
 {
