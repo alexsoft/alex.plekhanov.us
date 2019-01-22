@@ -3,8 +3,8 @@
 namespace Alex\Services;
 
 use Alex\Entities\Trip;
-use Illuminate\Support\Collection;
 use Alex\Repositories\Travel\ProvidesTrips;
+use Illuminate\Support\Collection;
 
 class TripsService
 {
