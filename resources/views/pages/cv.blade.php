@@ -87,7 +87,6 @@
                             <p>I have experience working with:</p>
                             <ul>
                                 <li>nginx + PHP-FPM</li>
-                                <li>Apache</li>
                                 <li>Git</li>
                                 <li>Servers' provisioning</li>
                             </ul>
