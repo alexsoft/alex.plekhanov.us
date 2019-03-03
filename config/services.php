@@ -23,6 +23,10 @@ return [
         'secret' => '',
     ],
 
+    'postmark' => [
+        'token' => env('POSTMARK_TOKEN'),
+    ],
+
     'ses' => [
         'key'    => '',
         'secret' => '',
