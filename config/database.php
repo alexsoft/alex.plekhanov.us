@@ -99,13 +99,19 @@ return [
 
     'redis' => [
 
-        'client' => 'predis',
+        'client' => env('REDIS_CLIENT', 'predis'),
+
+        'options' => [
+            'cluster' => env('REDIS_CLUSTER', 'predis'),
+        ],
 
         'default' => [
             'host'     => '127.0.0.1',
             'port'     => 6379,
             'database' => 0,
         ],
+
+
 
     ],
 
