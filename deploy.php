@@ -39,7 +39,7 @@ task('alex:posts', function () {
 });
 
 task('php-fpm-restart', function () {
-    run('sudo service php7.2-fpm reload');
+    run('sudo service php7.3-fpm reload');
 });
 
 task('sitemap:generate', function () {
