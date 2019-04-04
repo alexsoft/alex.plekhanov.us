@@ -165,7 +165,7 @@ class TripsServiceProvider extends ServiceProvider
                 'name' => 'Germany',
                 'code' => 'DE',
                 'order' => 16,
-                'cities' => ['Berlin', 'Dresden', 'Trier'],
+                'cities' => ['Berlin', 'Dresden', 'Trier', 'Frankfurt'],
             ],
             [
                 'name' => 'Montenegro',
