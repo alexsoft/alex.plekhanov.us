@@ -7,5 +7,5 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === '48e3236262b34d30969dc
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 
-composer.phar install -o
+php composer.phar install -o
 ./vendor/bin/phpunit
