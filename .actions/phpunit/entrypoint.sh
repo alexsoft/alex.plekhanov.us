@@ -1,3 +1,5 @@
 #!/bin/sh -l
 
-./vendor/bin/phpunit
+ls -la
+
+#./vendor/bin/phpunit
