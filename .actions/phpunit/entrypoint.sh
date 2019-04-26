@@ -2,5 +2,5 @@
 
 ls -la
 
-composer install -o
+composer.phar install -o
 ./vendor/bin/phpunit
