@@ -2,4 +2,5 @@
 
 ls -la
 
-#./vendor/bin/phpunit
+composer install -o
+./vendor/bin/phpunit
