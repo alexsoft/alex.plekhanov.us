@@ -117,7 +117,7 @@ class TripsServiceProvider extends ServiceProvider
                 'name' => 'Belgium',
                 'code' => 'BE',
                 'order' => 8,
-                'cities' => ['Brussels', 'Bruges'],
+                'cities' => ['Brussels', 'Bruges', 'Ghent'],
             ],
             [
                 'name' => 'Netherlands',
