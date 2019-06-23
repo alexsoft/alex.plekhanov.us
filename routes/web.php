@@ -2,8 +2,8 @@
 
 use Alex\Http\Controllers\PagesController;
 use Alex\Http\Controllers\PostsController;
-use Alex\Http\Controllers\TravelController;
 use Alex\Http\Controllers\ProjectsController;
+use Alex\Http\Controllers\TravelController;
 
 Route::view('/', 'welcome')->name('home');
 
