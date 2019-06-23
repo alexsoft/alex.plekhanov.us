@@ -1,4 +1,4 @@
-[Alex.Plekhanov.us](http://alex.plekhanov.us)
+[Alex.Plekhanov](https://alex.plekhanov.dev)
 
 [![Build Status](https://travis-ci.org/alexsoft/alex.plekhanov.us.svg?branch=master)](https://travis-ci.org/alexsoft/alex.plekhanov.us)
 [![StyleCI](https://styleci.io/repos/36970198/shield)](https://styleci.io/repos/36970198)

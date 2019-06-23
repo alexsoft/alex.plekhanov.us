@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://alex.plekhanov.us'),
+    'url' => env('APP_URL', 'https://alex.plekhanov.dev '),
 
     /*
     |--------------------------------------------------------------------------

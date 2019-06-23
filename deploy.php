@@ -4,7 +4,7 @@ namespace Deployer;
 require 'recipe/laravel.php';
 
 // Project name
-set('application', 'Alex.Plekhanov.Us');
+set('application', 'Alex.Plekhanov');
 
 // Project repository
 set('repository', 'git@github.com:alexsoft/alex.plekhanov.us.git');
