@@ -56,3 +56,5 @@ after('artisan:config:cache', 'artisan:route:cache');
 after('cleanup', 'deploy:clear_paths');
 
 after('deploy:symlink', 'php-fpm-restart');
+
+after('rollback', 'php-fpm-restart');
