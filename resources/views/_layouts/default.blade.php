@@ -11,7 +11,6 @@
             <meta name="description" content="@yield('meta_description', 'Alex Plekhanov is a Web developer who is always in process of doing something great')">
             <meta name="author" content="Alex Plekhanov">
         @show
-        <link rel="icon" href="{{ asset('ico/favicon.ico') }}">
 
         <meta property="og:url" content="{{ request()->url() }}" />
         <meta property="og:title" content="@yield('og_title')" />
@@ -26,10 +25,13 @@
             <link rel="stylesheet" href="{{ asset('/css/custom2.css') }}">
         @show
 
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ asset('ico/touch144.png') }}">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('ico/touch114.png') }}">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('ico/touch72.png') }}">
-        <link rel="apple-touch-icon-precomposed" href="{{ asset('ico/touch57.png') }}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon-16x16.png') }}">
+        <link rel="manifest" href="{{ asset('site.webmanifest') }}">
+        <link rel="mask-icon" href="{{ asset('safari-pinned-tab.svg') }}" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#363636">
+        <meta name="theme-color" content="#363636">
 
         <script src="{{ asset('/js/gtm.js') }}"></script>
     </head>
