@@ -3,16 +3,16 @@
 namespace Alex\Markdown;
 
 use Illuminate\Support\ServiceProvider;
-use Kurenai\Contracts\ContentParser;
-use Kurenai\Contracts\MetadataParser;
-use Kurenai\Parsers\Content\ParsedownParser;
-use Kurenai\Parsers\Metadata\YamlParser;
+use P7v\Mrk\Parsers\Content\ContentParser;
+use P7v\Mrk\Parsers\Content\ParsedownParser;
+use P7v\Mrk\Parsers\Meta\IniParser;
+use P7v\Mrk\Parsers\Meta\MetaParser;
 
 class MarkdownServiceProvider extends ServiceProvider
 {
     public $singletons = [
         ContentParser::class => ParsedownParser::class,
-        MetadataParser::class => YamlParser::class,
+        MetaParser::class => IniParser::class,
     ];
 
     /**

@@ -8,7 +8,7 @@
 @endsection
 
 @section('og_title', $title . ' by Alex Plekhanov')
-@section('og_description', str_limit(strip_tags($text), 140))
+@section('og_description', \Illuminate\Support\Str::limit(strip_tags($text), 140))
 
 @section('page_title', '«' .  $title . '» by Alex Plekhanov')
 

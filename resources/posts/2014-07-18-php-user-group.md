@@ -1,4 +1,4 @@
-title: PHP User Group in Dnipropetrovsk
+title=PHP User Group in Dnipropetrovsk
 ===
 Today I gave a talk on first PHP User Group in Dnipropetrovsk. I spoke about Laravel and all the main reasons why
 every PHP developer should at least try this cool framework.
