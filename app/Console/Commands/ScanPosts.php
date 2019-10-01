@@ -4,7 +4,8 @@ namespace Alex\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Filesystem\Filesystem;
-use Kurenai\Parser;
+use P7v\Mrk\Entities\Input;
+use P7v\Mrk\Parser;
 
 class ScanPosts extends Command
 {
@@ -109,12 +110,12 @@ class ScanPosts extends Command
 
             list($year, $month, $urlTitle, $key, $date) = $this->extractParts($fileName);
 
-            $document = $this->parser->parse($this->file->get($post));
+            $document = $this->parser->parse(Input::fromString($this->file->get($post)));
 
             $postsInfo[$key] = [
                 'text'  => $document->getContent(),
                 'date'  => $date,
-                'title' => $document->get('title'),
+                'title' => $document->getMeta()['title'],
                 'file'  => $post,
                 'url'   => [
                     'year'  => $year,

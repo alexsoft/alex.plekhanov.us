@@ -1,4 +1,4 @@
-title: IT Talk PHP in Odessa
+title=IT Talk PHP in Odessa
 ===
 December 4th, 2014. Odessa. IT Talk dedicated to PHP.
 

@@ -1,4 +1,4 @@
-title: Interesting PHP question
+title=Interesting PHP question
 ===
 Recently, I've come up with an interesting question that can potentially be used for interviewing candidates :)
 
