@@ -31,8 +31,6 @@
                 <div class="columns" style="line-height: 2em;">
 
                     <div class="column">
-                        <p>Birthday: 22 December</p>
-                        <meta itemprop="birthDate" content="1993-12-22" />
                         <p itemscope itemtype="http://schema.org/PostalAddress">
                             Location: <span itemprop="addressCountry">Luxembourg</span>, <span itemprop="addressLocality">Schuttrange</span> {{ $countryFlags->get('LU') }}
                         </p>
@@ -52,7 +50,7 @@
                             <h2 class="accent">Currently</h2>
 
                             <h4><strong>PHP Developer</strong></h4>
-                            <p>November 2017 - Present</p>
+                            <p>November 2017 &mdash; Present</p>
                             <p><i>Undisclosed</i> &mdash; Live Streaming and Broadcasting company</p>
 
                             <h2 class="accent">Previous experience</h2>
