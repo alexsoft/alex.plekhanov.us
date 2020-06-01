@@ -16,7 +16,7 @@
         "p7v/mrk": "^0.1.1",
         "spatie/laravel-sitemap": "^5.4",
         "stidges/country-flags": "^1.0",
-        "symfony/yaml": "^4.1"
+        "symfony/yaml": "^5.1"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
