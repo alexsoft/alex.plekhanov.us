@@ -1,0 +1,6 @@
+{
+    "name": "Psalm check",
+    "description": "Run Psalm check on project",
+    "iconName": "php",
+    "categories": ["PHP", "Psalm"]
+}
