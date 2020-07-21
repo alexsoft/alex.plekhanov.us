@@ -9,12 +9,12 @@ use Illuminate\Support\Facades\DB;
 class DbTripsRepository implements ProvidesTrips
 {
     /**
-     * @return Collection[Trip]
+     * @return Collection
      */
     public function getAllTrips(): Collection
     {
         $records = DB::table('trips')
-            ->select('id', 'title', 'subtitle', 'slug', 'text', 'date')
+            ->select(['id', 'title', 'subtitle', 'slug', 'text', 'date'])
             ->orderBy('order', 'desc')
             ->get();
 
