@@ -19,7 +19,7 @@
             <div class="column">
                 <div class="content">
                     <h1 class="accent"><span itemprop="givenName">Alex</span> <span itemprop="familyName">Plekhanov</span></h1>
-                    <h2>PHP Developer</h2>
+                    <h2>Software Engineer, PHP</h2>
                 </div>
             </div>
         </div>
