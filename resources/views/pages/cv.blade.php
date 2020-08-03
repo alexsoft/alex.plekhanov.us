@@ -49,7 +49,7 @@
 
                             <h2 class="accent">Currently</h2>
 
-                            <h4><strong>PHP Developer</strong></h4>
+                            <h4><strong>Software Engineer, PHP</strong></h4>
                             <p>November 2017 &mdash; Present</p>
                             <p><i>Undisclosed</i> &mdash; Live Streaming and Broadcasting company</p>
 
