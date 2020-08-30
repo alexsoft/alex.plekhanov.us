@@ -99,7 +99,7 @@ class TripsServiceProvider extends ServiceProvider
                 'name' => 'Canada',
                 'code' => 'CA',
                 'order' => 5,
-                'cities' => ['Toronto'],
+                'cities' => ['Toronto', 'Niagara Falls'],
             ],
             [
                 'name' => 'Czech Republic',
@@ -111,7 +111,7 @@ class TripsServiceProvider extends ServiceProvider
                 'name' => 'France',
                 'code' => 'FR',
                 'order' => 7,
-                'cities' => ['Paris', 'Strasbourg', 'Metz'],
+                'cities' => ['Paris', 'Strasbourg', 'Metz', 'Saint-Raphael', 'Saint-Tropez', 'Nice'],
             ],
             [
                 'name' => 'Belgium',
@@ -165,7 +165,7 @@ class TripsServiceProvider extends ServiceProvider
                 'name' => 'Germany',
                 'code' => 'DE',
                 'order' => 16,
-                'cities' => ['Berlin', 'Dresden', 'Trier', 'Frankfurt'],
+                'cities' => ['Berlin', 'Dresden', 'Trier', 'Frankfurt am Main'],
             ],
             [
                 'name' => 'Montenegro',
