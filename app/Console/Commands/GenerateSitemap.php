@@ -3,6 +3,7 @@
 namespace Alex\Console\Commands;
 
 use DateTime;
+use Exception;
 use Illuminate\Console\Command;
 use Spatie\Sitemap\SitemapGenerator;
 use Spatie\Sitemap\Tags\Url;
@@ -75,16 +76,19 @@ class GenerateSitemap extends Command
 
     /**
      * @param string $path
+     *
      * @return DateTime
+     *
+     * @throws Exception
      */
     private function getLastModifiedDateForPath(string $path): DateTime
     {
         $pathsToDates = [
             '/' => '2018-07-22',
-            '/cv' => '2018-09-11',
-            '/projects' => '2018-04-05',
+            '/cv' => '2020-08-31',
+            '/projects' => '2020-08-31',
             '/blog' => '2018-05-05',
-            '/travel/countries' => '2018-08-11',
+            '/travel/countries' => '2020-08-31',
         ];
 
         if (array_key_exists($path, $pathsToDates)) {
