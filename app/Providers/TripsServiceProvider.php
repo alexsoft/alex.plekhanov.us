@@ -203,6 +203,11 @@ class TripsServiceProvider extends ServiceProvider
                 'order' => 22,
                 'cities' => ['Sharm El Sheikh'],
             ],
+            [
+                'name' => 'Monaco',
+                'code' => 'MC',
+                'order' => 23,
+            ],
         ]);
 
         $this->app->singleton(ProvidesTrips::class, MemoryTripsRepository::class);

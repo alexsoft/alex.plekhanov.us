@@ -22,7 +22,7 @@ class MemoryTripsRepository implements ProvidesTrips
         return collect(app('countriesAndCities'))
             ->sortBy('order')
             ->map(function ($item) {
-                return new Country($item['name'], $item['code'], $item['cities']);
+                return new Country($item['name'], $item['code'], $item['cities'] ?? []);
             });
     }
 }
