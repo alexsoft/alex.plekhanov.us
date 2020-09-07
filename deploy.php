@@ -38,8 +38,8 @@ task('alex:posts', function () {
     run('cd {{ release_path }} && php artisan alex:scan-posts');
 });
 
-task('php-fpm-restart', function () {
-    run('sudo service php7.3-fpm reload');
+task('php-fpm-reload', function () {
+    run('sudo service php7.4-fpm reload');
 });
 
 task('sitemap:generate', function () {
@@ -55,6 +55,6 @@ after('artisan:config:cache', 'artisan:route:cache');
 
 after('cleanup', 'deploy:clear_paths');
 
-after('deploy:symlink', 'php-fpm-restart');
+after('deploy:symlink', 'php-fpm-reload');
 
-after('rollback', 'php-fpm-restart');
+after('rollback', 'php-fpm-reload');
