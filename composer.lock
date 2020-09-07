@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9a9faf72ae4fa3c3db979777a66afcc1",
+    "content-hash": "7866ec34178dd0df4317fe7a384197a1",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -1860,16 +1860,16 @@
         },
         {
             "name": "p7v/mrk",
-            "version": "0.1.1",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/p-seven-v/mrk.git",
-                "reference": "513869fdbe6ff59fc9258c7636b0facfe751ca31"
+                "reference": "a2627acebed23cbc950aabefea6190b5ebba3e94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/p-seven-v/mrk/zipball/513869fdbe6ff59fc9258c7636b0facfe751ca31",
-                "reference": "513869fdbe6ff59fc9258c7636b0facfe751ca31",
+                "url": "https://api.github.com/repos/p-seven-v/mrk/zipball/a2627acebed23cbc950aabefea6190b5ebba3e94",
+                "reference": "a2627acebed23cbc950aabefea6190b5ebba3e94",
                 "shasum": ""
             },
             "require": {
@@ -1877,10 +1877,14 @@
             },
             "require-dev": {
                 "erusev/parsedown": "^1.7",
-                "phpunit/phpunit": "^7.5.16"
+                "league/commonmark": "^1.0",
+                "phpunit/phpunit": "^7.5.16",
+                "symfony/yaml": "^4.3"
             },
             "suggest": {
-                "erusev/parsedown": "Required for Parsedown markdown parsing"
+                "erusev/parsedown": "Required for Parsedown markdown parsing",
+                "league/commonmark": "Required for Commonmark markdown parsing",
+                "symfony/yaml": "Required for Yaml metadata parsing"
             },
             "type": "library",
             "autoload": {
@@ -1899,7 +1903,7 @@
                 }
             ],
             "description": "Document with meta parser for PHP",
-            "time": "2019-09-16T22:28:46+00:00"
+            "time": "2019-10-02T12:32:25+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -5235,9 +5239,9 @@
             "authors": [
                 {
                     "name": "Marcel Pociot",
-                    "role": "Developer",
                     "email": "marcel@beyondco.de",
-                    "homepage": "https://beyondco.de"
+                    "homepage": "https://beyondco.de",
+                    "role": "Developer"
                 }
             ],
             "description": "Symfony Var-Dump Server for Laravel",
@@ -6819,8 +6823,8 @@
             "authors": [
                 {
                     "name": "Sebastian Bergmann",
-                    "role": "lead",
-                    "email": "sebastian@phpunit.de"
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
                 }
             ],
             "description": "Collection of value objects that represent the types of the PHP type system",

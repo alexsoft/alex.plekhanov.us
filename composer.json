@@ -13,7 +13,7 @@
         "guzzlehttp/guzzle": "^6.2",
         "laravel/framework": "^6.0",
         "laravel/tinker": "^1.0",
-        "p7v/mrk": "^0.1.1",
+        "p7v/mrk": "^0.2.0",
         "spatie/laravel-sitemap": "^5.4",
         "stidges/country-flags": "^1.0",
         "symfony/yaml": "^4.1"
