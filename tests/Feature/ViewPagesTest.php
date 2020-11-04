@@ -63,7 +63,10 @@ class ViewPagesTest extends TestCase
 
         foreach ($countries as $country) {
             $response->assertSee($country['name']);
-            $response->assertSee(implode(', ', $country['cities']));
+
+            if (array_key_exists('cities', $country)) {
+                $response->assertSee(implode(', ', $country['cities']));
+            }
         }
     }
 }
