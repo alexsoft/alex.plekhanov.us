@@ -1,0 +1,38 @@
+name: PHPUnit tests
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  tests:
+    name: PHPUnit Tests
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 7.3
+          tools: composer:v2
+          coverage: pcov
+
+      - name: Install dependencies
+        run: composer install --prefer-dist --no-interaction --no-progress
+
+      - name: Generate posts, optimize Laravel
+        run: |
+          php artisan config:cache
+          php artisan route:cache
+          php artisan alex:scan-posts
+
+      - name: Execute tests
+        run: vendor/bin/phpunit --coverage-clover=clover.xml
+
+      - name: Send coverage report
+        uses: codecov/codecov-action@v1
+        with:
+          file: ./clover.xml
