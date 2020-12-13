@@ -34,11 +34,6 @@
         <script src="{{ asset('/js/gtm.js') }}"></script>
     </head>
     <body>
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRKSSBT"
-                          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
-
         @include('_partials.nav')
 
         <div style="padding: 3rem 1.5rem;">
