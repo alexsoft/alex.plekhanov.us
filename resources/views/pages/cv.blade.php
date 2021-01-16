@@ -144,7 +144,7 @@
 
             <div class="column is-one-quarter">
                 <figure class="image is-square">
-                    <img src="{{ asset('/img/alex2.jpg') }}" alt="Alex Plekhanov">
+                    <img src="{{ asset('/img/alex2021.jpg') }}" alt="Alex Plekhanov">
                 </figure>
             </div>
 
