@@ -1,7 +1,7 @@
 <div class="card">
     <div class="card-image">
         <figure class="image is-square">
-            <img src="{{ asset('img/alexey2@2x.jpg') }}" alt="Alex Plekhanov" itemprop="image">
+            <img src="{{ asset('/img/alex2021.jpg') }}" alt="Alex Plekhanov" itemprop="image">
         </figure>
     </div>
 
