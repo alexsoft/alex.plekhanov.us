@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd3ee8e8438569e6fa882a213c8048a6",
+    "content-hash": "3f0037a4b79dae00b5ea91dcc897a63c",
     "packages": [
         {
             "name": "bugsnag/bugsnag",
@@ -1991,16 +1991,16 @@
         },
         {
             "name": "p7v/mrk",
-            "version": "0.1.1",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/p-seven-v/mrk.git",
-                "reference": "513869fdbe6ff59fc9258c7636b0facfe751ca31"
+                "reference": "deb2a121fb1a6b92fec64aaa2a89dd6b8ac46f07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/p-seven-v/mrk/zipball/513869fdbe6ff59fc9258c7636b0facfe751ca31",
-                "reference": "513869fdbe6ff59fc9258c7636b0facfe751ca31",
+                "url": "https://api.github.com/repos/p-seven-v/mrk/zipball/deb2a121fb1a6b92fec64aaa2a89dd6b8ac46f07",
+                "reference": "deb2a121fb1a6b92fec64aaa2a89dd6b8ac46f07",
                 "shasum": ""
             },
             "require": {
@@ -2008,10 +2008,15 @@
             },
             "require-dev": {
                 "erusev/parsedown": "^1.7",
-                "phpunit/phpunit": "^7.5.16"
+                "league/commonmark": "^1.0",
+                "phpunit/phpunit": "^7.5.16",
+                "symfony/yaml": "^4.3"
             },
             "suggest": {
-                "erusev/parsedown": "Required for Parsedown markdown parsing"
+                "erusev/parsedown": "Required for Parsedown markdown parsing",
+                "ext-json": "Required for json metadata parsing",
+                "league/commonmark": "Required for Commonmark markdown parsing",
+                "symfony/yaml": "Required for Yaml metadata parsing"
             },
             "type": "library",
             "autoload": {
@@ -2032,9 +2037,9 @@
             "description": "Document with meta parser for PHP",
             "support": {
                 "issues": "https://github.com/p-seven-v/mrk/issues",
-                "source": "https://github.com/p-seven-v/mrk/tree/0.1.1"
+                "source": "https://github.com/p-seven-v/mrk/tree/1.0.0"
             },
-            "time": "2019-09-16T22:28:46+00:00"
+            "time": "2020-11-30T20:37:58+00:00"
         },
         {
             "name": "paragonie/random_compat",
