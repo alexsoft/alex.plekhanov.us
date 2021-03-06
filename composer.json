@@ -10,7 +10,7 @@
         "bugsnag/bugsnag-laravel": "^2.0",
         "erusev/parsedown": "^1.5",
         "fideloper/proxy": "^4.0",
-        "guzzlehttp/guzzle": "^6.2",
+        "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^6.0",
         "laravel/tinker": "^1.0",
         "p7v/mrk": "^0.1.1",
