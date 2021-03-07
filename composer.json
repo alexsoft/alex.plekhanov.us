@@ -15,7 +15,7 @@
         "laravel/tinker": "^2.0",
         "p7v/mrk": "^1.0",
         "spatie/laravel-sitemap": "^5.4",
-        "stidges/country-flags": "^1.0",
+        "stidges/country-flags": "^2.0",
         "symfony/yaml": "^4.1"
     },
     "require-dev": {
