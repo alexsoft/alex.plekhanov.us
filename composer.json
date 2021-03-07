@@ -5,7 +5,7 @@
     "license": "proprietary",
     "type": "project",
     "require": {
-        "php": "^7.3",
+        "php": "^7.3|^8.0",
         "ext-json": "*",
         "bugsnag/bugsnag-laravel": "^2.0",
         "erusev/parsedown": "^1.5",
@@ -15,7 +15,7 @@
         "laravel/tinker": "^2.0",
         "p7v/mrk": "^1.0",
         "spatie/laravel-sitemap": "^5.4",
-        "stidges/country-flags": "^1.0",
+        "stidges/country-flags": "^2.0",
         "symfony/yaml": "^4.1"
     },
     "require-dev": {
@@ -23,7 +23,7 @@
         "beyondcode/laravel-dump-server": "^1.0",
         "facade/ignition": "^2.3.6",
         "filp/whoops": "~2.0",
-        "fzaninotto/faker": "~1.4",
+        "fakerphp/faker": "^1.9.1",
         "mockery/mockery": "~1.0",
         "nunomaduro/collision": "^5.0",
         "phpunit/phpunit": "~9.0"
