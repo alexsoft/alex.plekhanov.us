@@ -62,5 +62,9 @@
         "platform": {
             "php": "7.4.12"
         }
+    },
+    "replace": {
+        "symfony/polyfill-php72": "*",
+        "symfony/polyfill-php73": "*"
     }
 }
