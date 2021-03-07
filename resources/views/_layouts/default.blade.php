@@ -30,8 +30,6 @@
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('ico/touch114.png') }}">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('ico/touch72.png') }}">
         <link rel="apple-touch-icon-precomposed" href="{{ asset('ico/touch57.png') }}">
-
-        <script src="{{ asset('/js/gtm.js') }}"></script>
     </head>
     <body>
         @include('_partials.nav')
