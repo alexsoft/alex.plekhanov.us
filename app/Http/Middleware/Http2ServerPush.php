@@ -22,10 +22,6 @@ class Http2ServerPush
 
         $links = [
             [
-                'url' => '/js/gtm.js',
-                'as' => 'script',
-            ],
-            [
                 'url' => '/js/navbar.js',
                 'as' => 'script',
             ],
