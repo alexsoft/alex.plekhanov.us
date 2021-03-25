@@ -13,12 +13,6 @@ set('repository', 'git@github.com:alexsoft/alex.plekhanov.us.git');
 add('shared_files', []);
 add('shared_dirs', []);
 
-// Writable dirs by web server
-set('writable_mode', 'chmod');
-add('writable_dirs', []);
-set('writable_chmod_mode', '0777');
-set('allow_anonymous_stats', false);
-
 set('ssh_multiplexing', true);
 set('keep_releases', 2);
 
