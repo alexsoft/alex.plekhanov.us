@@ -16,7 +16,7 @@
         "p7v/mrk": "^1.0",
         "spatie/laravel-sitemap": "^5.4",
         "stidges/country-flags": "^2.0",
-        "symfony/yaml": "^4.1"
+        "symfony/yaml": "^5.2"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
