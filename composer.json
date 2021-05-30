@@ -11,7 +11,7 @@
         "erusev/parsedown": "^1.5",
         "fideloper/proxy": "^4.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "laravel/framework": "^8.0",
+        "laravel/framework": "^8.40.0",
         "laravel/tinker": "^2.0",
         "p7v/mrk": "^1.0",
         "spatie/laravel-sitemap": "^5.4",
@@ -59,11 +59,13 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "platform": {
-            "php": "7.4.12"
+            "php": "8.0.5"
         }
     },
     "replace": {
         "symfony/polyfill-php72": "*",
-        "symfony/polyfill-php73": "*"
+        "symfony/polyfill-php73": "*",
+        "symfony/polyfill-php74": "*",
+        "symfony/polyfill-php80": "*"
     }
 }
