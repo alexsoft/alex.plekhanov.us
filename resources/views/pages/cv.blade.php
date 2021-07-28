@@ -19,7 +19,7 @@
             <div class="column">
                 <div class="content">
                     <h1 class="accent"><span itemprop="givenName">Alex</span> <span itemprop="familyName">Plekhanov</span></h1>
-                    <h2>Software Engineer, PHP</h2>
+                    <h2>Senior Software Engineer, PHP</h2>
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
 
                             <h2 class="accent">Currently</h2>
 
-                            <h4><strong>Software Engineer, PHP</strong></h4>
+                            <h4><strong>Senior Software Engineer, PHP</strong></h4>
                             <p>November 2017 &mdash; Present</p>
                             <p><i>Undisclosed</i> &mdash; Live Streaming and Broadcasting company</p>
 
