@@ -41,7 +41,7 @@ task('sitemap:generate', function () {
     run('cd {{ release_path }} && php artisan sitemap:generate');
 });
 
-before('deploy:symlink', 'alex:posts');
+//before('deploy:symlink', 'alex:posts');
 before('deploy:symlink', 'sitemap:generate');
 
 after('deploy:failed', 'deploy:unlock');
