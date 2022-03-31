@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 use Alex\Http\Controllers\PagesController;
 use Alex\Http\Controllers\PostsController;
