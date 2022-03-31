@@ -1,6 +1,1 @@
-preset: psr-2
-
-enabled:
-  - concat_with_spaces
-  - no_unused_imports
-  - trailing_comma_in_multiline_array
+preset: psr12
