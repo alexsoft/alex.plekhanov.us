@@ -30,7 +30,7 @@
                     <div class="content">
                         @foreach($chunk as $country)
                             <h3>{{ $country->getFlag() }} {{ $country->getName() }}</h3>
-                            <p class="has-text-grey-light">{{ $country->getCitiesString() }}</p>
+                            <p class="has-text-grey-light">{!! $country->getCitiesString() !!}</p>
                         @endforeach
                     </div>
 

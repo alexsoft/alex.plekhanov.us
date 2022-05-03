@@ -111,13 +111,13 @@ class TripsServiceProvider extends ServiceProvider
                 'name' => 'France',
                 'code' => 'FR',
                 'order' => 7,
-                'cities' => ['Paris', 'Strasbourg', 'Metz', 'Saint-Raphael', 'Saint-Tropez', 'Nice'],
+                'cities' => ['Paris', 'Strasbourg', 'Metz', 'Saint-Raphael', 'Saint-Tropez', 'Nice', 'Colmar'],
             ],
             [
                 'name' => 'Belgium',
                 'code' => 'BE',
                 'order' => 8,
-                'cities' => ['Brussels', 'Bruges', 'Ghent', 'Antwerp', 'Oostende', 'Dinant'],
+                'cities' => ['Brussels', 'Bruges', 'Ghent', 'Antwerp', 'Ostend', 'Dinant'],
             ],
             [
                 'name' => 'Netherlands',
@@ -135,7 +135,7 @@ class TripsServiceProvider extends ServiceProvider
                 'name' => 'United States',
                 'code' => 'US',
                 'order' => 11,
-                'cities' => ['Panama City', 'Panama City Beach', 'Orlando', 'Washington DC', 'New York City'],
+                'cities' => ['Panama City', 'Panama City Beach', 'Orlando', 'Washington&nbsp;DC', 'New York City'],
             ],
             [
                 'name' => 'Turkey',
@@ -159,13 +159,13 @@ class TripsServiceProvider extends ServiceProvider
                 'name' => 'Spain',
                 'code' => 'ES',
                 'order' => 15,
-                'cities' => ['Marbella', 'Barcelona', 'Madrid', 'Seville', 'Malaga'],
+                'cities' => ['Marbella', 'Barcelona', 'Madrid', 'Seville', 'Malaga', 'Palma'],
             ],
             [
                 'name' => 'Germany',
                 'code' => 'DE',
                 'order' => 16,
-                'cities' => ['Berlin', 'Dresden', 'Trier', 'Frankfurt am Main'],
+                'cities' => ['Berlin', 'Dresden', 'Trier', 'Frankfurt am Main', 'Cologne', 'Nuremberg'],
             ],
             [
                 'name' => 'Montenegro',
@@ -195,7 +195,7 @@ class TripsServiceProvider extends ServiceProvider
                 'name' => 'Italy',
                 'code' => 'IT',
                 'order' => 21,
-                'cities' => ['Venice'],
+                'cities' => ['Venice', 'Sestri Levante', 'Pisa', 'Florence', 'Portofino', 'Genoa', 'Vernazza', 'Monterosso al Mare', 'Rome', 'Milano', 'Como', 'Bergamo'],
             ],
             [
                 'name' => 'Egypt',
