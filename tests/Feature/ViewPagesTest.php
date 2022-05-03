@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Tests\Feature;
 
 use Tests\TestCase;
@@ -7,7 +9,7 @@ use Tests\TestCase;
 class ViewPagesTest extends TestCase
 {
     /** @test */
-    public function anyone_can_see_main_page()
+    public function anyone_can_see_main_page(): void
     {
         $response = $this->get('/');
 
@@ -17,7 +19,7 @@ class ViewPagesTest extends TestCase
     }
 
     /** @test */
-    public function anyone_can_see_projects_page()
+    public function anyone_can_see_projects_page(): void
     {
         $response = $this->get('/projects');
 
@@ -26,7 +28,7 @@ class ViewPagesTest extends TestCase
     }
 
     /** @test */
-    public function anyone_can_see_blog_page()
+    public function anyone_can_see_blog_page(): void
     {
         $response = $this->get('/blog');
 
@@ -37,7 +39,7 @@ class ViewPagesTest extends TestCase
     }
 
     /** @test */
-    public function anyone_can_see_cv_page()
+    public function anyone_can_see_cv_page(): void
     {
         $response = $this->get('/cv');
 
@@ -53,7 +55,7 @@ class ViewPagesTest extends TestCase
     }
 
     /** @test */
-    public function anyone_can_see_countries_and_cities_page()
+    public function anyone_can_see_countries_and_cities_page(): void
     {
         $response = $this->get('/travel/countries');
 
@@ -65,7 +67,7 @@ class ViewPagesTest extends TestCase
             $response->assertSee($country['name']);
 
             if (array_key_exists('cities', $country)) {
-                $response->assertSee(implode(', ', $country['cities']));
+                $response->assertSee(implode(', ', $country['cities']), false);
             }
         }
     }
