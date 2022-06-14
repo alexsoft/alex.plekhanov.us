@@ -91,27 +91,32 @@
 
                             <div class="block">
                                 <p class="title is-5"><strong>PHP</strong></p>
-                                <p class="subtitle is-6">9 years of experience</p>
+                                <p class="subtitle is-6">10 years of experience</p>
                             </div>
 
                             <div class="block">
                                 <p class="title is-5"><strong>Laravel</strong></p>
-                                <p class="subtitle is-6">7 years of experience</p>
+                                <p class="subtitle is-6">8 years of experience</p>
                             </div>
                             
                             <div class="block">
                                 <p class="title is-5"><strong>Slim</strong></p>
-                                <p class="subtitle is-6">4 years of experience</p>
+                                <p class="subtitle is-6">5 years of experience</p>
                             </div>
 
                             <div class="block">
                                 <p class="title is-5"><strong>MySQL</strong></p>
-                                <p class="subtitle is-6">9 years of experience</p>
+                                <p class="subtitle is-6">10 years of experience</p>
+                            </div>
+
+                            <div class="block">
+                                <p class="title is-5"><strong>Docker</strong></p>
+                                <p class="subtitle is-6">3 years of experience</p>
                             </div>
 
                             <div class="block">
                                 <p class="title is-5"><strong>Javascript</strong></p>
-                                <p class="subtitle is-6">9 years of experience</p>
+                                <p class="subtitle is-6">10 years of experience</p>
                             </div>
 
                             <div class="block">
@@ -126,10 +131,10 @@
 
                             <h2 class="accent">Hobbies</h2>
                             <p class="text-justify">
-                                As a hobby I investigate PHP frameworks, try to contribute to open-source frameworks especially Laravel/Lumen, develop PHP packages and different tools.
+                                As a hobby I investigate PHP frameworks, try to contribute to different open-source frameworks, develop PHP packages and different tools.
                             </p>
                             <p class="text-justify">
-                                Also I am quite interested in Python, system administration (Ansible etc.) and web analytics.
+                                Also I am quite interested in Go language, a little bit of Swift and system administration (Ansible etc.).
                             </p>
                         </div>
                     </div>
