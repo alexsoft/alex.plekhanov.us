@@ -18,7 +18,6 @@
         <meta property="og:description" content="@yield('og_description')" />
 
         <meta name="google-site-verification" content="dW-i1q_ReYQ2XTd7hwnMo7J-ER6A33yAScHyxw9Zqu4" />
-        <meta name='yandex-verification' content='7fc8dd9f98075585' />
 
         <title>@yield('page_title', 'Alex Plekhanov')</title>
         @section('css')
@@ -26,10 +25,13 @@
             <link rel="stylesheet" href="{{ asset('/css/custom2.css') }}">
         @show
 
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ asset('ico/touch144.png') }}">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ asset('ico/touch114.png') }}">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ asset('ico/touch72.png') }}">
-        <link rel="apple-touch-icon-precomposed" href="{{ asset('ico/touch57.png') }}">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#b91d47">
+        <meta name="msapplication-TileColor" content="#b91d47">
+
     </head>
     <body>
         @include('_partials.nav')
