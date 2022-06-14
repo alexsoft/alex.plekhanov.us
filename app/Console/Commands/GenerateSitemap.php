@@ -85,10 +85,10 @@ class GenerateSitemap extends Command
     {
         $pathsToDates = [
             '/' => '2018-07-22',
-            '/cv' => '2020-08-31',
+            '/cv' => '2022-06-14',
             '/projects' => '2020-08-31',
             '/blog' => '2018-05-05',
-            '/travel/countries' => '2021-05-31',
+            '/travel/countries' => '2022-06-14',
         ];
 
         if (array_key_exists($path, $pathsToDates)) {
