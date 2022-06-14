@@ -111,7 +111,7 @@ class TripsServiceProvider extends ServiceProvider
                 'name' => 'France',
                 'code' => 'FR',
                 'order' => 7,
-                'cities' => ['Paris', 'Strasbourg', 'Metz', 'Saint-Raphael', 'Saint-Tropez', 'Nice', 'Colmar'],
+                'cities' => ['Paris', 'Strasbourg', 'Metz', 'Saint-Raphael', 'Saint-Tropez', 'Nice', 'Colmar', 'Reims', 'Dijon'],
             ],
             [
                 'name' => 'Belgium',
