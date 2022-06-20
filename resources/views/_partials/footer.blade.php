@@ -9,7 +9,6 @@
                 </div>
             </div>
             <div class="column has-text-right footer-social-links">
-                <a href="https://facebook.com/alexplekhanov">Facebook</a>
                 <a href="https://github.com/alexsoft">GitHub</a>
             </div>
         </div>
